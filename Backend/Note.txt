@@ -1,1 +1,1 @@
-Just a note
+To Run: py manage.py runserver
