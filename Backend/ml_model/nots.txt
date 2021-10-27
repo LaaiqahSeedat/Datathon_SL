@@ -1,0 +1,6 @@
+Model Server deployed/hostes on pythonAnywhere, just send a json object with keys
+["CRIM", "NOX", "AGE", "TAX", "RM"] to the following link
+les00.pythonanywhere.com/predict
+use either a "POST" / "GET"
+
+Returns a json object with key ["Prediction"] and value["HOUSE PRICE"(float)]
