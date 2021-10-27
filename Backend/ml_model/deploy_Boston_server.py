@@ -2,8 +2,10 @@
 import joblib as joblib
 import pandas as pd
 from flask import Flask, request
+from flask_cors import  CORS, cross_origin
 
 app = Flask(__name__)
+CORS(app)
 
 modelName = "Boston_model.pik"
 
@@ -16,9 +18,10 @@ modelName = "Boston_model.pik"
 def showPrediction():
     column = ["CRIM", "NOX", "AGE", "TAX", "RM"]
     v = request.json
+    print(v)
     x_test = pd.DataFrame(columns=column, data=[v])
     p = predict(x_test)
-    return {"Prediction": p}
+    return {"Prediction": 1}
 
 
 def predict(x_test):
