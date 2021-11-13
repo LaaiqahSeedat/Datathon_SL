@@ -20,3 +20,17 @@ def gmentalh(request):
         'Result':'You are at risk of ADHD'
     }
     return Response(respose_json)
+
+@api_view(['POST'])
+def depression(request):
+    theData = request.data
+    emptiness = theData.get("Emptiness")
+    print(emptiness)
+    response = {
+        "Result":"Empty Dude"
+    }
+
+    return Response(response)
+
+
+
