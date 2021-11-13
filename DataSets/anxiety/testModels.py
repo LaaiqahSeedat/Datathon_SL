@@ -39,6 +39,10 @@ modelName = "Anxiety_Classifier_model.pik"
 
 """""
 
+# x_test takes the form:
+# x_test = ['Age', 'EducationLevel', 'Gender', 'HasFamilyHistory', 'Occupation',
+#        'ATF', 'EAF', 'TKF', 'CMT', 'DEF', 'SMF', 'ERF', 'DAF', 'HR', 'SW',
+#        'TR', 'DR', 'BR', 'CK', 'CP', 'NS', 'DZ', 'UR', 'UB', 'MD', 'TG']
 
 def classifier(x_test):
     loaded_model = joblib.load(modelName)  # Load in the model
@@ -48,9 +52,18 @@ def classifierPercentages(x_test):
     loaded_model = joblib.load(modelName)  # Load in the model
     return loaded_model.predict_proba([x_test])[0]
 
+
+# x_test takes the form:
+# x_test = ['Age', 'EducationLevel', 'Gender', 'HasFamilyHistory', 'Occupation',
+#        'ATF', 'EAF', 'TKF', 'CMT', 'DEF', 'SMF', 'ERF', 'DAF', 'HR', 'SW',
+#        'TR', 'DR', 'BR', 'CK', 'CP', 'NS', 'DZ', 'UR', 'UB', 'MD', 'TG']
+
 x_test = [37,	5,	1,	1,	3,	4,	0,	6,	1,	0,	2,	3,	1,	1,	0,	1,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0]
 
 v = classifierPercentages(x_test)
+# Output an array of probabilities for being either a "0" or "1"
+# eg [0.25 0.75] means that it 25% "0" and 75% "1"
+
 print(v)
 
 
@@ -58,12 +71,13 @@ print(v)
 
 modelName2 = "Anxiety_Females_model.pik"
 
-
+# INPUT: just a single year value
+# eg year = 2030
+# year_value = [year]
 def predictNumPeople(year_value):
     loaded_model = joblib.load(modelName2)  # Load in the model
-    return loaded_model.predict([[year_value]])[0]
+    return loaded_model.predict([year_value])[0]
 
-
-year = 2030
+year = [2030]
 v = predictNumPeople(year)
 print(v)
