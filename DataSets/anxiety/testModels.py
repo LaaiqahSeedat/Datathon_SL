@@ -51,6 +51,9 @@ def classifierPercentages(x_test):
 x_test = [37,	5,	1,	1,	3,	4,	0,	6,	1,	0,	2,	3,	1,	1,	0,	1,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0]
 
 v = classifierPercentages(x_test)
+# Output an array of probabilities for being either a "0" or "1"
+# eg [0.25 0.75] means that it 25% "0" and 75% "1"
+
 print(v)
 
 
