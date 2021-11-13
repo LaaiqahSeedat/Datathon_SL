@@ -6,7 +6,7 @@ modelName = "Anxiety_Classifier_model.pik"
 
 #input parameters:
 """"""
-    ['Age', 'EducationLevel', 'Gender', 'HasFamilyHistory', 'Occupation',
+['Age', 'EducationLevel', 'Gender', 'HasFamilyHistory', 'Occupation',
        'ATF', 'EAF', 'TKF', 'CMT', 'DEF', 'SMF', 'ERF', 'DAF', 'HR', 'SW',
        'TR', 'DR', 'BR', 'CK', 'CP', 'NS', 'DZ', 'UR', 'UB', 'MD', 'TG']
 """""
@@ -42,4 +42,9 @@ modelName = "Anxiety_Classifier_model.pik"
 
 def classifier(x_test):
     loaded_model = joblib.load(modelName)  # Load in the model
-    return loaded_model.predict(x_test)[0]
+    return loaded_model.predict([x_test])[0]
+
+x_test = [37,	5,	1,	1,	3,	4,	0,	6,	1,	0,	2,	3,	1,	1,	0,	1,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0]
+
+v = classifier(x_test)
+print(v)
