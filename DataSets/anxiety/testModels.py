@@ -44,7 +44,11 @@ def classifier(x_test):
     loaded_model = joblib.load(modelName)  # Load in the model
     return loaded_model.predict([x_test])[0]
 
+def classifierPercentages(x_test):
+    loaded_model = joblib.load(modelName)  # Load in the model
+    return loaded_model.predict_proba([x_test])[0]
+
 x_test = [37,	5,	1,	1,	3,	4,	0,	6,	1,	0,	2,	3,	1,	1,	0,	1,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0]
 
-v = classifier(x_test)
+v = classifierPercentages(x_test)
 print(v)
