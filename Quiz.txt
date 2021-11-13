@@ -1,0 +1,181 @@
+# Questions for mental disorder quiz
+
+## Anxiety Questions
+
+1. Do you get Irritated and easily annoyed when anxious?
+    - Never
+    - Rarely
+    - Sometimes
+    - Often
+    - Very Often
+    
+2. Do you have trouble controlling your worries?
+    - Never
+    - Rarely
+    - Sometimes
+    - Often
+    - Very Often   
+    
+3. Do you worry about lots of different things?
+    - Never
+    - Rarely
+    - Sometimes
+    - Often
+    - Very Often 
+
+4. Do you feel jumpy>
+    - Never
+    - Rarely
+    - Sometimes
+    - Often
+    - Very Often
+    
+5. Do you worry about things that have happened in past?
+    - Never
+    - Rarely
+    - Sometimes
+    - Often
+    - Very Often
+
+6. Do your muscle get tense when you are worried or anxious?
+    - Never
+    - Rarely
+    - Sometimes
+    - Often
+    - Very Often
+	
+7. Do you worry about things working out in the future?
+    - Never
+    - Rarely
+    - Sometimes
+    - Often
+    - Very Often
+	
+8. Do you worry about how well you do things?
+    - Never
+    - Rarely
+    - Sometimes
+    - Often
+    - Very Often
+    
+
+## Depression Questions
+
+
+1. Are you suffering from feelings of emptiness, sadness or hopefulness?
+    - Never
+    - Rarely
+    - Sometimes
+    - Often
+    - Very Often
+	
+2. Are you suffering from lack of energy and motivation?
+    - Never
+    - Rarely
+    - Sometimes
+    - Often
+    - Very Often
+
+3. Are you having trouble getting to sleep?
+    - Never
+    - Rarely
+    - Sometimes
+    - Often
+    - Very Often
+
+4. Do you think of harming yourself or ending your life?
+    - Never
+    - Rarely
+    - Sometimes
+    - Often
+    - Very Often
+
+5. Do you feel guilty for no reason?
+    - Never
+    - Rarely
+    - Sometimes
+    - Often
+    - Very Often
+
+6. Do you find yourself avoiding friend and family?
+    - Never
+    - Rarely
+    - Sometimes
+    - Often
+    - Very Often
+    
+    
+##  Eating Disorder Questions
+
+1. How afraid are you gaining 10kg weight?
+    - Not Afraid at all
+    - Slightly afraid
+    - Moderate
+    - Very much afraid
+    - Teriffied 
+
+2. Do you ever feel that you are fat?
+    - Never
+    - Rarely
+    - Sometimes
+    - Often
+    - Very Often
+	
+3. How often do you eat junk food?
+    - Never
+    - Rarely
+    - Sometimes
+    - Often
+    - Very Often
+
+4. Has your body type or weight had an impact on how you think about or judge yourself?
+    - Never
+    - Rarely
+    - Sometimes
+    - Often
+    - Very Often
+	
+5. How often do you feel uncomfortable abouth others seeing you?
+    - Never
+    - Rarely
+    - Sometimes
+    - Often
+    - Very Often
+
+##  Bipolar Disorder 
+
+
+1. There have been a great change in the quality of my work
+    - Never
+    - Rarely
+    - Sometimes
+    - Often
+    - Very Often
+
+2. Some of the times I show much crying and at other times I laugh and joke excessively
+    - Never
+    - Rarely
+    - Sometimes
+    - Often
+    - Very Often
+
+3. I get into moods where I feel irritable
+    - Never
+    - Rarely
+    - Sometimes
+    - Often
+    - Very Often
+
+4. There have been time when I feel high and low at the same time
+    - Never
+    - Rarely
+    - Sometimes
+    - Often
+    - Very Often
+	
+5. At times I am much more talkative
+    - Never
+    - Rarely
+    - Sometimes
+    - Often
+    - Very Often
