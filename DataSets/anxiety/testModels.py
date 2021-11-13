@@ -52,3 +52,18 @@ x_test = [37,	5,	1,	1,	3,	4,	0,	6,	1,	0,	2,	3,	1,	1,	0,	1,	0,	0,	0,	0,	0,	0,	0,	
 
 v = classifierPercentages(x_test)
 print(v)
+
+
+# Testing anxiety forecast
+
+modelName2 = "Anxiety_Females_model.pik"
+
+
+def predictNumPeople(year_value):
+    loaded_model = joblib.load(modelName2)  # Load in the model
+    return loaded_model.predict([[year_value]])[0]
+
+
+year = 2030
+v = predictNumPeople(year)
+print(v)
