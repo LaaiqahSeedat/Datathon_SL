@@ -71,12 +71,13 @@ print(v)
 
 modelName2 = "Anxiety_Females_model.pik"
 
-
+# INPUT: just a single year value
+# eg year = 2030
+# year_value = [year]
 def predictNumPeople(year_value):
     loaded_model = joblib.load(modelName2)  # Load in the model
-    return loaded_model.predict([[year_value]])[0]
+    return loaded_model.predict([year_value])[0]
 
-
-year = 2030
+year = [2030]
 v = predictNumPeople(year)
 print(v)
