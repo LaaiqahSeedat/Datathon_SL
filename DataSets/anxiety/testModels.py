@@ -39,6 +39,10 @@ modelName = "Anxiety_Classifier_model.pik"
 
 """""
 
+# x_test takes the form:
+# x_test = ['Age', 'EducationLevel', 'Gender', 'HasFamilyHistory', 'Occupation',
+#        'ATF', 'EAF', 'TKF', 'CMT', 'DEF', 'SMF', 'ERF', 'DAF', 'HR', 'SW',
+#        'TR', 'DR', 'BR', 'CK', 'CP', 'NS', 'DZ', 'UR', 'UB', 'MD', 'TG']
 
 def classifier(x_test):
     loaded_model = joblib.load(modelName)  # Load in the model
@@ -47,6 +51,12 @@ def classifier(x_test):
 def classifierPercentages(x_test):
     loaded_model = joblib.load(modelName)  # Load in the model
     return loaded_model.predict_proba([x_test])[0]
+
+
+# x_test takes the form:
+# x_test = ['Age', 'EducationLevel', 'Gender', 'HasFamilyHistory', 'Occupation',
+#        'ATF', 'EAF', 'TKF', 'CMT', 'DEF', 'SMF', 'ERF', 'DAF', 'HR', 'SW',
+#        'TR', 'DR', 'BR', 'CK', 'CP', 'NS', 'DZ', 'UR', 'UB', 'MD', 'TG']
 
 x_test = [37,	5,	1,	1,	3,	4,	0,	6,	1,	0,	2,	3,	1,	1,	0,	1,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0]
 
