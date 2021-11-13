@@ -1,0 +1,39 @@
+<div class="main-content">
+  <div class="container-fluid">
+      <div class="row">
+          <div class="col-md-7">
+              <div class="card">
+                  <div class="card-header card-header-info">
+                      <h4 class="card-title">{{whatDisorder}}</h4>
+                      <p class="card-category">Answer Questions Below</p>
+                  </div>
+                  <div class="card-body">
+                     <div class="container" *ngIf="picked.Anxiety">
+                       <app-anxiety></app-anxiety>
+                     </div>
+                  </div>
+              </div>
+          </div>
+          <div class="col-md-5">
+              <div class="card card-profile">
+                  <div class="card-header card-header-primary">
+                    <h4 class="card-title">Your suspected mental health</h4>
+                    <p class="card-category">Choose below</p>
+                  </div>
+                  
+                  <div class="card-body" *ngIf="Disorders">
+                    <div class="container" *ngFor="let disorder of Disorders">
+                      <h3>{{disorder.Name}}</h3>
+                      <p>
+                        '{{disorder.Description}}' ~ <span><a href="{{disorder.From}}" target="_blank">Source</a></span>
+                      </p>
+                      <button class="btn btn-outline-success btn-sm" style="float: right;" (click)="checkDisorder(disorder.Name)">{{disorder.State}}</button>
+                      <br/>
+                    </div>
+                      <button class="btn btn-danger btn-round" style="width: 100%;">Restart</button>
+                  </div>
+              </div>
+          </div>
+      </div>
+  </div>
+</div>
