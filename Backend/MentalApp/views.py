@@ -25,6 +25,7 @@ def gmentalh(request):
 def depression(request):
     theData = request.data
     emptiness = theData.get("Emptiness")
+    age = theData.get("age")
     print(emptiness)
     response = {
         "Result":"Empty Dude"
