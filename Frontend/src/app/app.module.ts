@@ -26,6 +26,7 @@ import { DepressionComponent } from './user-profile/Components/depression/depres
 import { EatingComponent } from './user-profile/Components/eating/eating.component';
 import { BipolarComponent } from './user-profile/Components/bipolar/bipolar.component';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
+import { NgxChartsModule } from '@swimlane/ngx-charts';
 
 @NgModule({
   imports: [

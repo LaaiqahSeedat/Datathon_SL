@@ -9,6 +9,60 @@ import { SharedService } from '../components/shared.service';
 })
 export class DashboardComponent implements OnInit {
 
+  /**
+   * MONEY
+   */
+
+  moneyToMakeLine:any = [{
+    "name":"Females",
+    "series":[
+      {
+        "name":"JAN",
+        "value":458
+      },
+      {
+        "name":"FEB",
+        "value":48
+      },
+      {
+        "name":"MAR",
+        "value":2458
+      },
+      {
+        "name":"APR",
+        "value":1458
+      },
+    ]
+    },
+    {
+    "name":"Money Lost",
+    "series":[
+      {
+        "name":"JAN",
+        "value":358
+      },
+      {
+        "name":"FEB",
+        "value":38
+      },
+      {
+        "name":"MAR",
+        "value":1458
+      },
+      {
+        "name":"APR",
+        "value":458
+      },
+    ]
+    }
+  ]
+
+  
+  moneyScheme:any = {
+    domain: ['blue','red']
+  };
+
+
   constructor() { }
   startAnimationForLineChart(chart){
       let seq: any, delays: any, durations: any;

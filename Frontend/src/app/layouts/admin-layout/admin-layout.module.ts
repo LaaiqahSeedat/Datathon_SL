@@ -21,6 +21,7 @@ import { AnxietyComponent } from 'app/user-profile/Components/anxiety/anxiety.co
 import { DepressionComponent } from 'app/user-profile/Components/depression/depression.component';
 import { EatingComponent } from 'app/user-profile/Components/eating/eating.component';
 import { BipolarComponent } from 'app/user-profile/Components/bipolar/bipolar.component';
+import { NgxChartsModule } from '@swimlane/ngx-charts';
 
 @NgModule({
   imports: [
@@ -35,6 +36,7 @@ import { BipolarComponent } from 'app/user-profile/Components/bipolar/bipolar.co
     MatSelectModule,
     MatTooltipModule,
     MatSliderModule,
+    NgxChartsModule
   ],
   declarations: [
     DashboardComponent,
