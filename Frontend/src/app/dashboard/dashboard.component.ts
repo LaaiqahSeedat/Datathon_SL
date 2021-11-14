@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import * as Chartist from 'chartist';
+import { SharedService } from '../components/shared.service';
 
 @Component({
   selector: 'app-dashboard',
@@ -66,12 +67,13 @@ export class DashboardComponent implements OnInit {
       seq2 = 0;
   };
   ngOnInit() {
-      /* ----------==========     Daily Sales Chart initialization For Documentation    ==========---------- */
+      /* ----------==========    Overall Anxiety    ==========---------- */
 
       const dataDailySalesChart: any = {
-          labels: ['M', 'T', 'W', 'T', 'F', 'S', 'S'],
+          labels: ['2000', '2001', '2002', '2003', '2004', '2005', '2006','2007'],
           series: [
-              [12, 17, 7, 17, 23, 18, 38]
+              [12, 17, 7, 17, 23, 18, 38,92],
+              [18, 99, 52, 32, 52, 18, 75,6]
           ]
       };
 
@@ -80,7 +82,7 @@ export class DashboardComponent implements OnInit {
               tension: 0
           }),
           low: 0,
-          high: 50, // creative tim: we recommend you to set the high sa the biggest value + something for a better look
+          high: 150, // creative tim: we recommend you to set the high sa the biggest value + something for a better look
           chartPadding: { top: 0, right: 0, bottom: 0, left: 0},
       }
 
@@ -89,12 +91,16 @@ export class DashboardComponent implements OnInit {
       this.startAnimationForLineChart(dailySalesChart);
 
 
-      /* ----------==========     Completed Tasks Chart initialization    ==========---------- */
+      /* ----------==========     Age Anxiety   ==========---------- */
 
       const dataCompletedTasksChart: any = {
-          labels: ['12p', '3p', '6p', '9p', '12p', '3a', '6a', '9a'],
+          labels: ['2000', '2001', '2002', '2003', '2004', '2005', '2006','2007'],
           series: [
-              [230, 750, 450, 300, 280, 240, 200, 190]
+              [23, 75, 45, 30, 80, 40, 20, 90],
+              [40, 45, 45, 30, 80, 40, 20, 90],
+              [60, 65, 45, 30, 80, 40, 20, 90],
+              [80, 30, 45, 30, 80, 40, 20, 90],
+              [95, 45, 45, 30, 80, 40, 20, 90],
           ]
       };
 
@@ -103,7 +109,7 @@ export class DashboardComponent implements OnInit {
               tension: 0
           }),
           low: 0,
-          high: 1000, // creative tim: we recommend you to set the high sa the biggest value + something for a better look
+          high: 150, // creative tim: we recommend you to set the high sa the biggest value + something for a better look
           chartPadding: { top: 0, right: 0, bottom: 0, left: 0}
       }
 
@@ -114,12 +120,13 @@ export class DashboardComponent implements OnInit {
 
 
 
-      /* ----------==========     Emails Subscription Chart initialization    ==========---------- */
+      /* ----------==========     Gender Anxiety    ==========---------- */
 
       var datawebsiteViewsChart = {
-        labels: ['J', 'F', 'M', 'A', 'M', 'J', 'J', 'A', 'S', 'O', 'N', 'D'],
+        labels: ['2000', '2001', '2002', '2003', '2004', '2005', '2006','2007'],
         series: [
-          [542, 443, 320, 780, 553, 453, 326, 434, 568, 610, 756, 895]
+          [23, 75, 45, 30, 80, 40, 20, 90],
+          [85, 55, 48, 30, 80, 40, 20, 90]
 
         ]
       };
@@ -128,7 +135,7 @@ export class DashboardComponent implements OnInit {
               showGrid: false
           },
           low: 0,
-          high: 1000,
+          high: 150,
           chartPadding: { top: 0, right: 5, bottom: 0, left: 0}
       };
       var responsiveOptions: any[] = [
