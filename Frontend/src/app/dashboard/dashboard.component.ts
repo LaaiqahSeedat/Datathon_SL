@@ -73,7 +73,7 @@ export class DashboardComponent implements OnInit {
           labels: ['2000', '2001', '2002', '2003', '2004', '2005', '2006','2007'],
           series: [
               [12, 17, 7, 17, 23, 18, 38,92],
-              [18, 99, 52, 32, 52, 18, 75,6]
+              [18, 99, 52, 32, 52, 18, 75, 65]
           ]
       };
 
@@ -81,6 +81,7 @@ export class DashboardComponent implements OnInit {
           lineSmooth: Chartist.Interpolation.cardinal({
               tension: 0
           }),
+          scaleMinSpace: 20,
           low: 0,
           high: 150, // creative tim: we recommend you to set the high sa the biggest value + something for a better look
           chartPadding: { top: 0, right: 0, bottom: 0, left: 0},
