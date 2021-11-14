@@ -1,8 +1,9 @@
 from django.shortcuts import render
 from rest_framework.decorators import api_view
 from rest_framework.response import Response
-#../../Datasets/
+#../../Datasets/anxiety
 from .anxiety import testModels
+#import testmodels as testM
 # Create your views here.
 
 @api_view(['GET'])
@@ -30,10 +31,10 @@ def depression(request):
     #Getting all the values
 
     age = theData.get("age")                        #getting the age
-    edLevel = theData.get("EducationLevel")         #Whats the highest qualification i.e high school, diploma, etc 
+    edLevel = theData.get("EducationLevel")         #( 1=High School; 2=Diploma; 3=Undergraduate; 4=Bachelor degree; 5=Master degree; 6=Post-graduate
     gender = theData.get("Gender")                  #1. male or 0.female 
     familyHistory = theData.get("HasFamilyHistory") #Family history of anxiety depression (1=yes; 0=No)
-    occupation = theData.get("Occupation")
+    occupation = theData.get("Occupation")          # (1=Student; 2=Faculty member; 3=Employee; 4=self-employment; 5=Unemployed )
     atf = theData.get("ATF")                        #The fear of being the center of the attention(0-10) 
     eaf = theData.get("EAF")                        #The fear of eating in front of another person(0-10) 
     tkf = theData.get("TKF")                        #The fear of speaking in public(0-10)
@@ -57,7 +58,14 @@ def depression(request):
     tg = theData.get("TG")                          #has numbness or moaning(1=yes; 0=No)
     hasSad = theData.get("hasSAD")                  #are u feeling sad(1=yes; 0=No)
 
-"""
+
+    params = [age, edLevel, gender, familyHistory, occupation, atf, eaf, tkf, cmt, fearEatDrink, smf, erf, daf, hr, sw, tr, dr, br, ck, cp, ns,  dz, ur, ub, md, tg]
+    model = testModels.classifierPercentages(params)
+    prob_json = {'Probability':model}
+
+    return Response(prob_json)
+
+    """
     #You have depression 
     if((age >= 0) & ((gender == 1) or (gender == 0)) & (familyHistory == 1 or familyHistory == 0)):
         if ((atf >= 9) & (eaf >= 9) & (tkf >= 9) & (cmt >= 9) & (smf >= 9) & (erf >= 9) & (daf >= 9) & (fearEatDrink >= 9)):
@@ -74,11 +82,5 @@ def depression(request):
                     "Result" : "You have no symptoms of Anxiety."
                 }
 """
-    response = {
-        "Result":"Empty Dude"
-    }
-  
-    return Response(response)
-
 
 
