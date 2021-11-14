@@ -25,6 +25,7 @@ import { AdminLayoutComponent } from './layouts/admin-layout/admin-layout.compon
 import { DepressionComponent } from './user-profile/Components/depression/depression.component';
 import { EatingComponent } from './user-profile/Components/eating/eating.component';
 import { BipolarComponent } from './user-profile/Components/bipolar/bipolar.component';
+import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 
 @NgModule({
   imports: [
@@ -37,7 +38,8 @@ import { BipolarComponent } from './user-profile/Components/bipolar/bipolar.comp
     AppRoutingModule,
     AgmCoreModule.forRoot({
       apiKey: 'YOUR_GOOGLE_MAPS_API_KEY'
-    })
+    }),
+    NgbModule
   ],
   declarations: [
     AppComponent,

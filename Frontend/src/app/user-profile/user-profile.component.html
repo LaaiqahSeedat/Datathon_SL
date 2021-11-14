@@ -8,10 +8,21 @@
                       <p class="card-category">Answer Questions Below</p>
                   </div>
                   <div class="card-body">
+                     
                      <div class="container" *ngIf="picked.Anxiety">
                        <app-anxiety></app-anxiety>
                      </div>
+                     <div class="container" *ngIf="picked.Depression">
+                      <app-depression></app-depression>
+                    </div>
+                    <div class="container" *ngIf="picked.Eating">
+                      <app-eating></app-eating>
+                    </div>
+                    <div class="container" *ngIf="picked.Bipolar">
+                      <app-bipolar></app-bipolar>
+                    </div>
                   </div>
+                  
               </div>
           </div>
           <div class="col-md-5">
@@ -19,6 +30,7 @@
                   <div class="card-header card-header-primary">
                     <h4 class="card-title">Your suspected mental health</h4>
                     <p class="card-category">Choose below</p>
+          
                   </div>
                   
                   <div class="card-body" *ngIf="Disorders">
@@ -30,7 +42,7 @@
                       <button class="btn btn-outline-success btn-sm" style="float: right;" (click)="checkDisorder(disorder.Name)">{{disorder.State}}</button>
                       <br/>
                     </div>
-                      <button class="btn btn-danger btn-round" style="width: 100%;">Restart</button>
+                      <button class="btn btn-primary btn-round" style="width: 100%;" (click) = "restartQuiz()">Restart</button>
                   </div>
               </div>
           </div>

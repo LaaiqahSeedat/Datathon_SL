@@ -1,0 +1,9 @@
+Classifier notes
+
+input parameters:
+
+['Age', 'EducationLevel', 'Gender', 'HasFamilyHistory', 'Occupation',
+       'ATF', 'EAF', 'TKF', 'CMT', 'DEF', 'SMF', 'ERF', 'DAF', 'HR', 'SW',
+       'TR', 'DR', 'BR', 'CK', 'CP', 'NS', 'DZ', 'UR', 'UB', 'MD', 'TG']
+
+output: 0 or 1 where 0 means doesn't have SAD, 1 otherwise

@@ -1,1 +1,275 @@
-<p>anxiety works!</p>
+<form>
+    
+    <br/>
+    <div *ngIf="listQuestions[0]">
+        <mat-form-field>    
+            <input matInput  type="number" [(ngModel)] = "UserInput.age" placeholder="How old are you?" required>
+        </mat-form-field>
+        <div class="form-group">
+            <label class="label">Gender?</label>
+            <select class="form-control" [(ngModel)] = "UserInput.Gender" aria-label="Default select example">
+                
+                <option value="0">Female</option>
+                <option value="1">Male</option>
+            </select>
+        </div>
+        <div class="form-group">
+            <label class="label">Education Level?</label>
+            <select class="form-control" [(ngModel)] = "UserInput.EducationLevel" aria-label="Default select example">
+                <option selected>Education Level?</option>
+                <option value="1">High School</option>
+                <option value="2">Diploma</option>
+                <option value="3">Undergraduate</option>
+                <option value="4">Bachelor degree</option>
+                <option value="5">Master degree</option>
+                <option value="6">Post-graduate</option>
+            </select>
+        </div>
+    </div>
+    
+    <div *ngIf="listQuestions[1]">
+        <div class="form-group">
+            <label class="label">Does your family have history of anxiety and depression?</label>
+            <select class="form-control" [(ngModel)] = "UserInput.HasFamilyHistory" aria-label="Default select example">
+                <option value="1">Yes</option>
+                <option value="0">No</option>
+            </select>
+        </div>
+        <div class="form-group">
+            <label class="label">Whats your Occupation?</label>
+            <select class="form-control" [(ngModel)] = "UserInput.Occupation" aria-label="Default select example">          
+                <option value="1">Student</option>
+                <option value="2">Faculty Member</option>
+                <option value="3">Employee</option>
+                <option value="4">Self Employed</option>
+                <option value="5">Unemployed</option>
+            </select>
+        </div>
+    </div>
+    <div *ngIf="listQuestions[2]">
+
+        <div class="form-group">
+            <label class="label">From 0-10, How much do you fear attention?</label>
+            <br/>
+            <mat-slider
+                
+                thumbLabel
+                [displayWith]="formatLabel"
+                [(ngModel)] = "UserInput.AFT"
+                tickInterval="1"
+                step="1"
+                min="0"
+                max="10"
+                aria-label="units"></mat-slider>
+        </div>
+        <div class="form-group">
+            <label class="label">From 0-10, How much do you fear eating in front of another person?</label>
+            <br/>
+            <mat-slider
+                thumbLabel
+                [displayWith]="formatLabel"
+                [(ngModel)] = "UserInput.EAF"
+                
+                tickInterval="1"
+                step="1"
+                min="0"
+                max="10"
+                aria-label="units"></mat-slider>
+        </div>
+        <div class="form-group">
+            <label class="label">From 0-10, How much do you fear speaking in public</label>
+            <br/>
+            <mat-slider
+                thumbLabel
+
+                [displayWith]="formatLabel"
+                [(ngModel)] = "UserInput.TKF"
+                tickInterval="1"
+                step="1"
+                min="0"
+                max="10"
+                aria-label="units"></mat-slider>
+        </div>
+    </div>
+    <div *ngIf="listQuestions[3]">
+        <div class="form-group">
+            <label class="label">From 0-10, How much do you fear attending parties?</label>
+            <br/>
+            <mat-slider
+                
+                thumbLabel
+                [displayWith]="formatLabel"
+                [(ngModel)] = "UserInput.CMT"
+                tickInterval="1"
+                step="1"
+                min="0"
+                max="10"
+                aria-label="units"></mat-slider>
+        </div>
+        <div class="form-group">
+            <label class="label">From 0-10, How much do you fear eating and drinking in public places</label>
+            <br/>
+            <mat-slider
+                thumbLabel
+
+                [displayWith]="formatLabel"
+                [(ngModel)] = "UserInput.DEF"
+                tickInterval="1"
+                step="1"
+                min="0"
+                max="10"
+                aria-label="units"></mat-slider>
+        </div>
+        <div class="form-group">
+            <label class="label">From 0-10, How much do you fear meeting or contact with strangers</label>
+            <br/>
+            <mat-slider
+                thumbLabel
+
+          
+                [displayWith]="formatLabel"
+                [(ngModel)] = "UserInput.SMF"
+                tickInterval="1"
+                step="1"
+                min="0"
+                max="10"
+                aria-label="units"></mat-slider>
+        </div>
+    </div>
+    <div *ngIf="listQuestions[4]">
+        <div class="form-group">
+            <label class="label">From 0-10, How much do you fear being in the room where others are sitting?</label>
+            <br/>
+            <mat-slider
+                
+                thumbLabel
+                
+                [displayWith]="formatLabel"
+                [(ngModel)] = "UserInput.ERF"
+                tickInterval="1"
+                step="1"
+                min="0"
+                max="10"
+                aria-label="units"></mat-slider>
+        </div>
+        <div class="form-group">
+            <label class="label">From 0-10, How much do you fear disagreement with strangers?</label>
+            <br/>
+            <mat-slider
+                thumbLabel
+
+                [displayWith]="formatLabel"
+                [(ngModel)] = "UserInput.DAF"
+                tickInterval="1"
+                step="1"
+                min="0"
+                max="10"
+                aria-label="units"></mat-slider>
+        </div>
+        <div class="form-group">
+            
+            <label class="label">Do you have heart palpitations?</label>
+            <select class="form-control" [(ngModel)] = "UserInput.HR" aria-label="Default select example">
+                
+                <option value="1">Yes</option>
+                <option value="0">No</option>
+            </select>
+        </div>
+    </div>
+    <div *ngIf="listQuestions[5]">
+        <div class="form-group">
+            <label class="label">Do you expirience un-natural sweating?</label>
+            <select class="form-control" [(ngModel)] = "UserInput.SW" aria-label="Default select example">
+                <option value="1">Yes</option>
+                <option value="0">No</option>
+            </select>
+        </div>
+        <div class="form-group">
+            <label class="label">Do you have a tremor?</label>
+            <select class="form-control" [(ngModel)] = "UserInput.TR" aria-label="Default select example">
+                <option value="1">Yes</option>
+                <option value="0">No</option>
+            </select>
+        </div>
+        <div class="form-group">
+            <label class="label">Do you have dry mouth?</label>
+            <select class="form-control" [(ngModel)] = "UserInput.DR" aria-label="Default select example">
+                <option value="1">Yes</option>
+                <option value="0">No</option>
+            </select>
+        </div>
+    </div>
+
+    <div *ngIf="listQuestions[6]">
+        <div class="form-group">
+            <label class="label">Do you expirience hard time breathing?</label>
+            <select class="form-control" [(ngModel)] = "UserInput.BR" aria-label="Default select example">
+                <option value="1">Yes</option>
+                <option value="0">No</option>
+            </select>
+        </div>
+        <div class="form-group">
+            <label class="label">Do tend to feel like you are suffocating?</label>
+            <select class="form-control" [(ngModel)] = "UserInput.CK" aria-label="Default select example">
+                <option value="1">Yes</option>
+                <option value="0">No</option>
+            </select>
+        </div>
+        <div class="form-group">
+            <label class="label">Do you expirience too many chest pains?</label>
+            <select class="form-control" [(ngModel)] = "UserInput.CP" aria-label="Default select example">
+                <option value="1">Yes</option>
+                <option value="0">No</option>
+            </select>
+        </div>
+    </div>
+    <div *ngIf="listQuestions[7]">
+        <div class="form-group">
+            <label class="label">Do you expirience nausea?</label>
+            <select class="form-control" [(ngModel)] = "UserInput.NS" aria-label="Default select example">
+                <option value="1">Yes</option>
+                <option value="0">No</option>
+            </select>
+        </div>
+        <div class="form-group">
+            <label class="label">Do you tend to feel dizzy, weak and sick?</label>
+            <select class="form-control" [(ngModel)] = "UserInput.DZ" aria-label="Default select example">
+                <option value="1">Yes</option>
+                <option value="0">No</option>
+            </select>
+        </div>
+        <div class="form-group">
+            <label class="label">Do you have a fear if loosing balance?</label>
+            <select class="form-control" [(ngModel)] = "UserInput.UB" aria-label="Default select example">
+                <option value="1">Yes</option>
+                <option value="0">No</option>
+            </select>
+        </div>
+    </div>
+    <div *ngIf="listQuestions[8]">
+        <div class="form-group">
+            <label class="label">Do you fear that you might be crazy?</label>
+            <select class="form-control" [(ngModel)] = "UserInput.MD" aria-label="Default select example">
+                <option value="1">Yes</option>
+                <option value="0">No</option>
+            </select>
+        </div>
+        <div class="form-group">
+            <label class="label">Any numbness or moaning</label>
+            <select class="form-control" [(ngModel)] = "UserInput.TG" aria-label="Default select example">
+                <option value="1">Yes</option>
+                <option value="0">No</option>
+            </select>
+         </div>
+         <div class="form-group">
+            <label class="label">Do you fear you might be unreal?</label>
+            <select class="form-control" [(ngModel)] = "UserInput.UR" aria-label="Default select example">
+                <option value="1">Yes</option>
+                <option value="0">No</option>
+            </select>
+         </div>
+    </div>
+    <button class="btn btn-info btn-round" style="float: right;" (click)="next()">{{process}}</button>
+    <button class="btn btn-primary btn-round" style="float: left;" *ngIf="notFirst" (click)="previous()">Previous</button>
+
+</form>

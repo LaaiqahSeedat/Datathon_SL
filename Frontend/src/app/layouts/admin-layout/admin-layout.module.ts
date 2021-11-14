@@ -16,6 +16,7 @@ import {MatRippleModule} from '@angular/material/core';
 import {MatFormFieldModule} from '@angular/material/form-field';
 import {MatTooltipModule} from '@angular/material/tooltip';
 import {MatSelectModule} from '@angular/material/select';
+import {MatSliderModule} from '@angular/material/slider';
 import { AnxietyComponent } from 'app/user-profile/Components/anxiety/anxiety.component';
 import { DepressionComponent } from 'app/user-profile/Components/depression/depression.component';
 import { EatingComponent } from 'app/user-profile/Components/eating/eating.component';
@@ -33,6 +34,7 @@ import { BipolarComponent } from 'app/user-profile/Components/bipolar/bipolar.co
     MatInputModule,
     MatSelectModule,
     MatTooltipModule,
+    MatSliderModule,
   ],
   declarations: [
     DashboardComponent,
@@ -45,6 +47,7 @@ import { BipolarComponent } from 'app/user-profile/Components/bipolar/bipolar.co
     MapsComponent,
     NotificationsComponent,
     UpgradeComponent,
+
   ]
 })
 
