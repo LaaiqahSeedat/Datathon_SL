@@ -1,6 +1,7 @@
 from django.shortcuts import render
 from rest_framework.decorators import api_view
 from rest_framework.response import Response
+import csv
 #../../Datasets/anxiety
 from .Machine_Learning.anxiety.testModels import TestingModels as tS
 #import testmodels as testM
@@ -84,4 +85,22 @@ def anxietyCheck(request):
                     "Result" : "You have no symptoms of Anxiety."
                 }
 """
+@api_view(['POST']) 
+def FuturePredict(request):
+    theData = request.data
 
+    year = theData.get("Year")
+
+    model = tS.predictNumPeople(year)
+    print(model)
+    model_json = {"Future Prediction": model}
+    print(model_json)
+
+    
+    csv_file = open("/Users/ubaid/Downloads/Data Science competetion/Github/Datathon_SL/DataSets/Future_prediction.csv", "w")
+    csv_writer = csv.writer(csv_file)
+    csv_writer.writerow(["Year", "Prediction"])
+   
+    csv_writer.writerow([year, model])
+    csv_file.close()
+    return Response(model_json)
