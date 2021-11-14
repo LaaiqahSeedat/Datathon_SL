@@ -104,7 +104,7 @@ export class AnxietyComponent implements OnInit {
     console.log('TG = ' + this.UserInput.TG)
     console.log('Gender = ' + this.UserInput.Gender)  
     this.sService.sendAnxietyA(this.UserInput).subscribe((data:any)=>{
-      console.log(data.Eating)
+      console.log(data.Probability)
     })
   }
 
