@@ -7,8 +7,10 @@ import { SharedService } from 'app/components/shared.service';
   styleUrls: ['./anxiety.component.css']
 })
 export class AnxietyComponent implements OnInit {
-
-  UserInput:any = {
+    anxiety:number = -1
+    submitted = false;
+    done = false;
+    UserInput:any = {
     age:null,
     EducationLevel:null,
     Gender:null,
@@ -98,14 +100,25 @@ export class AnxietyComponent implements OnInit {
     return value;
   }
   submitQ(){
+    this.submitted = true
     console.log('Age = ' + this.UserInput.age);
     console.log('CMT = ' + this.UserInput.CMT)
     console.log('AFT = ' + this.UserInput.AFT)
     console.log('TG = ' + this.UserInput.TG)
     console.log('Gender = ' + this.UserInput.Gender)  
     this.sService.sendAnxietyA(this.UserInput).subscribe((data:any)=>{
-      console.log(data.Probability)
+      setTimeout(()=>{
+        this.showResults(data)
+      },3000) 
     })
+  }
+
+  showResults(data){
+    this.listQuestions[this.listQuestions.length-1] = false;
+    this.anxiety = data.Probability
+    console.log(this.anxiety)
+    this.done = true;
+    
   }
 
 }

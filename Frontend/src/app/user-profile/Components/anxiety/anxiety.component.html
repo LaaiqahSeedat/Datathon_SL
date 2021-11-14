@@ -269,7 +269,26 @@
             </select>
          </div>
     </div>
-    <button class="btn btn-info btn-round" style="float: right;" (click)="next()">{{process}}</button>
-    <button class="btn btn-primary btn-round" style="float: left;" *ngIf="notFirst" (click)="previous()">Previous</button>
+    <div *ngIf="anxiety == 1">
+        <h1>You are at risk of having anxiety</h1>
+    </div>
+    <div *ngIf="anxiety == 0">
+        <h1>You are not at risk of having anxiety</h1>
+    </div>
+    <button class="btn btn-info btn-round" style="float: right;" (click)="next()" *ngIf="!submitted">{{process}}</button>
+    <button class="btn btn-primary btn-round" style="float: left;" *ngIf="notFirst && !submitted" (click)="previous()">Previous</button>
+    
+    <!--Loading as we wait for the results-->
+    <div *ngIf="submitted && !done">
+        <div class="spinner-grow text-primary" role="status" style="float: left;">
+            <span class="sr-only">Loading...</span>
+        </div>
+        <div class="spinner-grow text-danger" role="status" style="margin: auto; margin-left: 40%;">
+            <span class="sr-only">Loading...</span>
+        </div>
+        <div class="spinner-grow text-info" role="status" style="float: right;">
+            <span class="sr-only">Loading...</span>
+        </div>
+    </div>
 
 </form>
