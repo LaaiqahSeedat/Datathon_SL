@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { SharedService } from 'app/components/shared.service';
 
 @Component({
   selector: 'app-anxiety',
@@ -40,7 +41,7 @@ export class AnxietyComponent implements OnInit {
 
   weAt = 0;
   process="Next";
-  constructor() { }
+  constructor(private sService:SharedService) { }
 
   ngOnInit(): void {
     this.updateWeAt()
@@ -102,6 +103,9 @@ export class AnxietyComponent implements OnInit {
     console.log('AFT = ' + this.UserInput.AFT)
     console.log('TG = ' + this.UserInput.TG)
     console.log('Gender = ' + this.UserInput.Gender)  
+    this.sService.sendAnxietyA(this.UserInput).subscribe((data:any)=>{
+      console.log(data.Eating)
+    })
   }
 
 }
