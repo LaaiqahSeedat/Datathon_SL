@@ -1,0 +1,2936 @@
+{
+    "Abkhazia": {
+        "Entity": "Abkhazia",
+        "Code": "OWID_ABK",
+        "Year": "2015",
+        "Prevalence - Anxiety disorders - Sex: Male - Age: Age-standardized (Percent)": "",
+        "Prevalence - Anxiety disorders - Sex: Female - Age: Age-standardized (Percent)": "",
+        "Total population (Gapminder, HYDE & UN)": "",
+        "Continent": "Asia"
+    },
+    "Afghanistan": {
+        "Entity": "Afghanistan",
+        "Code": "AFG",
+        "Year": "2021",
+        "Prevalence - Anxiety disorders - Sex: Male - Age: Age-standardized (Percent)": "",
+        "Prevalence - Anxiety disorders - Sex: Female - Age: Age-standardized (Percent)": "",
+        "Total population (Gapminder, HYDE & UN)": "39835428",
+        "Continent": ""
+    },
+    "Africa": {
+        "Entity": "Africa",
+        "Code": "",
+        "Year": "2021",
+        "Prevalence - Anxiety disorders - Sex: Male - Age: Age-standardized (Percent)": "",
+        "Prevalence - Anxiety disorders - Sex: Female - Age: Age-standardized (Percent)": "",
+        "Total population (Gapminder, HYDE & UN)": "1373486472",
+        "Continent": ""
+    },
+    "Akrotiri and Dhekelia": {
+        "Entity": "Akrotiri and Dhekelia",
+        "Code": "OWID_AKD",
+        "Year": "2015",
+        "Prevalence - Anxiety disorders - Sex: Male - Age: Age-standardized (Percent)": "",
+        "Prevalence - Anxiety disorders - Sex: Female - Age: Age-standardized (Percent)": "",
+        "Total population (Gapminder, HYDE & UN)": "",
+        "Continent": "Asia"
+    },
+    "Albania": {
+        "Entity": "Albania",
+        "Code": "ALB",
+        "Year": "2021",
+        "Prevalence - Anxiety disorders - Sex: Male - Age: Age-standardized (Percent)": "",
+        "Prevalence - Anxiety disorders - Sex: Female - Age: Age-standardized (Percent)": "",
+        "Total population (Gapminder, HYDE & UN)": "2872934",
+        "Continent": ""
+    },
+    "Algeria": {
+        "Entity": "Algeria",
+        "Code": "DZA",
+        "Year": "2021",
+        "Prevalence - Anxiety disorders - Sex: Male - Age: Age-standardized (Percent)": "",
+        "Prevalence - Anxiety disorders - Sex: Female - Age: Age-standardized (Percent)": "",
+        "Total population (Gapminder, HYDE & UN)": "44616626",
+        "Continent": ""
+    },
+    "American Samoa": {
+        "Entity": "American Samoa",
+        "Code": "ASM",
+        "Year": "2021",
+        "Prevalence - Anxiety disorders - Sex: Male - Age: Age-standardized (Percent)": "",
+        "Prevalence - Anxiety disorders - Sex: Female - Age: Age-standardized (Percent)": "",
+        "Total population (Gapminder, HYDE & UN)": "55103",
+        "Continent": ""
+    },
+    "Andean Latin America": {
+        "Entity": "Andean Latin America",
+        "Code": "",
+        "Year": "2017",
+        "Prevalence - Anxiety disorders - Sex: Male - Age: Age-standardized (Percent)": "3.094756353",
+        "Prevalence - Anxiety disorders - Sex: Female - Age: Age-standardized (Percent)": "5.40498570801",
+        "Total population (Gapminder, HYDE & UN)": "",
+        "Continent": ""
+    },
+    "Andorra": {
+        "Entity": "Andorra",
+        "Code": "AND",
+        "Year": "2021",
+        "Prevalence - Anxiety disorders - Sex: Male - Age: Age-standardized (Percent)": "",
+        "Prevalence - Anxiety disorders - Sex: Female - Age: Age-standardized (Percent)": "",
+        "Total population (Gapminder, HYDE & UN)": "77354",
+        "Continent": ""
+    },
+    "Angola": {
+        "Entity": "Angola",
+        "Code": "AGO",
+        "Year": "2021",
+        "Prevalence - Anxiety disorders - Sex: Male - Age: Age-standardized (Percent)": "",
+        "Prevalence - Anxiety disorders - Sex: Female - Age: Age-standardized (Percent)": "",
+        "Total population (Gapminder, HYDE & UN)": "33933611",
+        "Continent": ""
+    },
+    "Anguilla": {
+        "Entity": "Anguilla",
+        "Code": "AIA",
+        "Year": "2021",
+        "Prevalence - Anxiety disorders - Sex: Male - Age: Age-standardized (Percent)": "",
+        "Prevalence - Anxiety disorders - Sex: Female - Age: Age-standardized (Percent)": "",
+        "Total population (Gapminder, HYDE & UN)": "15125",
+        "Continent": ""
+    },
+    "Antarctica": {
+        "Entity": "Antarctica",
+        "Code": "ATA",
+        "Year": "2015",
+        "Prevalence - Anxiety disorders - Sex: Male - Age: Age-standardized (Percent)": "",
+        "Prevalence - Anxiety disorders - Sex: Female - Age: Age-standardized (Percent)": "",
+        "Total population (Gapminder, HYDE & UN)": "",
+        "Continent": "Antarctica"
+    },
+    "Antigua and Barbuda": {
+        "Entity": "Antigua and Barbuda",
+        "Code": "ATG",
+        "Year": "2021",
+        "Prevalence - Anxiety disorders - Sex: Male - Age: Age-standardized (Percent)": "",
+        "Prevalence - Anxiety disorders - Sex: Female - Age: Age-standardized (Percent)": "",
+        "Total population (Gapminder, HYDE & UN)": "98728",
+        "Continent": ""
+    },
+    "Argentina": {
+        "Entity": "Argentina",
+        "Code": "ARG",
+        "Year": "2021",
+        "Prevalence - Anxiety disorders - Sex: Male - Age: Age-standardized (Percent)": "",
+        "Prevalence - Anxiety disorders - Sex: Female - Age: Age-standardized (Percent)": "",
+        "Total population (Gapminder, HYDE & UN)": "45605823",
+        "Continent": ""
+    },
+    "Armenia": {
+        "Entity": "Armenia",
+        "Code": "ARM",
+        "Year": "2021",
+        "Prevalence - Anxiety disorders - Sex: Male - Age: Age-standardized (Percent)": "",
+        "Prevalence - Anxiety disorders - Sex: Female - Age: Age-standardized (Percent)": "",
+        "Total population (Gapminder, HYDE & UN)": "2968128",
+        "Continent": ""
+    },
+    "Aruba": {
+        "Entity": "Aruba",
+        "Code": "ABW",
+        "Year": "2021",
+        "Prevalence - Anxiety disorders - Sex: Male - Age: Age-standardized (Percent)": "",
+        "Prevalence - Anxiety disorders - Sex: Female - Age: Age-standardized (Percent)": "",
+        "Total population (Gapminder, HYDE & UN)": "107195",
+        "Continent": ""
+    },
+    "Asia": {
+        "Entity": "Asia",
+        "Code": "",
+        "Year": "2021",
+        "Prevalence - Anxiety disorders - Sex: Male - Age: Age-standardized (Percent)": "",
+        "Prevalence - Anxiety disorders - Sex: Female - Age: Age-standardized (Percent)": "",
+        "Total population (Gapminder, HYDE & UN)": "4678444992",
+        "Continent": ""
+    },
+    "Australasia": {
+        "Entity": "Australasia",
+        "Code": "",
+        "Year": "2017",
+        "Prevalence - Anxiety disorders - Sex: Male - Age: Age-standardized (Percent)": "5.09377942843",
+        "Prevalence - Anxiety disorders - Sex: Female - Age: Age-standardized (Percent)": "8.60216152037",
+        "Total population (Gapminder, HYDE & UN)": "",
+        "Continent": ""
+    },
+    "Australia": {
+        "Entity": "Australia",
+        "Code": "AUS",
+        "Year": "2021",
+        "Prevalence - Anxiety disorders - Sex: Male - Age: Age-standardized (Percent)": "",
+        "Prevalence - Anxiety disorders - Sex: Female - Age: Age-standardized (Percent)": "",
+        "Total population (Gapminder, HYDE & UN)": "25788217",
+        "Continent": ""
+    },
+    "Austria": {
+        "Entity": "Austria",
+        "Code": "AUT",
+        "Year": "2021",
+        "Prevalence - Anxiety disorders - Sex: Male - Age: Age-standardized (Percent)": "",
+        "Prevalence - Anxiety disorders - Sex: Female - Age: Age-standardized (Percent)": "",
+        "Total population (Gapminder, HYDE & UN)": "9043072",
+        "Continent": ""
+    },
+    "Austria-Hungary": {
+        "Entity": "Austria-Hungary",
+        "Code": "OWID_AUH",
+        "Year": "2015",
+        "Prevalence - Anxiety disorders - Sex: Male - Age: Age-standardized (Percent)": "",
+        "Prevalence - Anxiety disorders - Sex: Female - Age: Age-standardized (Percent)": "",
+        "Total population (Gapminder, HYDE & UN)": "",
+        "Continent": "Europe"
+    },
+    "Azerbaijan": {
+        "Entity": "Azerbaijan",
+        "Code": "AZE",
+        "Year": "2021",
+        "Prevalence - Anxiety disorders - Sex: Male - Age: Age-standardized (Percent)": "",
+        "Prevalence - Anxiety disorders - Sex: Female - Age: Age-standardized (Percent)": "",
+        "Total population (Gapminder, HYDE & UN)": "10223344",
+        "Continent": ""
+    },
+    "Baden": {
+        "Entity": "Baden",
+        "Code": "OWID_BAD",
+        "Year": "2015",
+        "Prevalence - Anxiety disorders - Sex: Male - Age: Age-standardized (Percent)": "",
+        "Prevalence - Anxiety disorders - Sex: Female - Age: Age-standardized (Percent)": "",
+        "Total population (Gapminder, HYDE & UN)": "",
+        "Continent": "Europe"
+    },
+    "Bahamas": {
+        "Entity": "Bahamas",
+        "Code": "BHS",
+        "Year": "2021",
+        "Prevalence - Anxiety disorders - Sex: Male - Age: Age-standardized (Percent)": "",
+        "Prevalence - Anxiety disorders - Sex: Female - Age: Age-standardized (Percent)": "",
+        "Total population (Gapminder, HYDE & UN)": "396914",
+        "Continent": ""
+    },
+    "Bahrain": {
+        "Entity": "Bahrain",
+        "Code": "BHR",
+        "Year": "2021",
+        "Prevalence - Anxiety disorders - Sex: Male - Age: Age-standardized (Percent)": "",
+        "Prevalence - Anxiety disorders - Sex: Female - Age: Age-standardized (Percent)": "",
+        "Total population (Gapminder, HYDE & UN)": "1748295",
+        "Continent": ""
+    },
+    "Bangladesh": {
+        "Entity": "Bangladesh",
+        "Code": "BGD",
+        "Year": "2021",
+        "Prevalence - Anxiety disorders - Sex: Male - Age: Age-standardized (Percent)": "",
+        "Prevalence - Anxiety disorders - Sex: Female - Age: Age-standardized (Percent)": "",
+        "Total population (Gapminder, HYDE & UN)": "166303494",
+        "Continent": ""
+    },
+    "Barbados": {
+        "Entity": "Barbados",
+        "Code": "BRB",
+        "Year": "2021",
+        "Prevalence - Anxiety disorders - Sex: Male - Age: Age-standardized (Percent)": "",
+        "Prevalence - Anxiety disorders - Sex: Female - Age: Age-standardized (Percent)": "",
+        "Total population (Gapminder, HYDE & UN)": "287708",
+        "Continent": ""
+    },
+    "Bavaria": {
+        "Entity": "Bavaria",
+        "Code": "OWID_BAV",
+        "Year": "2015",
+        "Prevalence - Anxiety disorders - Sex: Male - Age: Age-standardized (Percent)": "",
+        "Prevalence - Anxiety disorders - Sex: Female - Age: Age-standardized (Percent)": "",
+        "Total population (Gapminder, HYDE & UN)": "",
+        "Continent": "Europe"
+    },
+    "Belarus": {
+        "Entity": "Belarus",
+        "Code": "BLR",
+        "Year": "2021",
+        "Prevalence - Anxiety disorders - Sex: Male - Age: Age-standardized (Percent)": "",
+        "Prevalence - Anxiety disorders - Sex: Female - Age: Age-standardized (Percent)": "",
+        "Total population (Gapminder, HYDE & UN)": "9442867",
+        "Continent": ""
+    },
+    "Belgium": {
+        "Entity": "Belgium",
+        "Code": "BEL",
+        "Year": "2021",
+        "Prevalence - Anxiety disorders - Sex: Male - Age: Age-standardized (Percent)": "",
+        "Prevalence - Anxiety disorders - Sex: Female - Age: Age-standardized (Percent)": "",
+        "Total population (Gapminder, HYDE & UN)": "11632334",
+        "Continent": ""
+    },
+    "Belize": {
+        "Entity": "Belize",
+        "Code": "BLZ",
+        "Year": "2021",
+        "Prevalence - Anxiety disorders - Sex: Male - Age: Age-standardized (Percent)": "",
+        "Prevalence - Anxiety disorders - Sex: Female - Age: Age-standardized (Percent)": "",
+        "Total population (Gapminder, HYDE & UN)": "404915",
+        "Continent": ""
+    },
+    "Benin": {
+        "Entity": "Benin",
+        "Code": "BEN",
+        "Year": "2021",
+        "Prevalence - Anxiety disorders - Sex: Male - Age: Age-standardized (Percent)": "",
+        "Prevalence - Anxiety disorders - Sex: Female - Age: Age-standardized (Percent)": "",
+        "Total population (Gapminder, HYDE & UN)": "12451031",
+        "Continent": ""
+    },
+    "Bermuda": {
+        "Entity": "Bermuda",
+        "Code": "BMU",
+        "Year": "2021",
+        "Prevalence - Anxiety disorders - Sex: Male - Age: Age-standardized (Percent)": "",
+        "Prevalence - Anxiety disorders - Sex: Female - Age: Age-standardized (Percent)": "",
+        "Total population (Gapminder, HYDE & UN)": "62092",
+        "Continent": ""
+    },
+    "Bhutan": {
+        "Entity": "Bhutan",
+        "Code": "BTN",
+        "Year": "2021",
+        "Prevalence - Anxiety disorders - Sex: Male - Age: Age-standardized (Percent)": "",
+        "Prevalence - Anxiety disorders - Sex: Female - Age: Age-standardized (Percent)": "",
+        "Total population (Gapminder, HYDE & UN)": "779900",
+        "Continent": ""
+    },
+    "Bolivia": {
+        "Entity": "Bolivia",
+        "Code": "BOL",
+        "Year": "2021",
+        "Prevalence - Anxiety disorders - Sex: Male - Age: Age-standardized (Percent)": "",
+        "Prevalence - Anxiety disorders - Sex: Female - Age: Age-standardized (Percent)": "",
+        "Total population (Gapminder, HYDE & UN)": "11832936",
+        "Continent": ""
+    },
+    "Bonaire Sint Eustatius and Saba": {
+        "Entity": "Bonaire Sint Eustatius and Saba",
+        "Code": "BES",
+        "Year": "2021",
+        "Prevalence - Anxiety disorders - Sex: Male - Age: Age-standardized (Percent)": "",
+        "Prevalence - Anxiety disorders - Sex: Female - Age: Age-standardized (Percent)": "",
+        "Total population (Gapminder, HYDE & UN)": "26445",
+        "Continent": ""
+    },
+    "Bosnia and Herzegovina": {
+        "Entity": "Bosnia and Herzegovina",
+        "Code": "BIH",
+        "Year": "2021",
+        "Prevalence - Anxiety disorders - Sex: Male - Age: Age-standardized (Percent)": "",
+        "Prevalence - Anxiety disorders - Sex: Female - Age: Age-standardized (Percent)": "",
+        "Total population (Gapminder, HYDE & UN)": "3263459",
+        "Continent": ""
+    },
+    "Botswana": {
+        "Entity": "Botswana",
+        "Code": "BWA",
+        "Year": "2021",
+        "Prevalence - Anxiety disorders - Sex: Male - Age: Age-standardized (Percent)": "",
+        "Prevalence - Anxiety disorders - Sex: Female - Age: Age-standardized (Percent)": "",
+        "Total population (Gapminder, HYDE & UN)": "2397240",
+        "Continent": ""
+    },
+    "Bouvet Island": {
+        "Entity": "Bouvet Island",
+        "Code": "BVT",
+        "Year": "2015",
+        "Prevalence - Anxiety disorders - Sex: Male - Age: Age-standardized (Percent)": "",
+        "Prevalence - Anxiety disorders - Sex: Female - Age: Age-standardized (Percent)": "",
+        "Total population (Gapminder, HYDE & UN)": "",
+        "Continent": "Antarctica"
+    },
+    "Brazil": {
+        "Entity": "Brazil",
+        "Code": "BRA",
+        "Year": "2021",
+        "Prevalence - Anxiety disorders - Sex: Male - Age: Age-standardized (Percent)": "",
+        "Prevalence - Anxiety disorders - Sex: Female - Age: Age-standardized (Percent)": "",
+        "Total population (Gapminder, HYDE & UN)": "213993441",
+        "Continent": ""
+    },
+    "British Indian Ocean Territory": {
+        "Entity": "British Indian Ocean Territory",
+        "Code": "IOT",
+        "Year": "2015",
+        "Prevalence - Anxiety disorders - Sex: Male - Age: Age-standardized (Percent)": "",
+        "Prevalence - Anxiety disorders - Sex: Female - Age: Age-standardized (Percent)": "",
+        "Total population (Gapminder, HYDE & UN)": "",
+        "Continent": "Asia"
+    },
+    "British Virgin Islands": {
+        "Entity": "British Virgin Islands",
+        "Code": "VGB",
+        "Year": "2021",
+        "Prevalence - Anxiety disorders - Sex: Male - Age: Age-standardized (Percent)": "",
+        "Prevalence - Anxiety disorders - Sex: Female - Age: Age-standardized (Percent)": "",
+        "Total population (Gapminder, HYDE & UN)": "30423",
+        "Continent": ""
+    },
+    "Brunei": {
+        "Entity": "Brunei",
+        "Code": "BRN",
+        "Year": "2021",
+        "Prevalence - Anxiety disorders - Sex: Male - Age: Age-standardized (Percent)": "",
+        "Prevalence - Anxiety disorders - Sex: Female - Age: Age-standardized (Percent)": "",
+        "Total population (Gapminder, HYDE & UN)": "441532",
+        "Continent": ""
+    },
+    "Bulgaria": {
+        "Entity": "Bulgaria",
+        "Code": "BGR",
+        "Year": "2021",
+        "Prevalence - Anxiety disorders - Sex: Male - Age: Age-standardized (Percent)": "",
+        "Prevalence - Anxiety disorders - Sex: Female - Age: Age-standardized (Percent)": "",
+        "Total population (Gapminder, HYDE & UN)": "6896655",
+        "Continent": ""
+    },
+    "Burkina Faso": {
+        "Entity": "Burkina Faso",
+        "Code": "BFA",
+        "Year": "2021",
+        "Prevalence - Anxiety disorders - Sex: Male - Age: Age-standardized (Percent)": "",
+        "Prevalence - Anxiety disorders - Sex: Female - Age: Age-standardized (Percent)": "",
+        "Total population (Gapminder, HYDE & UN)": "21497097",
+        "Continent": ""
+    },
+    "Burundi": {
+        "Entity": "Burundi",
+        "Code": "BDI",
+        "Year": "2021",
+        "Prevalence - Anxiety disorders - Sex: Male - Age: Age-standardized (Percent)": "",
+        "Prevalence - Anxiety disorders - Sex: Female - Age: Age-standardized (Percent)": "",
+        "Total population (Gapminder, HYDE & UN)": "12255429",
+        "Continent": ""
+    },
+    "Cambodia": {
+        "Entity": "Cambodia",
+        "Code": "KHM",
+        "Year": "2021",
+        "Prevalence - Anxiety disorders - Sex: Male - Age: Age-standardized (Percent)": "",
+        "Prevalence - Anxiety disorders - Sex: Female - Age: Age-standardized (Percent)": "",
+        "Total population (Gapminder, HYDE & UN)": "16946446",
+        "Continent": ""
+    },
+    "Cameroon": {
+        "Entity": "Cameroon",
+        "Code": "CMR",
+        "Year": "2021",
+        "Prevalence - Anxiety disorders - Sex: Male - Age: Age-standardized (Percent)": "",
+        "Prevalence - Anxiety disorders - Sex: Female - Age: Age-standardized (Percent)": "",
+        "Total population (Gapminder, HYDE & UN)": "27224262",
+        "Continent": ""
+    },
+    "Canada": {
+        "Entity": "Canada",
+        "Code": "CAN",
+        "Year": "2021",
+        "Prevalence - Anxiety disorders - Sex: Male - Age: Age-standardized (Percent)": "",
+        "Prevalence - Anxiety disorders - Sex: Female - Age: Age-standardized (Percent)": "",
+        "Total population (Gapminder, HYDE & UN)": "38067913",
+        "Continent": ""
+    },
+    "Cape Verde": {
+        "Entity": "Cape Verde",
+        "Code": "CPV",
+        "Year": "2021",
+        "Prevalence - Anxiety disorders - Sex: Male - Age: Age-standardized (Percent)": "",
+        "Prevalence - Anxiety disorders - Sex: Female - Age: Age-standardized (Percent)": "",
+        "Total population (Gapminder, HYDE & UN)": "561901",
+        "Continent": ""
+    },
+    "Caribbean": {
+        "Entity": "Caribbean",
+        "Code": "",
+        "Year": "2017",
+        "Prevalence - Anxiety disorders - Sex: Male - Age: Age-standardized (Percent)": "3.28025120449",
+        "Prevalence - Anxiety disorders - Sex: Female - Age: Age-standardized (Percent)": "5.7884122887",
+        "Total population (Gapminder, HYDE & UN)": "",
+        "Continent": ""
+    },
+    "Cayman Islands": {
+        "Entity": "Cayman Islands",
+        "Code": "CYM",
+        "Year": "2021",
+        "Prevalence - Anxiety disorders - Sex: Male - Age: Age-standardized (Percent)": "",
+        "Prevalence - Anxiety disorders - Sex: Female - Age: Age-standardized (Percent)": "",
+        "Total population (Gapminder, HYDE & UN)": "66498",
+        "Continent": ""
+    },
+    "Central African Republic": {
+        "Entity": "Central African Republic",
+        "Code": "CAF",
+        "Year": "2021",
+        "Prevalence - Anxiety disorders - Sex: Male - Age: Age-standardized (Percent)": "",
+        "Prevalence - Anxiety disorders - Sex: Female - Age: Age-standardized (Percent)": "",
+        "Total population (Gapminder, HYDE & UN)": "4919987",
+        "Continent": ""
+    },
+    "Central Asia": {
+        "Entity": "Central Asia",
+        "Code": "",
+        "Year": "2017",
+        "Prevalence - Anxiety disorders - Sex: Male - Age: Age-standardized (Percent)": "1.88428837242",
+        "Prevalence - Anxiety disorders - Sex: Female - Age: Age-standardized (Percent)": "3.19966737727",
+        "Total population (Gapminder, HYDE & UN)": "",
+        "Continent": ""
+    },
+    "Central Europe": {
+        "Entity": "Central Europe",
+        "Code": "",
+        "Year": "2017",
+        "Prevalence - Anxiety disorders - Sex: Male - Age: Age-standardized (Percent)": "2.5298579340500003",
+        "Prevalence - Anxiety disorders - Sex: Female - Age: Age-standardized (Percent)": "4.25747656609",
+        "Total population (Gapminder, HYDE & UN)": "",
+        "Continent": ""
+    },
+    "Central Europe, Eastern Europe, and Central Asia": {
+        "Entity": "Central Europe, Eastern Europe, and Central Asia",
+        "Code": "",
+        "Year": "2017",
+        "Prevalence - Anxiety disorders - Sex: Male - Age: Age-standardized (Percent)": "2.30436113177",
+        "Prevalence - Anxiety disorders - Sex: Female - Age: Age-standardized (Percent)": "3.58989628992",
+        "Total population (Gapminder, HYDE & UN)": "",
+        "Continent": ""
+    },
+    "Central Latin America": {
+        "Entity": "Central Latin America",
+        "Code": "",
+        "Year": "2017",
+        "Prevalence - Anxiety disorders - Sex: Male - Age: Age-standardized (Percent)": "2.14795077866",
+        "Prevalence - Anxiety disorders - Sex: Female - Age: Age-standardized (Percent)": "3.7094051598799997",
+        "Total population (Gapminder, HYDE & UN)": "",
+        "Continent": ""
+    },
+    "Central Sub-Saharan Africa": {
+        "Entity": "Central Sub-Saharan Africa",
+        "Code": "",
+        "Year": "2017",
+        "Prevalence - Anxiety disorders - Sex: Male - Age: Age-standardized (Percent)": "2.57050360117",
+        "Prevalence - Anxiety disorders - Sex: Female - Age: Age-standardized (Percent)": "3.9114309065599997",
+        "Total population (Gapminder, HYDE & UN)": "",
+        "Continent": ""
+    },
+    "Chad": {
+        "Entity": "Chad",
+        "Code": "TCD",
+        "Year": "2021",
+        "Prevalence - Anxiety disorders - Sex: Male - Age: Age-standardized (Percent)": "",
+        "Prevalence - Anxiety disorders - Sex: Female - Age: Age-standardized (Percent)": "",
+        "Total population (Gapminder, HYDE & UN)": "16914985",
+        "Continent": ""
+    },
+    "Channel Islands": {
+        "Entity": "Channel Islands",
+        "Code": "OWID_CIS",
+        "Year": "2021",
+        "Prevalence - Anxiety disorders - Sex: Male - Age: Age-standardized (Percent)": "",
+        "Prevalence - Anxiety disorders - Sex: Female - Age: Age-standardized (Percent)": "",
+        "Total population (Gapminder, HYDE & UN)": "175244",
+        "Continent": ""
+    },
+    "Chile": {
+        "Entity": "Chile",
+        "Code": "CHL",
+        "Year": "2021",
+        "Prevalence - Anxiety disorders - Sex: Male - Age: Age-standardized (Percent)": "",
+        "Prevalence - Anxiety disorders - Sex: Female - Age: Age-standardized (Percent)": "",
+        "Total population (Gapminder, HYDE & UN)": "19212362",
+        "Continent": ""
+    },
+    "China": {
+        "Entity": "China",
+        "Code": "CHN",
+        "Year": "2021",
+        "Prevalence - Anxiety disorders - Sex: Male - Age: Age-standardized (Percent)": "",
+        "Prevalence - Anxiety disorders - Sex: Female - Age: Age-standardized (Percent)": "",
+        "Total population (Gapminder, HYDE & UN)": "1444216102",
+        "Continent": ""
+    },
+    "Christmas Island": {
+        "Entity": "Christmas Island",
+        "Code": "CXR",
+        "Year": "2015",
+        "Prevalence - Anxiety disorders - Sex: Male - Age: Age-standardized (Percent)": "",
+        "Prevalence - Anxiety disorders - Sex: Female - Age: Age-standardized (Percent)": "",
+        "Total population (Gapminder, HYDE & UN)": "",
+        "Continent": "Asia"
+    },
+    "Cocos Islands": {
+        "Entity": "Cocos Islands",
+        "Code": "CCK",
+        "Year": "2015",
+        "Prevalence - Anxiety disorders - Sex: Male - Age: Age-standardized (Percent)": "",
+        "Prevalence - Anxiety disorders - Sex: Female - Age: Age-standardized (Percent)": "",
+        "Total population (Gapminder, HYDE & UN)": "",
+        "Continent": "Asia"
+    },
+    "Colombia": {
+        "Entity": "Colombia",
+        "Code": "COL",
+        "Year": "2021",
+        "Prevalence - Anxiety disorders - Sex: Male - Age: Age-standardized (Percent)": "",
+        "Prevalence - Anxiety disorders - Sex: Female - Age: Age-standardized (Percent)": "",
+        "Total population (Gapminder, HYDE & UN)": "51265841",
+        "Continent": ""
+    },
+    "Comoros": {
+        "Entity": "Comoros",
+        "Code": "COM",
+        "Year": "2021",
+        "Prevalence - Anxiety disorders - Sex: Male - Age: Age-standardized (Percent)": "",
+        "Prevalence - Anxiety disorders - Sex: Female - Age: Age-standardized (Percent)": "",
+        "Total population (Gapminder, HYDE & UN)": "888456",
+        "Continent": ""
+    },
+    "Congo": {
+        "Entity": "Congo",
+        "Code": "COG",
+        "Year": "2021",
+        "Prevalence - Anxiety disorders - Sex: Male - Age: Age-standardized (Percent)": "",
+        "Prevalence - Anxiety disorders - Sex: Female - Age: Age-standardized (Percent)": "",
+        "Total population (Gapminder, HYDE & UN)": "5657017",
+        "Continent": ""
+    },
+    "Cook Islands": {
+        "Entity": "Cook Islands",
+        "Code": "COK",
+        "Year": "2021",
+        "Prevalence - Anxiety disorders - Sex: Male - Age: Age-standardized (Percent)": "",
+        "Prevalence - Anxiety disorders - Sex: Female - Age: Age-standardized (Percent)": "",
+        "Total population (Gapminder, HYDE & UN)": "17572",
+        "Continent": ""
+    },
+    "Costa Rica": {
+        "Entity": "Costa Rica",
+        "Code": "CRI",
+        "Year": "2021",
+        "Prevalence - Anxiety disorders - Sex: Male - Age: Age-standardized (Percent)": "",
+        "Prevalence - Anxiety disorders - Sex: Female - Age: Age-standardized (Percent)": "",
+        "Total population (Gapminder, HYDE & UN)": "5139053",
+        "Continent": ""
+    },
+    "Cote d'Ivoire": {
+        "Entity": "Cote d'Ivoire",
+        "Code": "CIV",
+        "Year": "2021",
+        "Prevalence - Anxiety disorders - Sex: Male - Age: Age-standardized (Percent)": "",
+        "Prevalence - Anxiety disorders - Sex: Female - Age: Age-standardized (Percent)": "",
+        "Total population (Gapminder, HYDE & UN)": "27053629",
+        "Continent": ""
+    },
+    "Croatia": {
+        "Entity": "Croatia",
+        "Code": "HRV",
+        "Year": "2021",
+        "Prevalence - Anxiety disorders - Sex: Male - Age: Age-standardized (Percent)": "",
+        "Prevalence - Anxiety disorders - Sex: Female - Age: Age-standardized (Percent)": "",
+        "Total population (Gapminder, HYDE & UN)": "4081657",
+        "Continent": ""
+    },
+    "Cuba": {
+        "Entity": "Cuba",
+        "Code": "CUB",
+        "Year": "2021",
+        "Prevalence - Anxiety disorders - Sex: Male - Age: Age-standardized (Percent)": "",
+        "Prevalence - Anxiety disorders - Sex: Female - Age: Age-standardized (Percent)": "",
+        "Total population (Gapminder, HYDE & UN)": "11317498",
+        "Continent": ""
+    },
+    "Curacao": {
+        "Entity": "Curacao",
+        "Code": "CUW",
+        "Year": "2021",
+        "Prevalence - Anxiety disorders - Sex: Male - Age: Age-standardized (Percent)": "",
+        "Prevalence - Anxiety disorders - Sex: Female - Age: Age-standardized (Percent)": "",
+        "Total population (Gapminder, HYDE & UN)": "164796",
+        "Continent": ""
+    },
+    "Cyprus": {
+        "Entity": "Cyprus",
+        "Code": "CYP",
+        "Year": "2021",
+        "Prevalence - Anxiety disorders - Sex: Male - Age: Age-standardized (Percent)": "",
+        "Prevalence - Anxiety disorders - Sex: Female - Age: Age-standardized (Percent)": "",
+        "Total population (Gapminder, HYDE & UN)": "1215588",
+        "Continent": ""
+    },
+    "Czechia": {
+        "Entity": "Czechia",
+        "Code": "CZE",
+        "Year": "2021",
+        "Prevalence - Anxiety disorders - Sex: Male - Age: Age-standardized (Percent)": "",
+        "Prevalence - Anxiety disorders - Sex: Female - Age: Age-standardized (Percent)": "",
+        "Total population (Gapminder, HYDE & UN)": "10724553",
+        "Continent": ""
+    },
+    "Czechoslovakia": {
+        "Entity": "Czechoslovakia",
+        "Code": "OWID_CZS",
+        "Year": "2015",
+        "Prevalence - Anxiety disorders - Sex: Male - Age: Age-standardized (Percent)": "",
+        "Prevalence - Anxiety disorders - Sex: Female - Age: Age-standardized (Percent)": "",
+        "Total population (Gapminder, HYDE & UN)": "",
+        "Continent": "Europe"
+    },
+    "Democratic Republic of Congo": {
+        "Entity": "Democratic Republic of Congo",
+        "Code": "COD",
+        "Year": "2021",
+        "Prevalence - Anxiety disorders - Sex: Male - Age: Age-standardized (Percent)": "",
+        "Prevalence - Anxiety disorders - Sex: Female - Age: Age-standardized (Percent)": "",
+        "Total population (Gapminder, HYDE & UN)": "92377986",
+        "Continent": ""
+    },
+    "Denmark": {
+        "Entity": "Denmark",
+        "Code": "DNK",
+        "Year": "2021",
+        "Prevalence - Anxiety disorders - Sex: Male - Age: Age-standardized (Percent)": "",
+        "Prevalence - Anxiety disorders - Sex: Female - Age: Age-standardized (Percent)": "",
+        "Total population (Gapminder, HYDE & UN)": "5813302",
+        "Continent": ""
+    },
+    "Djibouti": {
+        "Entity": "Djibouti",
+        "Code": "DJI",
+        "Year": "2021",
+        "Prevalence - Anxiety disorders - Sex: Male - Age: Age-standardized (Percent)": "",
+        "Prevalence - Anxiety disorders - Sex: Female - Age: Age-standardized (Percent)": "",
+        "Total population (Gapminder, HYDE & UN)": "1002197",
+        "Continent": ""
+    },
+    "Dominica": {
+        "Entity": "Dominica",
+        "Code": "DMA",
+        "Year": "2021",
+        "Prevalence - Anxiety disorders - Sex: Male - Age: Age-standardized (Percent)": "",
+        "Prevalence - Anxiety disorders - Sex: Female - Age: Age-standardized (Percent)": "",
+        "Total population (Gapminder, HYDE & UN)": "72172",
+        "Continent": ""
+    },
+    "Dominican Republic": {
+        "Entity": "Dominican Republic",
+        "Code": "DOM",
+        "Year": "2021",
+        "Prevalence - Anxiety disorders - Sex: Male - Age: Age-standardized (Percent)": "",
+        "Prevalence - Anxiety disorders - Sex: Female - Age: Age-standardized (Percent)": "",
+        "Total population (Gapminder, HYDE & UN)": "10953714",
+        "Continent": ""
+    },
+    "East Asia": {
+        "Entity": "East Asia",
+        "Code": "",
+        "Year": "2017",
+        "Prevalence - Anxiety disorders - Sex: Male - Age: Age-standardized (Percent)": "2.3001276846",
+        "Prevalence - Anxiety disorders - Sex: Female - Age: Age-standardized (Percent)": "3.7920492304100004",
+        "Total population (Gapminder, HYDE & UN)": "",
+        "Continent": ""
+    },
+    "East Germany": {
+        "Entity": "East Germany",
+        "Code": "OWID_GDR",
+        "Year": "2015",
+        "Prevalence - Anxiety disorders - Sex: Male - Age: Age-standardized (Percent)": "",
+        "Prevalence - Anxiety disorders - Sex: Female - Age: Age-standardized (Percent)": "",
+        "Total population (Gapminder, HYDE & UN)": "",
+        "Continent": "Europe"
+    },
+    "Eastern Europe": {
+        "Entity": "Eastern Europe",
+        "Code": "",
+        "Year": "2017",
+        "Prevalence - Anxiety disorders - Sex: Male - Age: Age-standardized (Percent)": "2.38239865742",
+        "Prevalence - Anxiety disorders - Sex: Female - Age: Age-standardized (Percent)": "3.42366870045",
+        "Total population (Gapminder, HYDE & UN)": "",
+        "Continent": ""
+    },
+    "Eastern Sub-Saharan Africa": {
+        "Entity": "Eastern Sub-Saharan Africa",
+        "Code": "",
+        "Year": "2017",
+        "Prevalence - Anxiety disorders - Sex: Male - Age: Age-standardized (Percent)": "2.41825379306",
+        "Prevalence - Anxiety disorders - Sex: Female - Age: Age-standardized (Percent)": "4.80742645592",
+        "Total population (Gapminder, HYDE & UN)": "",
+        "Continent": ""
+    },
+    "Ecuador": {
+        "Entity": "Ecuador",
+        "Code": "ECU",
+        "Year": "2021",
+        "Prevalence - Anxiety disorders - Sex: Male - Age: Age-standardized (Percent)": "",
+        "Prevalence - Anxiety disorders - Sex: Female - Age: Age-standardized (Percent)": "",
+        "Total population (Gapminder, HYDE & UN)": "17888474",
+        "Continent": ""
+    },
+    "Egypt": {
+        "Entity": "Egypt",
+        "Code": "EGY",
+        "Year": "2021",
+        "Prevalence - Anxiety disorders - Sex: Male - Age: Age-standardized (Percent)": "",
+        "Prevalence - Anxiety disorders - Sex: Female - Age: Age-standardized (Percent)": "",
+        "Total population (Gapminder, HYDE & UN)": "104258327",
+        "Continent": ""
+    },
+    "El Salvador": {
+        "Entity": "El Salvador",
+        "Code": "SLV",
+        "Year": "2021",
+        "Prevalence - Anxiety disorders - Sex: Male - Age: Age-standardized (Percent)": "",
+        "Prevalence - Anxiety disorders - Sex: Female - Age: Age-standardized (Percent)": "",
+        "Total population (Gapminder, HYDE & UN)": "6518500",
+        "Continent": ""
+    },
+    "England": {
+        "Entity": "England",
+        "Code": "",
+        "Year": "2017",
+        "Prevalence - Anxiety disorders - Sex: Male - Age: Age-standardized (Percent)": "3.4081150221700005",
+        "Prevalence - Anxiety disorders - Sex: Female - Age: Age-standardized (Percent)": "5.6270135225299995",
+        "Total population (Gapminder, HYDE & UN)": "",
+        "Continent": ""
+    },
+    "Equatorial Guinea": {
+        "Entity": "Equatorial Guinea",
+        "Code": "GNQ",
+        "Year": "2021",
+        "Prevalence - Anxiety disorders - Sex: Male - Age: Age-standardized (Percent)": "",
+        "Prevalence - Anxiety disorders - Sex: Female - Age: Age-standardized (Percent)": "",
+        "Total population (Gapminder, HYDE & UN)": "1449891",
+        "Continent": ""
+    },
+    "Eritrea": {
+        "Entity": "Eritrea",
+        "Code": "ERI",
+        "Year": "2021",
+        "Prevalence - Anxiety disorders - Sex: Male - Age: Age-standardized (Percent)": "",
+        "Prevalence - Anxiety disorders - Sex: Female - Age: Age-standardized (Percent)": "",
+        "Total population (Gapminder, HYDE & UN)": "3601462",
+        "Continent": ""
+    },
+    "Eritrea and Ethiopia": {
+        "Entity": "Eritrea and Ethiopia",
+        "Code": "OWID_ERE",
+        "Year": "2015",
+        "Prevalence - Anxiety disorders - Sex: Male - Age: Age-standardized (Percent)": "",
+        "Prevalence - Anxiety disorders - Sex: Female - Age: Age-standardized (Percent)": "",
+        "Total population (Gapminder, HYDE & UN)": "",
+        "Continent": "Africa"
+    },
+    "Estonia": {
+        "Entity": "Estonia",
+        "Code": "EST",
+        "Year": "2021",
+        "Prevalence - Anxiety disorders - Sex: Male - Age: Age-standardized (Percent)": "",
+        "Prevalence - Anxiety disorders - Sex: Female - Age: Age-standardized (Percent)": "",
+        "Total population (Gapminder, HYDE & UN)": "1325188",
+        "Continent": ""
+    },
+    "Eswatini": {
+        "Entity": "Eswatini",
+        "Code": "SWZ",
+        "Year": "2021",
+        "Prevalence - Anxiety disorders - Sex: Male - Age: Age-standardized (Percent)": "",
+        "Prevalence - Anxiety disorders - Sex: Female - Age: Age-standardized (Percent)": "",
+        "Total population (Gapminder, HYDE & UN)": "1172369",
+        "Continent": ""
+    },
+    "Ethiopia": {
+        "Entity": "Ethiopia",
+        "Code": "ETH",
+        "Year": "2021",
+        "Prevalence - Anxiety disorders - Sex: Male - Age: Age-standardized (Percent)": "",
+        "Prevalence - Anxiety disorders - Sex: Female - Age: Age-standardized (Percent)": "",
+        "Total population (Gapminder, HYDE & UN)": "117876226",
+        "Continent": ""
+    },
+    "Europe": {
+        "Entity": "Europe",
+        "Code": "",
+        "Year": "2021",
+        "Prevalence - Anxiety disorders - Sex: Male - Age: Age-standardized (Percent)": "",
+        "Prevalence - Anxiety disorders - Sex: Female - Age: Age-standardized (Percent)": "",
+        "Total population (Gapminder, HYDE & UN)": "748962983",
+        "Continent": ""
+    },
+    "Faeroe Islands": {
+        "Entity": "Faeroe Islands",
+        "Code": "FRO",
+        "Year": "2021",
+        "Prevalence - Anxiety disorders - Sex: Male - Age: Age-standardized (Percent)": "",
+        "Prevalence - Anxiety disorders - Sex: Female - Age: Age-standardized (Percent)": "",
+        "Total population (Gapminder, HYDE & UN)": "49053",
+        "Continent": ""
+    },
+    "Falkland Islands": {
+        "Entity": "Falkland Islands",
+        "Code": "FLK",
+        "Year": "2021",
+        "Prevalence - Anxiety disorders - Sex: Male - Age: Age-standardized (Percent)": "",
+        "Prevalence - Anxiety disorders - Sex: Female - Age: Age-standardized (Percent)": "",
+        "Total population (Gapminder, HYDE & UN)": "3528",
+        "Continent": ""
+    },
+    "Fiji": {
+        "Entity": "Fiji",
+        "Code": "FJI",
+        "Year": "2021",
+        "Prevalence - Anxiety disorders - Sex: Male - Age: Age-standardized (Percent)": "",
+        "Prevalence - Anxiety disorders - Sex: Female - Age: Age-standardized (Percent)": "",
+        "Total population (Gapminder, HYDE & UN)": "902899",
+        "Continent": ""
+    },
+    "Finland": {
+        "Entity": "Finland",
+        "Code": "FIN",
+        "Year": "2021",
+        "Prevalence - Anxiety disorders - Sex: Male - Age: Age-standardized (Percent)": "",
+        "Prevalence - Anxiety disorders - Sex: Female - Age: Age-standardized (Percent)": "",
+        "Total population (Gapminder, HYDE & UN)": "5548361",
+        "Continent": ""
+    },
+    "France": {
+        "Entity": "France",
+        "Code": "FRA",
+        "Year": "2021",
+        "Prevalence - Anxiety disorders - Sex: Male - Age: Age-standardized (Percent)": "",
+        "Prevalence - Anxiety disorders - Sex: Female - Age: Age-standardized (Percent)": "",
+        "Total population (Gapminder, HYDE & UN)": "65426177",
+        "Continent": ""
+    },
+    "French Guiana": {
+        "Entity": "French Guiana",
+        "Code": "GUF",
+        "Year": "2021",
+        "Prevalence - Anxiety disorders - Sex: Male - Age: Age-standardized (Percent)": "",
+        "Prevalence - Anxiety disorders - Sex: Female - Age: Age-standardized (Percent)": "",
+        "Total population (Gapminder, HYDE & UN)": "306450",
+        "Continent": ""
+    },
+    "French Polynesia": {
+        "Entity": "French Polynesia",
+        "Code": "PYF",
+        "Year": "2021",
+        "Prevalence - Anxiety disorders - Sex: Male - Age: Age-standardized (Percent)": "",
+        "Prevalence - Anxiety disorders - Sex: Female - Age: Age-standardized (Percent)": "",
+        "Total population (Gapminder, HYDE & UN)": "282534",
+        "Continent": ""
+    },
+    "French Southern Territories": {
+        "Entity": "French Southern Territories",
+        "Code": "ATF",
+        "Year": "2015",
+        "Prevalence - Anxiety disorders - Sex: Male - Age: Age-standardized (Percent)": "",
+        "Prevalence - Anxiety disorders - Sex: Female - Age: Age-standardized (Percent)": "",
+        "Total population (Gapminder, HYDE & UN)": "",
+        "Continent": "Antarctica"
+    },
+    "Gabon": {
+        "Entity": "Gabon",
+        "Code": "GAB",
+        "Year": "2021",
+        "Prevalence - Anxiety disorders - Sex: Male - Age: Age-standardized (Percent)": "",
+        "Prevalence - Anxiety disorders - Sex: Female - Age: Age-standardized (Percent)": "",
+        "Total population (Gapminder, HYDE & UN)": "2278829",
+        "Continent": ""
+    },
+    "Gambia": {
+        "Entity": "Gambia",
+        "Code": "GMB",
+        "Year": "2021",
+        "Prevalence - Anxiety disorders - Sex: Male - Age: Age-standardized (Percent)": "",
+        "Prevalence - Anxiety disorders - Sex: Female - Age: Age-standardized (Percent)": "",
+        "Total population (Gapminder, HYDE & UN)": "2486937",
+        "Continent": ""
+    },
+    "Georgia": {
+        "Entity": "Georgia",
+        "Code": "GEO",
+        "Year": "2021",
+        "Prevalence - Anxiety disorders - Sex: Male - Age: Age-standardized (Percent)": "",
+        "Prevalence - Anxiety disorders - Sex: Female - Age: Age-standardized (Percent)": "",
+        "Total population (Gapminder, HYDE & UN)": "3979773",
+        "Continent": ""
+    },
+    "Germany": {
+        "Entity": "Germany",
+        "Code": "DEU",
+        "Year": "2021",
+        "Prevalence - Anxiety disorders - Sex: Male - Age: Age-standardized (Percent)": "",
+        "Prevalence - Anxiety disorders - Sex: Female - Age: Age-standardized (Percent)": "",
+        "Total population (Gapminder, HYDE & UN)": "83900471",
+        "Continent": ""
+    },
+    "Ghana": {
+        "Entity": "Ghana",
+        "Code": "GHA",
+        "Year": "2021",
+        "Prevalence - Anxiety disorders - Sex: Male - Age: Age-standardized (Percent)": "",
+        "Prevalence - Anxiety disorders - Sex: Female - Age: Age-standardized (Percent)": "",
+        "Total population (Gapminder, HYDE & UN)": "31732128",
+        "Continent": ""
+    },
+    "Gibraltar": {
+        "Entity": "Gibraltar",
+        "Code": "GIB",
+        "Year": "2021",
+        "Prevalence - Anxiety disorders - Sex: Male - Age: Age-standardized (Percent)": "",
+        "Prevalence - Anxiety disorders - Sex: Female - Age: Age-standardized (Percent)": "",
+        "Total population (Gapminder, HYDE & UN)": "33691",
+        "Continent": ""
+    },
+    "Greece": {
+        "Entity": "Greece",
+        "Code": "GRC",
+        "Year": "2021",
+        "Prevalence - Anxiety disorders - Sex: Male - Age: Age-standardized (Percent)": "",
+        "Prevalence - Anxiety disorders - Sex: Female - Age: Age-standardized (Percent)": "",
+        "Total population (Gapminder, HYDE & UN)": "10370747",
+        "Continent": ""
+    },
+    "Greenland": {
+        "Entity": "Greenland",
+        "Code": "GRL",
+        "Year": "2021",
+        "Prevalence - Anxiety disorders - Sex: Male - Age: Age-standardized (Percent)": "",
+        "Prevalence - Anxiety disorders - Sex: Female - Age: Age-standardized (Percent)": "",
+        "Total population (Gapminder, HYDE & UN)": "56868",
+        "Continent": ""
+    },
+    "Grenada": {
+        "Entity": "Grenada",
+        "Code": "GRD",
+        "Year": "2021",
+        "Prevalence - Anxiety disorders - Sex: Male - Age: Age-standardized (Percent)": "",
+        "Prevalence - Anxiety disorders - Sex: Female - Age: Age-standardized (Percent)": "",
+        "Total population (Gapminder, HYDE & UN)": "113015",
+        "Continent": ""
+    },
+    "Guadeloupe": {
+        "Entity": "Guadeloupe",
+        "Code": "GLP",
+        "Year": "2021",
+        "Prevalence - Anxiety disorders - Sex: Male - Age: Age-standardized (Percent)": "",
+        "Prevalence - Anxiety disorders - Sex: Female - Age: Age-standardized (Percent)": "",
+        "Total population (Gapminder, HYDE & UN)": "400013",
+        "Continent": ""
+    },
+    "Guam": {
+        "Entity": "Guam",
+        "Code": "GUM",
+        "Year": "2021",
+        "Prevalence - Anxiety disorders - Sex: Male - Age: Age-standardized (Percent)": "",
+        "Prevalence - Anxiety disorders - Sex: Female - Age: Age-standardized (Percent)": "",
+        "Total population (Gapminder, HYDE & UN)": "170184",
+        "Continent": ""
+    },
+    "Guatemala": {
+        "Entity": "Guatemala",
+        "Code": "GTM",
+        "Year": "2021",
+        "Prevalence - Anxiety disorders - Sex: Male - Age: Age-standardized (Percent)": "",
+        "Prevalence - Anxiety disorders - Sex: Female - Age: Age-standardized (Percent)": "",
+        "Total population (Gapminder, HYDE & UN)": "18249868",
+        "Continent": ""
+    },
+    "Guernsey": {
+        "Entity": "Guernsey",
+        "Code": "GGY",
+        "Year": "2015",
+        "Prevalence - Anxiety disorders - Sex: Male - Age: Age-standardized (Percent)": "",
+        "Prevalence - Anxiety disorders - Sex: Female - Age: Age-standardized (Percent)": "",
+        "Total population (Gapminder, HYDE & UN)": "",
+        "Continent": "Europe"
+    },
+    "Guinea": {
+        "Entity": "Guinea",
+        "Code": "GIN",
+        "Year": "2021",
+        "Prevalence - Anxiety disorders - Sex: Male - Age: Age-standardized (Percent)": "",
+        "Prevalence - Anxiety disorders - Sex: Female - Age: Age-standardized (Percent)": "",
+        "Total population (Gapminder, HYDE & UN)": "13497237",
+        "Continent": ""
+    },
+    "Guinea-Bissau": {
+        "Entity": "Guinea-Bissau",
+        "Code": "GNB",
+        "Year": "2021",
+        "Prevalence - Anxiety disorders - Sex: Male - Age: Age-standardized (Percent)": "",
+        "Prevalence - Anxiety disorders - Sex: Female - Age: Age-standardized (Percent)": "",
+        "Total population (Gapminder, HYDE & UN)": "2015490",
+        "Continent": ""
+    },
+    "Guyana": {
+        "Entity": "Guyana",
+        "Code": "GUY",
+        "Year": "2021",
+        "Prevalence - Anxiety disorders - Sex: Male - Age: Age-standardized (Percent)": "",
+        "Prevalence - Anxiety disorders - Sex: Female - Age: Age-standardized (Percent)": "",
+        "Total population (Gapminder, HYDE & UN)": "790329",
+        "Continent": ""
+    },
+    "Haiti": {
+        "Entity": "Haiti",
+        "Code": "HTI",
+        "Year": "2021",
+        "Prevalence - Anxiety disorders - Sex: Male - Age: Age-standardized (Percent)": "",
+        "Prevalence - Anxiety disorders - Sex: Female - Age: Age-standardized (Percent)": "",
+        "Total population (Gapminder, HYDE & UN)": "11541683",
+        "Continent": ""
+    },
+    "Hanover": {
+        "Entity": "Hanover",
+        "Code": "OWID_HAN",
+        "Year": "2015",
+        "Prevalence - Anxiety disorders - Sex: Male - Age: Age-standardized (Percent)": "",
+        "Prevalence - Anxiety disorders - Sex: Female - Age: Age-standardized (Percent)": "",
+        "Total population (Gapminder, HYDE & UN)": "",
+        "Continent": "Europe"
+    },
+    "Heard Island and McDonald Islands": {
+        "Entity": "Heard Island and McDonald Islands",
+        "Code": "HMD",
+        "Year": "2015",
+        "Prevalence - Anxiety disorders - Sex: Male - Age: Age-standardized (Percent)": "",
+        "Prevalence - Anxiety disorders - Sex: Female - Age: Age-standardized (Percent)": "",
+        "Total population (Gapminder, HYDE & UN)": "",
+        "Continent": "Antarctica"
+    },
+    "Hesse Electoral": {
+        "Entity": "Hesse Electoral",
+        "Code": "OWID_HSE",
+        "Year": "2015",
+        "Prevalence - Anxiety disorders - Sex: Male - Age: Age-standardized (Percent)": "",
+        "Prevalence - Anxiety disorders - Sex: Female - Age: Age-standardized (Percent)": "",
+        "Total population (Gapminder, HYDE & UN)": "",
+        "Continent": "Europe"
+    },
+    "Hesse Grand Ducal": {
+        "Entity": "Hesse Grand Ducal",
+        "Code": "OWID_HSG",
+        "Year": "2015",
+        "Prevalence - Anxiety disorders - Sex: Male - Age: Age-standardized (Percent)": "",
+        "Prevalence - Anxiety disorders - Sex: Female - Age: Age-standardized (Percent)": "",
+        "Total population (Gapminder, HYDE & UN)": "",
+        "Continent": "Europe"
+    },
+    "High SDI": {
+        "Entity": "High SDI",
+        "Code": "",
+        "Year": "2017",
+        "Prevalence - Anxiety disorders - Sex: Male - Age: Age-standardized (Percent)": "3.76982976275",
+        "Prevalence - Anxiety disorders - Sex: Female - Age: Age-standardized (Percent)": "6.8058575045600005",
+        "Total population (Gapminder, HYDE & UN)": "",
+        "Continent": ""
+    },
+    "High-income": {
+        "Entity": "High-income",
+        "Code": "",
+        "Year": "2017",
+        "Prevalence - Anxiety disorders - Sex: Male - Age: Age-standardized (Percent)": "3.94502436173",
+        "Prevalence - Anxiety disorders - Sex: Female - Age: Age-standardized (Percent)": "7.34738137136",
+        "Total population (Gapminder, HYDE & UN)": "",
+        "Continent": ""
+    },
+    "High-income Asia Pacific": {
+        "Entity": "High-income Asia Pacific",
+        "Code": "",
+        "Year": "2017",
+        "Prevalence - Anxiety disorders - Sex: Male - Age: Age-standardized (Percent)": "2.80405504708",
+        "Prevalence - Anxiety disorders - Sex: Female - Age: Age-standardized (Percent)": "4.45142632883",
+        "Total population (Gapminder, HYDE & UN)": "",
+        "Continent": ""
+    },
+    "High-middle SDI": {
+        "Entity": "High-middle SDI",
+        "Code": "",
+        "Year": "2017",
+        "Prevalence - Anxiety disorders - Sex: Male - Age: Age-standardized (Percent)": "2.83096885869",
+        "Prevalence - Anxiety disorders - Sex: Female - Age: Age-standardized (Percent)": "4.7348235971",
+        "Total population (Gapminder, HYDE & UN)": "",
+        "Continent": ""
+    },
+    "Honduras": {
+        "Entity": "Honduras",
+        "Code": "HND",
+        "Year": "2021",
+        "Prevalence - Anxiety disorders - Sex: Male - Age: Age-standardized (Percent)": "",
+        "Prevalence - Anxiety disorders - Sex: Female - Age: Age-standardized (Percent)": "",
+        "Total population (Gapminder, HYDE & UN)": "10062994",
+        "Continent": ""
+    },
+    "Hong Kong": {
+        "Entity": "Hong Kong",
+        "Code": "HKG",
+        "Year": "2021",
+        "Prevalence - Anxiety disorders - Sex: Male - Age: Age-standardized (Percent)": "",
+        "Prevalence - Anxiety disorders - Sex: Female - Age: Age-standardized (Percent)": "",
+        "Total population (Gapminder, HYDE & UN)": "7552800",
+        "Continent": ""
+    },
+    "Hungary": {
+        "Entity": "Hungary",
+        "Code": "HUN",
+        "Year": "2021",
+        "Prevalence - Anxiety disorders - Sex: Male - Age: Age-standardized (Percent)": "",
+        "Prevalence - Anxiety disorders - Sex: Female - Age: Age-standardized (Percent)": "",
+        "Total population (Gapminder, HYDE & UN)": "9634162",
+        "Continent": ""
+    },
+    "Iceland": {
+        "Entity": "Iceland",
+        "Code": "ISL",
+        "Year": "2021",
+        "Prevalence - Anxiety disorders - Sex: Male - Age: Age-standardized (Percent)": "",
+        "Prevalence - Anxiety disorders - Sex: Female - Age: Age-standardized (Percent)": "",
+        "Total population (Gapminder, HYDE & UN)": "343360",
+        "Continent": ""
+    },
+    "India": {
+        "Entity": "India",
+        "Code": "IND",
+        "Year": "2021",
+        "Prevalence - Anxiety disorders - Sex: Male - Age: Age-standardized (Percent)": "",
+        "Prevalence - Anxiety disorders - Sex: Female - Age: Age-standardized (Percent)": "",
+        "Total population (Gapminder, HYDE & UN)": "1393409033",
+        "Continent": ""
+    },
+    "Indonesia": {
+        "Entity": "Indonesia",
+        "Code": "IDN",
+        "Year": "2021",
+        "Prevalence - Anxiety disorders - Sex: Male - Age: Age-standardized (Percent)": "",
+        "Prevalence - Anxiety disorders - Sex: Female - Age: Age-standardized (Percent)": "",
+        "Total population (Gapminder, HYDE & UN)": "276361788",
+        "Continent": ""
+    },
+    "Iran": {
+        "Entity": "Iran",
+        "Code": "IRN",
+        "Year": "2021",
+        "Prevalence - Anxiety disorders - Sex: Male - Age: Age-standardized (Percent)": "",
+        "Prevalence - Anxiety disorders - Sex: Female - Age: Age-standardized (Percent)": "",
+        "Total population (Gapminder, HYDE & UN)": "85028760",
+        "Continent": ""
+    },
+    "Iraq": {
+        "Entity": "Iraq",
+        "Code": "IRQ",
+        "Year": "2021",
+        "Prevalence - Anxiety disorders - Sex: Male - Age: Age-standardized (Percent)": "",
+        "Prevalence - Anxiety disorders - Sex: Female - Age: Age-standardized (Percent)": "",
+        "Total population (Gapminder, HYDE & UN)": "41179351",
+        "Continent": ""
+    },
+    "Ireland": {
+        "Entity": "Ireland",
+        "Code": "IRL",
+        "Year": "2021",
+        "Prevalence - Anxiety disorders - Sex: Male - Age: Age-standardized (Percent)": "",
+        "Prevalence - Anxiety disorders - Sex: Female - Age: Age-standardized (Percent)": "",
+        "Total population (Gapminder, HYDE & UN)": "4982904",
+        "Continent": ""
+    },
+    "Isle of Man": {
+        "Entity": "Isle of Man",
+        "Code": "IMN",
+        "Year": "2021",
+        "Prevalence - Anxiety disorders - Sex: Male - Age: Age-standardized (Percent)": "",
+        "Prevalence - Anxiety disorders - Sex: Female - Age: Age-standardized (Percent)": "",
+        "Total population (Gapminder, HYDE & UN)": "85410",
+        "Continent": ""
+    },
+    "Israel": {
+        "Entity": "Israel",
+        "Code": "ISR",
+        "Year": "2021",
+        "Prevalence - Anxiety disorders - Sex: Male - Age: Age-standardized (Percent)": "",
+        "Prevalence - Anxiety disorders - Sex: Female - Age: Age-standardized (Percent)": "",
+        "Total population (Gapminder, HYDE & UN)": "8789776",
+        "Continent": ""
+    },
+    "Italy": {
+        "Entity": "Italy",
+        "Code": "ITA",
+        "Year": "2021",
+        "Prevalence - Anxiety disorders - Sex: Male - Age: Age-standardized (Percent)": "",
+        "Prevalence - Anxiety disorders - Sex: Female - Age: Age-standardized (Percent)": "",
+        "Total population (Gapminder, HYDE & UN)": "60367471",
+        "Continent": ""
+    },
+    "Jamaica": {
+        "Entity": "Jamaica",
+        "Code": "JAM",
+        "Year": "2021",
+        "Prevalence - Anxiety disorders - Sex: Male - Age: Age-standardized (Percent)": "",
+        "Prevalence - Anxiety disorders - Sex: Female - Age: Age-standardized (Percent)": "",
+        "Total population (Gapminder, HYDE & UN)": "2973462",
+        "Continent": ""
+    },
+    "Japan": {
+        "Entity": "Japan",
+        "Code": "JPN",
+        "Year": "2021",
+        "Prevalence - Anxiety disorders - Sex: Male - Age: Age-standardized (Percent)": "",
+        "Prevalence - Anxiety disorders - Sex: Female - Age: Age-standardized (Percent)": "",
+        "Total population (Gapminder, HYDE & UN)": "126050796",
+        "Continent": ""
+    },
+    "Jersey": {
+        "Entity": "Jersey",
+        "Code": "JEY",
+        "Year": "2015",
+        "Prevalence - Anxiety disorders - Sex: Male - Age: Age-standardized (Percent)": "",
+        "Prevalence - Anxiety disorders - Sex: Female - Age: Age-standardized (Percent)": "",
+        "Total population (Gapminder, HYDE & UN)": "",
+        "Continent": "Europe"
+    },
+    "Jordan": {
+        "Entity": "Jordan",
+        "Code": "JOR",
+        "Year": "2021",
+        "Prevalence - Anxiety disorders - Sex: Male - Age: Age-standardized (Percent)": "",
+        "Prevalence - Anxiety disorders - Sex: Female - Age: Age-standardized (Percent)": "",
+        "Total population (Gapminder, HYDE & UN)": "10269022",
+        "Continent": ""
+    },
+    "Kazakhstan": {
+        "Entity": "Kazakhstan",
+        "Code": "KAZ",
+        "Year": "2021",
+        "Prevalence - Anxiety disorders - Sex: Male - Age: Age-standardized (Percent)": "",
+        "Prevalence - Anxiety disorders - Sex: Female - Age: Age-standardized (Percent)": "",
+        "Total population (Gapminder, HYDE & UN)": "18994958",
+        "Continent": ""
+    },
+    "Kenya": {
+        "Entity": "Kenya",
+        "Code": "KEN",
+        "Year": "2021",
+        "Prevalence - Anxiety disorders - Sex: Male - Age: Age-standardized (Percent)": "",
+        "Prevalence - Anxiety disorders - Sex: Female - Age: Age-standardized (Percent)": "",
+        "Total population (Gapminder, HYDE & UN)": "54985702",
+        "Continent": ""
+    },
+    "Kiribati": {
+        "Entity": "Kiribati",
+        "Code": "KIR",
+        "Year": "2021",
+        "Prevalence - Anxiety disorders - Sex: Male - Age: Age-standardized (Percent)": "",
+        "Prevalence - Anxiety disorders - Sex: Female - Age: Age-standardized (Percent)": "",
+        "Total population (Gapminder, HYDE & UN)": "121388",
+        "Continent": ""
+    },
+    "Kosovo": {
+        "Entity": "Kosovo",
+        "Code": "OWID_KOS",
+        "Year": "2015",
+        "Prevalence - Anxiety disorders - Sex: Male - Age: Age-standardized (Percent)": "",
+        "Prevalence - Anxiety disorders - Sex: Female - Age: Age-standardized (Percent)": "",
+        "Total population (Gapminder, HYDE & UN)": "",
+        "Continent": "Europe"
+    },
+    "Kuwait": {
+        "Entity": "Kuwait",
+        "Code": "KWT",
+        "Year": "2021",
+        "Prevalence - Anxiety disorders - Sex: Male - Age: Age-standardized (Percent)": "",
+        "Prevalence - Anxiety disorders - Sex: Female - Age: Age-standardized (Percent)": "",
+        "Total population (Gapminder, HYDE & UN)": "4328553",
+        "Continent": ""
+    },
+    "Kyrgyzstan": {
+        "Entity": "Kyrgyzstan",
+        "Code": "KGZ",
+        "Year": "2021",
+        "Prevalence - Anxiety disorders - Sex: Male - Age: Age-standardized (Percent)": "",
+        "Prevalence - Anxiety disorders - Sex: Female - Age: Age-standardized (Percent)": "",
+        "Total population (Gapminder, HYDE & UN)": "6628347",
+        "Continent": ""
+    },
+    "Laos": {
+        "Entity": "Laos",
+        "Code": "LAO",
+        "Year": "2021",
+        "Prevalence - Anxiety disorders - Sex: Male - Age: Age-standardized (Percent)": "",
+        "Prevalence - Anxiety disorders - Sex: Female - Age: Age-standardized (Percent)": "",
+        "Total population (Gapminder, HYDE & UN)": "7379358",
+        "Continent": ""
+    },
+    "Latin America and Caribbean": {
+        "Entity": "Latin America and Caribbean",
+        "Code": "",
+        "Year": "2017",
+        "Prevalence - Anxiety disorders - Sex: Male - Age: Age-standardized (Percent)": "3.1328660986399997",
+        "Prevalence - Anxiety disorders - Sex: Female - Age: Age-standardized (Percent)": "5.65605399724",
+        "Total population (Gapminder, HYDE & UN)": "",
+        "Continent": ""
+    },
+    "Latvia": {
+        "Entity": "Latvia",
+        "Code": "LVA",
+        "Year": "2021",
+        "Prevalence - Anxiety disorders - Sex: Male - Age: Age-standardized (Percent)": "",
+        "Prevalence - Anxiety disorders - Sex: Female - Age: Age-standardized (Percent)": "",
+        "Total population (Gapminder, HYDE & UN)": "1866934",
+        "Continent": ""
+    },
+    "Lebanon": {
+        "Entity": "Lebanon",
+        "Code": "LBN",
+        "Year": "2021",
+        "Prevalence - Anxiety disorders - Sex: Male - Age: Age-standardized (Percent)": "",
+        "Prevalence - Anxiety disorders - Sex: Female - Age: Age-standardized (Percent)": "",
+        "Total population (Gapminder, HYDE & UN)": "6769151",
+        "Continent": ""
+    },
+    "Lesotho": {
+        "Entity": "Lesotho",
+        "Code": "LSO",
+        "Year": "2021",
+        "Prevalence - Anxiety disorders - Sex: Male - Age: Age-standardized (Percent)": "",
+        "Prevalence - Anxiety disorders - Sex: Female - Age: Age-standardized (Percent)": "",
+        "Total population (Gapminder, HYDE & UN)": "2159067",
+        "Continent": ""
+    },
+    "Liberia": {
+        "Entity": "Liberia",
+        "Code": "LBR",
+        "Year": "2021",
+        "Prevalence - Anxiety disorders - Sex: Male - Age: Age-standardized (Percent)": "",
+        "Prevalence - Anxiety disorders - Sex: Female - Age: Age-standardized (Percent)": "",
+        "Total population (Gapminder, HYDE & UN)": "5180208",
+        "Continent": ""
+    },
+    "Libya": {
+        "Entity": "Libya",
+        "Code": "LBY",
+        "Year": "2021",
+        "Prevalence - Anxiety disorders - Sex: Male - Age: Age-standardized (Percent)": "",
+        "Prevalence - Anxiety disorders - Sex: Female - Age: Age-standardized (Percent)": "",
+        "Total population (Gapminder, HYDE & UN)": "6958538",
+        "Continent": ""
+    },
+    "Liechtenstein": {
+        "Entity": "Liechtenstein",
+        "Code": "LIE",
+        "Year": "2021",
+        "Prevalence - Anxiety disorders - Sex: Male - Age: Age-standardized (Percent)": "",
+        "Prevalence - Anxiety disorders - Sex: Female - Age: Age-standardized (Percent)": "",
+        "Total population (Gapminder, HYDE & UN)": "38254",
+        "Continent": ""
+    },
+    "Lithuania": {
+        "Entity": "Lithuania",
+        "Code": "LTU",
+        "Year": "2021",
+        "Prevalence - Anxiety disorders - Sex: Male - Age: Age-standardized (Percent)": "",
+        "Prevalence - Anxiety disorders - Sex: Female - Age: Age-standardized (Percent)": "",
+        "Total population (Gapminder, HYDE & UN)": "2689862",
+        "Continent": ""
+    },
+    "Low SDI": {
+        "Entity": "Low SDI",
+        "Code": "",
+        "Year": "2017",
+        "Prevalence - Anxiety disorders - Sex: Male - Age: Age-standardized (Percent)": "2.74304987487",
+        "Prevalence - Anxiety disorders - Sex: Female - Age: Age-standardized (Percent)": "4.329711359",
+        "Total population (Gapminder, HYDE & UN)": "",
+        "Continent": ""
+    },
+    "Low-middle SDI": {
+        "Entity": "Low-middle SDI",
+        "Code": "",
+        "Year": "2017",
+        "Prevalence - Anxiety disorders - Sex: Male - Age: Age-standardized (Percent)": "2.8327354173400003",
+        "Prevalence - Anxiety disorders - Sex: Female - Age: Age-standardized (Percent)": "4.43959026483",
+        "Total population (Gapminder, HYDE & UN)": "",
+        "Continent": ""
+    },
+    "Luxembourg": {
+        "Entity": "Luxembourg",
+        "Code": "LUX",
+        "Year": "2021",
+        "Prevalence - Anxiety disorders - Sex: Male - Age: Age-standardized (Percent)": "",
+        "Prevalence - Anxiety disorders - Sex: Female - Age: Age-standardized (Percent)": "",
+        "Total population (Gapminder, HYDE & UN)": "634814",
+        "Continent": ""
+    },
+    "Macao": {
+        "Entity": "Macao",
+        "Code": "MAC",
+        "Year": "2021",
+        "Prevalence - Anxiety disorders - Sex: Male - Age: Age-standardized (Percent)": "",
+        "Prevalence - Anxiety disorders - Sex: Female - Age: Age-standardized (Percent)": "",
+        "Total population (Gapminder, HYDE & UN)": "658391",
+        "Continent": ""
+    },
+    "Madagascar": {
+        "Entity": "Madagascar",
+        "Code": "MDG",
+        "Year": "2021",
+        "Prevalence - Anxiety disorders - Sex: Male - Age: Age-standardized (Percent)": "",
+        "Prevalence - Anxiety disorders - Sex: Female - Age: Age-standardized (Percent)": "",
+        "Total population (Gapminder, HYDE & UN)": "28427333",
+        "Continent": ""
+    },
+    "Malawi": {
+        "Entity": "Malawi",
+        "Code": "MWI",
+        "Year": "2021",
+        "Prevalence - Anxiety disorders - Sex: Male - Age: Age-standardized (Percent)": "",
+        "Prevalence - Anxiety disorders - Sex: Female - Age: Age-standardized (Percent)": "",
+        "Total population (Gapminder, HYDE & UN)": "19647681",
+        "Continent": ""
+    },
+    "Malaysia": {
+        "Entity": "Malaysia",
+        "Code": "MYS",
+        "Year": "2021",
+        "Prevalence - Anxiety disorders - Sex: Male - Age: Age-standardized (Percent)": "",
+        "Prevalence - Anxiety disorders - Sex: Female - Age: Age-standardized (Percent)": "",
+        "Total population (Gapminder, HYDE & UN)": "32776195",
+        "Continent": ""
+    },
+    "Maldives": {
+        "Entity": "Maldives",
+        "Code": "MDV",
+        "Year": "2021",
+        "Prevalence - Anxiety disorders - Sex: Male - Age: Age-standardized (Percent)": "",
+        "Prevalence - Anxiety disorders - Sex: Female - Age: Age-standardized (Percent)": "",
+        "Total population (Gapminder, HYDE & UN)": "543620",
+        "Continent": ""
+    },
+    "Mali": {
+        "Entity": "Mali",
+        "Code": "MLI",
+        "Year": "2021",
+        "Prevalence - Anxiety disorders - Sex: Male - Age: Age-standardized (Percent)": "",
+        "Prevalence - Anxiety disorders - Sex: Female - Age: Age-standardized (Percent)": "",
+        "Total population (Gapminder, HYDE & UN)": "20855724",
+        "Continent": ""
+    },
+    "Malta": {
+        "Entity": "Malta",
+        "Code": "MLT",
+        "Year": "2021",
+        "Prevalence - Anxiety disorders - Sex: Male - Age: Age-standardized (Percent)": "",
+        "Prevalence - Anxiety disorders - Sex: Female - Age: Age-standardized (Percent)": "",
+        "Total population (Gapminder, HYDE & UN)": "442790",
+        "Continent": ""
+    },
+    "Marshall Islands": {
+        "Entity": "Marshall Islands",
+        "Code": "MHL",
+        "Year": "2021",
+        "Prevalence - Anxiety disorders - Sex: Male - Age: Age-standardized (Percent)": "",
+        "Prevalence - Anxiety disorders - Sex: Female - Age: Age-standardized (Percent)": "",
+        "Total population (Gapminder, HYDE & UN)": "59618",
+        "Continent": ""
+    },
+    "Martinique": {
+        "Entity": "Martinique",
+        "Code": "MTQ",
+        "Year": "2021",
+        "Prevalence - Anxiety disorders - Sex: Male - Age: Age-standardized (Percent)": "",
+        "Prevalence - Anxiety disorders - Sex: Female - Age: Age-standardized (Percent)": "",
+        "Total population (Gapminder, HYDE & UN)": "374743",
+        "Continent": ""
+    },
+    "Mauritania": {
+        "Entity": "Mauritania",
+        "Code": "MRT",
+        "Year": "2021",
+        "Prevalence - Anxiety disorders - Sex: Male - Age: Age-standardized (Percent)": "",
+        "Prevalence - Anxiety disorders - Sex: Female - Age: Age-standardized (Percent)": "",
+        "Total population (Gapminder, HYDE & UN)": "4775110",
+        "Continent": ""
+    },
+    "Mauritius": {
+        "Entity": "Mauritius",
+        "Code": "MUS",
+        "Year": "2021",
+        "Prevalence - Anxiety disorders - Sex: Male - Age: Age-standardized (Percent)": "",
+        "Prevalence - Anxiety disorders - Sex: Female - Age: Age-standardized (Percent)": "",
+        "Total population (Gapminder, HYDE & UN)": "1273428",
+        "Continent": ""
+    },
+    "Mayotte": {
+        "Entity": "Mayotte",
+        "Code": "MYT",
+        "Year": "2021",
+        "Prevalence - Anxiety disorders - Sex: Male - Age: Age-standardized (Percent)": "",
+        "Prevalence - Anxiety disorders - Sex: Female - Age: Age-standardized (Percent)": "",
+        "Total population (Gapminder, HYDE & UN)": "279507",
+        "Continent": ""
+    },
+    "Mecklenburg Schwerin": {
+        "Entity": "Mecklenburg Schwerin",
+        "Code": "OWID_MEC",
+        "Year": "2015",
+        "Prevalence - Anxiety disorders - Sex: Male - Age: Age-standardized (Percent)": "",
+        "Prevalence - Anxiety disorders - Sex: Female - Age: Age-standardized (Percent)": "",
+        "Total population (Gapminder, HYDE & UN)": "",
+        "Continent": "Europe"
+    },
+    "Mexico": {
+        "Entity": "Mexico",
+        "Code": "MEX",
+        "Year": "2021",
+        "Prevalence - Anxiety disorders - Sex: Male - Age: Age-standardized (Percent)": "",
+        "Prevalence - Anxiety disorders - Sex: Female - Age: Age-standardized (Percent)": "",
+        "Total population (Gapminder, HYDE & UN)": "130262220",
+        "Continent": ""
+    },
+    "Micronesia (country)": {
+        "Entity": "Micronesia (country)",
+        "Code": "FSM",
+        "Year": "2021",
+        "Prevalence - Anxiety disorders - Sex: Male - Age: Age-standardized (Percent)": "",
+        "Prevalence - Anxiety disorders - Sex: Female - Age: Age-standardized (Percent)": "",
+        "Total population (Gapminder, HYDE & UN)": "116255",
+        "Continent": ""
+    },
+    "Middle SDI": {
+        "Entity": "Middle SDI",
+        "Code": "",
+        "Year": "2017",
+        "Prevalence - Anxiety disorders - Sex: Male - Age: Age-standardized (Percent)": "2.53894728217",
+        "Prevalence - Anxiety disorders - Sex: Female - Age: Age-standardized (Percent)": "4.1297987665499996",
+        "Total population (Gapminder, HYDE & UN)": "",
+        "Continent": ""
+    },
+    "Modena": {
+        "Entity": "Modena",
+        "Code": "OWID_MOD",
+        "Year": "2015",
+        "Prevalence - Anxiety disorders - Sex: Male - Age: Age-standardized (Percent)": "",
+        "Prevalence - Anxiety disorders - Sex: Female - Age: Age-standardized (Percent)": "",
+        "Total population (Gapminder, HYDE & UN)": "",
+        "Continent": "Europe"
+    },
+    "Moldova": {
+        "Entity": "Moldova",
+        "Code": "MDA",
+        "Year": "2021",
+        "Prevalence - Anxiety disorders - Sex: Male - Age: Age-standardized (Percent)": "",
+        "Prevalence - Anxiety disorders - Sex: Female - Age: Age-standardized (Percent)": "",
+        "Total population (Gapminder, HYDE & UN)": "4024025",
+        "Continent": ""
+    },
+    "Monaco": {
+        "Entity": "Monaco",
+        "Code": "MCO",
+        "Year": "2021",
+        "Prevalence - Anxiety disorders - Sex: Male - Age: Age-standardized (Percent)": "",
+        "Prevalence - Anxiety disorders - Sex: Female - Age: Age-standardized (Percent)": "",
+        "Total population (Gapminder, HYDE & UN)": "39520",
+        "Continent": ""
+    },
+    "Mongolia": {
+        "Entity": "Mongolia",
+        "Code": "MNG",
+        "Year": "2021",
+        "Prevalence - Anxiety disorders - Sex: Male - Age: Age-standardized (Percent)": "",
+        "Prevalence - Anxiety disorders - Sex: Female - Age: Age-standardized (Percent)": "",
+        "Total population (Gapminder, HYDE & UN)": "3329282",
+        "Continent": ""
+    },
+    "Montenegro": {
+        "Entity": "Montenegro",
+        "Code": "MNE",
+        "Year": "2021",
+        "Prevalence - Anxiety disorders - Sex: Male - Age: Age-standardized (Percent)": "",
+        "Prevalence - Anxiety disorders - Sex: Female - Age: Age-standardized (Percent)": "",
+        "Total population (Gapminder, HYDE & UN)": "628051",
+        "Continent": ""
+    },
+    "Montserrat": {
+        "Entity": "Montserrat",
+        "Code": "MSR",
+        "Year": "2021",
+        "Prevalence - Anxiety disorders - Sex: Male - Age: Age-standardized (Percent)": "",
+        "Prevalence - Anxiety disorders - Sex: Female - Age: Age-standardized (Percent)": "",
+        "Total population (Gapminder, HYDE & UN)": "4981",
+        "Continent": ""
+    },
+    "Morocco": {
+        "Entity": "Morocco",
+        "Code": "MAR",
+        "Year": "2021",
+        "Prevalence - Anxiety disorders - Sex: Male - Age: Age-standardized (Percent)": "",
+        "Prevalence - Anxiety disorders - Sex: Female - Age: Age-standardized (Percent)": "",
+        "Total population (Gapminder, HYDE & UN)": "37344787",
+        "Continent": ""
+    },
+    "Mozambique": {
+        "Entity": "Mozambique",
+        "Code": "MOZ",
+        "Year": "2021",
+        "Prevalence - Anxiety disorders - Sex: Male - Age: Age-standardized (Percent)": "",
+        "Prevalence - Anxiety disorders - Sex: Female - Age: Age-standardized (Percent)": "",
+        "Total population (Gapminder, HYDE & UN)": "32163045",
+        "Continent": ""
+    },
+    "Myanmar": {
+        "Entity": "Myanmar",
+        "Code": "MMR",
+        "Year": "2021",
+        "Prevalence - Anxiety disorders - Sex: Male - Age: Age-standardized (Percent)": "",
+        "Prevalence - Anxiety disorders - Sex: Female - Age: Age-standardized (Percent)": "",
+        "Total population (Gapminder, HYDE & UN)": "54806014",
+        "Continent": ""
+    },
+    "Nagorno-Karabakh": {
+        "Entity": "Nagorno-Karabakh",
+        "Code": "OWID_NAG",
+        "Year": "2015",
+        "Prevalence - Anxiety disorders - Sex: Male - Age: Age-standardized (Percent)": "",
+        "Prevalence - Anxiety disorders - Sex: Female - Age: Age-standardized (Percent)": "",
+        "Total population (Gapminder, HYDE & UN)": "",
+        "Continent": "Asia"
+    },
+    "Namibia": {
+        "Entity": "Namibia",
+        "Code": "NAM",
+        "Year": "2021",
+        "Prevalence - Anxiety disorders - Sex: Male - Age: Age-standardized (Percent)": "",
+        "Prevalence - Anxiety disorders - Sex: Female - Age: Age-standardized (Percent)": "",
+        "Total population (Gapminder, HYDE & UN)": "2587344",
+        "Continent": ""
+    },
+    "Nauru": {
+        "Entity": "Nauru",
+        "Code": "NRU",
+        "Year": "2021",
+        "Prevalence - Anxiety disorders - Sex: Male - Age: Age-standardized (Percent)": "",
+        "Prevalence - Anxiety disorders - Sex: Female - Age: Age-standardized (Percent)": "",
+        "Total population (Gapminder, HYDE & UN)": "10873",
+        "Continent": ""
+    },
+    "Nepal": {
+        "Entity": "Nepal",
+        "Code": "NPL",
+        "Year": "2021",
+        "Prevalence - Anxiety disorders - Sex: Male - Age: Age-standardized (Percent)": "",
+        "Prevalence - Anxiety disorders - Sex: Female - Age: Age-standardized (Percent)": "",
+        "Total population (Gapminder, HYDE & UN)": "29674920",
+        "Continent": ""
+    },
+    "Netherlands": {
+        "Entity": "Netherlands",
+        "Code": "NLD",
+        "Year": "2021",
+        "Prevalence - Anxiety disorders - Sex: Male - Age: Age-standardized (Percent)": "",
+        "Prevalence - Anxiety disorders - Sex: Female - Age: Age-standardized (Percent)": "",
+        "Total population (Gapminder, HYDE & UN)": "17173094",
+        "Continent": ""
+    },
+    "Netherlands Antilles": {
+        "Entity": "Netherlands Antilles",
+        "Code": "ANT",
+        "Year": "2017",
+        "Prevalence - Anxiety disorders - Sex: Male - Age: Age-standardized (Percent)": "",
+        "Prevalence - Anxiety disorders - Sex: Female - Age: Age-standardized (Percent)": "",
+        "Total population (Gapminder, HYDE & UN)": "321292",
+        "Continent": ""
+    },
+    "New Caledonia": {
+        "Entity": "New Caledonia",
+        "Code": "NCL",
+        "Year": "2021",
+        "Prevalence - Anxiety disorders - Sex: Male - Age: Age-standardized (Percent)": "",
+        "Prevalence - Anxiety disorders - Sex: Female - Age: Age-standardized (Percent)": "",
+        "Total population (Gapminder, HYDE & UN)": "288217",
+        "Continent": ""
+    },
+    "New Zealand": {
+        "Entity": "New Zealand",
+        "Code": "NZL",
+        "Year": "2021",
+        "Prevalence - Anxiety disorders - Sex: Male - Age: Age-standardized (Percent)": "",
+        "Prevalence - Anxiety disorders - Sex: Female - Age: Age-standardized (Percent)": "",
+        "Total population (Gapminder, HYDE & UN)": "4860642",
+        "Continent": ""
+    },
+    "Nicaragua": {
+        "Entity": "Nicaragua",
+        "Code": "NIC",
+        "Year": "2021",
+        "Prevalence - Anxiety disorders - Sex: Male - Age: Age-standardized (Percent)": "",
+        "Prevalence - Anxiety disorders - Sex: Female - Age: Age-standardized (Percent)": "",
+        "Total population (Gapminder, HYDE & UN)": "6702379",
+        "Continent": ""
+    },
+    "Niger": {
+        "Entity": "Niger",
+        "Code": "NER",
+        "Year": "2021",
+        "Prevalence - Anxiety disorders - Sex: Male - Age: Age-standardized (Percent)": "",
+        "Prevalence - Anxiety disorders - Sex: Female - Age: Age-standardized (Percent)": "",
+        "Total population (Gapminder, HYDE & UN)": "25130810",
+        "Continent": ""
+    },
+    "Nigeria": {
+        "Entity": "Nigeria",
+        "Code": "NGA",
+        "Year": "2021",
+        "Prevalence - Anxiety disorders - Sex: Male - Age: Age-standardized (Percent)": "",
+        "Prevalence - Anxiety disorders - Sex: Female - Age: Age-standardized (Percent)": "",
+        "Total population (Gapminder, HYDE & UN)": "211400704",
+        "Continent": ""
+    },
+    "Niue": {
+        "Entity": "Niue",
+        "Code": "NIU",
+        "Year": "2021",
+        "Prevalence - Anxiety disorders - Sex: Male - Age: Age-standardized (Percent)": "",
+        "Prevalence - Anxiety disorders - Sex: Female - Age: Age-standardized (Percent)": "",
+        "Total population (Gapminder, HYDE & UN)": "1614",
+        "Continent": ""
+    },
+    "Norfolk Island": {
+        "Entity": "Norfolk Island",
+        "Code": "NFK",
+        "Year": "2015",
+        "Prevalence - Anxiety disorders - Sex: Male - Age: Age-standardized (Percent)": "",
+        "Prevalence - Anxiety disorders - Sex: Female - Age: Age-standardized (Percent)": "",
+        "Total population (Gapminder, HYDE & UN)": "",
+        "Continent": "Oceania"
+    },
+    "North Africa and Middle East": {
+        "Entity": "North Africa and Middle East",
+        "Code": "",
+        "Year": "2017",
+        "Prevalence - Anxiety disorders - Sex: Male - Age: Age-standardized (Percent)": "3.76215394746",
+        "Prevalence - Anxiety disorders - Sex: Female - Age: Age-standardized (Percent)": "6.20541300835",
+        "Total population (Gapminder, HYDE & UN)": "",
+        "Continent": ""
+    },
+    "North America": {
+        "Entity": "North America",
+        "Code": "",
+        "Year": "2021",
+        "Prevalence - Anxiety disorders - Sex: Male - Age: Age-standardized (Percent)": "",
+        "Prevalence - Anxiety disorders - Sex: Female - Age: Age-standardized (Percent)": "",
+        "Total population (Gapminder, HYDE & UN)": "596581283",
+        "Continent": ""
+    },
+    "North Korea": {
+        "Entity": "North Korea",
+        "Code": "PRK",
+        "Year": "2021",
+        "Prevalence - Anxiety disorders - Sex: Male - Age: Age-standardized (Percent)": "",
+        "Prevalence - Anxiety disorders - Sex: Female - Age: Age-standardized (Percent)": "",
+        "Total population (Gapminder, HYDE & UN)": "25887045",
+        "Continent": ""
+    },
+    "North Macedonia": {
+        "Entity": "North Macedonia",
+        "Code": "MKD",
+        "Year": "2021",
+        "Prevalence - Anxiety disorders - Sex: Male - Age: Age-standardized (Percent)": "",
+        "Prevalence - Anxiety disorders - Sex: Female - Age: Age-standardized (Percent)": "",
+        "Total population (Gapminder, HYDE & UN)": "2082661",
+        "Continent": ""
+    },
+    "Northern Cyprus": {
+        "Entity": "Northern Cyprus",
+        "Code": "OWID_CYN",
+        "Year": "2015",
+        "Prevalence - Anxiety disorders - Sex: Male - Age: Age-standardized (Percent)": "",
+        "Prevalence - Anxiety disorders - Sex: Female - Age: Age-standardized (Percent)": "",
+        "Total population (Gapminder, HYDE & UN)": "",
+        "Continent": "Asia"
+    },
+    "Northern Ireland": {
+        "Entity": "Northern Ireland",
+        "Code": "",
+        "Year": "2017",
+        "Prevalence - Anxiety disorders - Sex: Male - Age: Age-standardized (Percent)": "5.407094825070001",
+        "Prevalence - Anxiety disorders - Sex: Female - Age: Age-standardized (Percent)": "9.437155807689999",
+        "Total population (Gapminder, HYDE & UN)": "",
+        "Continent": ""
+    },
+    "Northern Mariana Islands": {
+        "Entity": "Northern Mariana Islands",
+        "Code": "MNP",
+        "Year": "2021",
+        "Prevalence - Anxiety disorders - Sex: Male - Age: Age-standardized (Percent)": "",
+        "Prevalence - Anxiety disorders - Sex: Female - Age: Age-standardized (Percent)": "",
+        "Total population (Gapminder, HYDE & UN)": "57910",
+        "Continent": ""
+    },
+    "Norway": {
+        "Entity": "Norway",
+        "Code": "NOR",
+        "Year": "2021",
+        "Prevalence - Anxiety disorders - Sex: Male - Age: Age-standardized (Percent)": "",
+        "Prevalence - Anxiety disorders - Sex: Female - Age: Age-standardized (Percent)": "",
+        "Total population (Gapminder, HYDE & UN)": "5465629",
+        "Continent": ""
+    },
+    "Oceania": {
+        "Entity": "Oceania",
+        "Code": "",
+        "Year": "2021",
+        "Prevalence - Anxiety disorders - Sex: Male - Age: Age-standardized (Percent)": "",
+        "Prevalence - Anxiety disorders - Sex: Female - Age: Age-standardized (Percent)": "",
+        "Total population (Gapminder, HYDE & UN)": "43219954",
+        "Continent": ""
+    },
+    "Oman": {
+        "Entity": "Oman",
+        "Code": "OMN",
+        "Year": "2021",
+        "Prevalence - Anxiety disorders - Sex: Male - Age: Age-standardized (Percent)": "",
+        "Prevalence - Anxiety disorders - Sex: Female - Age: Age-standardized (Percent)": "",
+        "Total population (Gapminder, HYDE & UN)": "5223376",
+        "Continent": ""
+    },
+    "Pakistan": {
+        "Entity": "Pakistan",
+        "Code": "PAK",
+        "Year": "2021",
+        "Prevalence - Anxiety disorders - Sex: Male - Age: Age-standardized (Percent)": "",
+        "Prevalence - Anxiety disorders - Sex: Female - Age: Age-standardized (Percent)": "",
+        "Total population (Gapminder, HYDE & UN)": "225199929",
+        "Continent": ""
+    },
+    "Palau": {
+        "Entity": "Palau",
+        "Code": "PLW",
+        "Year": "2021",
+        "Prevalence - Anxiety disorders - Sex: Male - Age: Age-standardized (Percent)": "",
+        "Prevalence - Anxiety disorders - Sex: Female - Age: Age-standardized (Percent)": "",
+        "Total population (Gapminder, HYDE & UN)": "18174",
+        "Continent": ""
+    },
+    "Palestine": {
+        "Entity": "Palestine",
+        "Code": "PSE",
+        "Year": "2021",
+        "Prevalence - Anxiety disorders - Sex: Male - Age: Age-standardized (Percent)": "",
+        "Prevalence - Anxiety disorders - Sex: Female - Age: Age-standardized (Percent)": "",
+        "Total population (Gapminder, HYDE & UN)": "5222756",
+        "Continent": ""
+    },
+    "Panama": {
+        "Entity": "Panama",
+        "Code": "PAN",
+        "Year": "2021",
+        "Prevalence - Anxiety disorders - Sex: Male - Age: Age-standardized (Percent)": "",
+        "Prevalence - Anxiety disorders - Sex: Female - Age: Age-standardized (Percent)": "",
+        "Total population (Gapminder, HYDE & UN)": "4381583",
+        "Continent": ""
+    },
+    "Papua New Guinea": {
+        "Entity": "Papua New Guinea",
+        "Code": "PNG",
+        "Year": "2021",
+        "Prevalence - Anxiety disorders - Sex: Male - Age: Age-standardized (Percent)": "",
+        "Prevalence - Anxiety disorders - Sex: Female - Age: Age-standardized (Percent)": "",
+        "Total population (Gapminder, HYDE & UN)": "9119005",
+        "Continent": ""
+    },
+    "Paraguay": {
+        "Entity": "Paraguay",
+        "Code": "PRY",
+        "Year": "2021",
+        "Prevalence - Anxiety disorders - Sex: Male - Age: Age-standardized (Percent)": "",
+        "Prevalence - Anxiety disorders - Sex: Female - Age: Age-standardized (Percent)": "",
+        "Total population (Gapminder, HYDE & UN)": "7219641",
+        "Continent": ""
+    },
+    "Parma": {
+        "Entity": "Parma",
+        "Code": "OWID_PMA",
+        "Year": "2015",
+        "Prevalence - Anxiety disorders - Sex: Male - Age: Age-standardized (Percent)": "",
+        "Prevalence - Anxiety disorders - Sex: Female - Age: Age-standardized (Percent)": "",
+        "Total population (Gapminder, HYDE & UN)": "",
+        "Continent": "Europe"
+    },
+    "Peru": {
+        "Entity": "Peru",
+        "Code": "PER",
+        "Year": "2021",
+        "Prevalence - Anxiety disorders - Sex: Male - Age: Age-standardized (Percent)": "",
+        "Prevalence - Anxiety disorders - Sex: Female - Age: Age-standardized (Percent)": "",
+        "Total population (Gapminder, HYDE & UN)": "33359415",
+        "Continent": ""
+    },
+    "Philippines": {
+        "Entity": "Philippines",
+        "Code": "PHL",
+        "Year": "2021",
+        "Prevalence - Anxiety disorders - Sex: Male - Age: Age-standardized (Percent)": "",
+        "Prevalence - Anxiety disorders - Sex: Female - Age: Age-standardized (Percent)": "",
+        "Total population (Gapminder, HYDE & UN)": "111046910",
+        "Continent": ""
+    },
+    "Pitcairn": {
+        "Entity": "Pitcairn",
+        "Code": "PCN",
+        "Year": "2015",
+        "Prevalence - Anxiety disorders - Sex: Male - Age: Age-standardized (Percent)": "",
+        "Prevalence - Anxiety disorders - Sex: Female - Age: Age-standardized (Percent)": "",
+        "Total population (Gapminder, HYDE & UN)": "",
+        "Continent": "Oceania"
+    },
+    "Poland": {
+        "Entity": "Poland",
+        "Code": "POL",
+        "Year": "2021",
+        "Prevalence - Anxiety disorders - Sex: Male - Age: Age-standardized (Percent)": "",
+        "Prevalence - Anxiety disorders - Sex: Female - Age: Age-standardized (Percent)": "",
+        "Total population (Gapminder, HYDE & UN)": "37797000",
+        "Continent": ""
+    },
+    "Portugal": {
+        "Entity": "Portugal",
+        "Code": "PRT",
+        "Year": "2021",
+        "Prevalence - Anxiety disorders - Sex: Male - Age: Age-standardized (Percent)": "",
+        "Prevalence - Anxiety disorders - Sex: Female - Age: Age-standardized (Percent)": "",
+        "Total population (Gapminder, HYDE & UN)": "10167923",
+        "Continent": ""
+    },
+    "Puerto Rico": {
+        "Entity": "Puerto Rico",
+        "Code": "PRI",
+        "Year": "2021",
+        "Prevalence - Anxiety disorders - Sex: Male - Age: Age-standardized (Percent)": "",
+        "Prevalence - Anxiety disorders - Sex: Female - Age: Age-standardized (Percent)": "",
+        "Total population (Gapminder, HYDE & UN)": "2828246",
+        "Continent": ""
+    },
+    "Qatar": {
+        "Entity": "Qatar",
+        "Code": "QAT",
+        "Year": "2021",
+        "Prevalence - Anxiety disorders - Sex: Male - Age: Age-standardized (Percent)": "",
+        "Prevalence - Anxiety disorders - Sex: Female - Age: Age-standardized (Percent)": "",
+        "Total population (Gapminder, HYDE & UN)": "2930524",
+        "Continent": ""
+    },
+    "Republic of Vietnam": {
+        "Entity": "Republic of Vietnam",
+        "Code": "OWID_RVN",
+        "Year": "2015",
+        "Prevalence - Anxiety disorders - Sex: Male - Age: Age-standardized (Percent)": "",
+        "Prevalence - Anxiety disorders - Sex: Female - Age: Age-standardized (Percent)": "",
+        "Total population (Gapminder, HYDE & UN)": "",
+        "Continent": "Asia"
+    },
+    "Reunion": {
+        "Entity": "Reunion",
+        "Code": "REU",
+        "Year": "2021",
+        "Prevalence - Anxiety disorders - Sex: Male - Age: Age-standardized (Percent)": "",
+        "Prevalence - Anxiety disorders - Sex: Female - Age: Age-standardized (Percent)": "",
+        "Total population (Gapminder, HYDE & UN)": "901696",
+        "Continent": ""
+    },
+    "Romania": {
+        "Entity": "Romania",
+        "Code": "ROU",
+        "Year": "2021",
+        "Prevalence - Anxiety disorders - Sex: Male - Age: Age-standardized (Percent)": "",
+        "Prevalence - Anxiety disorders - Sex: Female - Age: Age-standardized (Percent)": "",
+        "Total population (Gapminder, HYDE & UN)": "19127772",
+        "Continent": ""
+    },
+    "Russia": {
+        "Entity": "Russia",
+        "Code": "RUS",
+        "Year": "2021",
+        "Prevalence - Anxiety disorders - Sex: Male - Age: Age-standardized (Percent)": "",
+        "Prevalence - Anxiety disorders - Sex: Female - Age: Age-standardized (Percent)": "",
+        "Total population (Gapminder, HYDE & UN)": "145912022",
+        "Continent": ""
+    },
+    "Rwanda": {
+        "Entity": "Rwanda",
+        "Code": "RWA",
+        "Year": "2021",
+        "Prevalence - Anxiety disorders - Sex: Male - Age: Age-standardized (Percent)": "",
+        "Prevalence - Anxiety disorders - Sex: Female - Age: Age-standardized (Percent)": "",
+        "Total population (Gapminder, HYDE & UN)": "13276517",
+        "Continent": ""
+    },
+    "Saint Barthlemy": {
+        "Entity": "Saint Barthlemy",
+        "Code": "",
+        "Year": "2021",
+        "Prevalence - Anxiety disorders - Sex: Male - Age: Age-standardized (Percent)": "",
+        "Prevalence - Anxiety disorders - Sex: Female - Age: Age-standardized (Percent)": "",
+        "Total population (Gapminder, HYDE & UN)": "9909",
+        "Continent": ""
+    },
+    "Saint Barth\u00c3\u00a9lemy": {
+        "Entity": "Saint Barth\u00c3\u00a9lemy",
+        "Code": "BLM",
+        "Year": "2015",
+        "Prevalence - Anxiety disorders - Sex: Male - Age: Age-standardized (Percent)": "",
+        "Prevalence - Anxiety disorders - Sex: Female - Age: Age-standardized (Percent)": "",
+        "Total population (Gapminder, HYDE & UN)": "",
+        "Continent": "North America"
+    },
+    "Saint Helena": {
+        "Entity": "Saint Helena",
+        "Code": "SHN",
+        "Year": "2021",
+        "Prevalence - Anxiety disorders - Sex: Male - Age: Age-standardized (Percent)": "",
+        "Prevalence - Anxiety disorders - Sex: Female - Age: Age-standardized (Percent)": "",
+        "Total population (Gapminder, HYDE & UN)": "6095",
+        "Continent": ""
+    },
+    "Saint Kitts and Nevis": {
+        "Entity": "Saint Kitts and Nevis",
+        "Code": "KNA",
+        "Year": "2021",
+        "Prevalence - Anxiety disorders - Sex: Male - Age: Age-standardized (Percent)": "",
+        "Prevalence - Anxiety disorders - Sex: Female - Age: Age-standardized (Percent)": "",
+        "Total population (Gapminder, HYDE & UN)": "53546",
+        "Continent": ""
+    },
+    "Saint Lucia": {
+        "Entity": "Saint Lucia",
+        "Code": "LCA",
+        "Year": "2021",
+        "Prevalence - Anxiety disorders - Sex: Male - Age: Age-standardized (Percent)": "",
+        "Prevalence - Anxiety disorders - Sex: Female - Age: Age-standardized (Percent)": "",
+        "Total population (Gapminder, HYDE & UN)": "184401",
+        "Continent": ""
+    },
+    "Saint Martin (French part)": {
+        "Entity": "Saint Martin (French part)",
+        "Code": "MAF",
+        "Year": "2021",
+        "Prevalence - Anxiety disorders - Sex: Male - Age: Age-standardized (Percent)": "",
+        "Prevalence - Anxiety disorders - Sex: Female - Age: Age-standardized (Percent)": "",
+        "Total population (Gapminder, HYDE & UN)": "39239",
+        "Continent": ""
+    },
+    "Saint Pierre and Miquelon": {
+        "Entity": "Saint Pierre and Miquelon",
+        "Code": "SPM",
+        "Year": "2021",
+        "Prevalence - Anxiety disorders - Sex: Male - Age: Age-standardized (Percent)": "",
+        "Prevalence - Anxiety disorders - Sex: Female - Age: Age-standardized (Percent)": "",
+        "Total population (Gapminder, HYDE & UN)": "5771",
+        "Continent": ""
+    },
+    "Saint Vincent and the Grenadines": {
+        "Entity": "Saint Vincent and the Grenadines",
+        "Code": "VCT",
+        "Year": "2021",
+        "Prevalence - Anxiety disorders - Sex: Male - Age: Age-standardized (Percent)": "",
+        "Prevalence - Anxiety disorders - Sex: Female - Age: Age-standardized (Percent)": "",
+        "Total population (Gapminder, HYDE & UN)": "111269",
+        "Continent": ""
+    },
+    "Samoa": {
+        "Entity": "Samoa",
+        "Code": "WSM",
+        "Year": "2021",
+        "Prevalence - Anxiety disorders - Sex: Male - Age: Age-standardized (Percent)": "",
+        "Prevalence - Anxiety disorders - Sex: Female - Age: Age-standardized (Percent)": "",
+        "Total population (Gapminder, HYDE & UN)": "200144",
+        "Continent": ""
+    },
+    "San Marino": {
+        "Entity": "San Marino",
+        "Code": "SMR",
+        "Year": "2021",
+        "Prevalence - Anxiety disorders - Sex: Male - Age: Age-standardized (Percent)": "",
+        "Prevalence - Anxiety disorders - Sex: Female - Age: Age-standardized (Percent)": "",
+        "Total population (Gapminder, HYDE & UN)": "34010",
+        "Continent": ""
+    },
+    "Sao Tome and Principe": {
+        "Entity": "Sao Tome and Principe",
+        "Code": "STP",
+        "Year": "2021",
+        "Prevalence - Anxiety disorders - Sex: Male - Age: Age-standardized (Percent)": "",
+        "Prevalence - Anxiety disorders - Sex: Female - Age: Age-standardized (Percent)": "",
+        "Total population (Gapminder, HYDE & UN)": "223364",
+        "Continent": ""
+    },
+    "Saudi Arabia": {
+        "Entity": "Saudi Arabia",
+        "Code": "SAU",
+        "Year": "2021",
+        "Prevalence - Anxiety disorders - Sex: Male - Age: Age-standardized (Percent)": "",
+        "Prevalence - Anxiety disorders - Sex: Female - Age: Age-standardized (Percent)": "",
+        "Total population (Gapminder, HYDE & UN)": "35340680",
+        "Continent": ""
+    },
+    "Saxony": {
+        "Entity": "Saxony",
+        "Code": "OWID_SAX",
+        "Year": "2015",
+        "Prevalence - Anxiety disorders - Sex: Male - Age: Age-standardized (Percent)": "",
+        "Prevalence - Anxiety disorders - Sex: Female - Age: Age-standardized (Percent)": "",
+        "Total population (Gapminder, HYDE & UN)": "",
+        "Continent": "Europe"
+    },
+    "Scotland": {
+        "Entity": "Scotland",
+        "Code": "",
+        "Year": "2017",
+        "Prevalence - Anxiety disorders - Sex: Male - Age: Age-standardized (Percent)": "3.46933835953",
+        "Prevalence - Anxiety disorders - Sex: Female - Age: Age-standardized (Percent)": "5.94043130111",
+        "Total population (Gapminder, HYDE & UN)": "",
+        "Continent": ""
+    },
+    "Senegal": {
+        "Entity": "Senegal",
+        "Code": "SEN",
+        "Year": "2021",
+        "Prevalence - Anxiety disorders - Sex: Male - Age: Age-standardized (Percent)": "",
+        "Prevalence - Anxiety disorders - Sex: Female - Age: Age-standardized (Percent)": "",
+        "Total population (Gapminder, HYDE & UN)": "17196308",
+        "Continent": ""
+    },
+    "Serbia": {
+        "Entity": "Serbia",
+        "Code": "SRB",
+        "Year": "2021",
+        "Prevalence - Anxiety disorders - Sex: Male - Age: Age-standardized (Percent)": "",
+        "Prevalence - Anxiety disorders - Sex: Female - Age: Age-standardized (Percent)": "",
+        "Total population (Gapminder, HYDE & UN)": "8697547",
+        "Continent": ""
+    },
+    "Serbia and Montenegro": {
+        "Entity": "Serbia and Montenegro",
+        "Code": "OWID_SRM",
+        "Year": "2015",
+        "Prevalence - Anxiety disorders - Sex: Male - Age: Age-standardized (Percent)": "",
+        "Prevalence - Anxiety disorders - Sex: Female - Age: Age-standardized (Percent)": "",
+        "Total population (Gapminder, HYDE & UN)": "",
+        "Continent": "Europe"
+    },
+    "Serbia excluding Kosovo": {
+        "Entity": "Serbia excluding Kosovo",
+        "Code": "OWID_SEK",
+        "Year": "2015",
+        "Prevalence - Anxiety disorders - Sex: Male - Age: Age-standardized (Percent)": "",
+        "Prevalence - Anxiety disorders - Sex: Female - Age: Age-standardized (Percent)": "",
+        "Total population (Gapminder, HYDE & UN)": "",
+        "Continent": "Europe"
+    },
+    "Seychelles": {
+        "Entity": "Seychelles",
+        "Code": "SYC",
+        "Year": "2021",
+        "Prevalence - Anxiety disorders - Sex: Male - Age: Age-standardized (Percent)": "",
+        "Prevalence - Anxiety disorders - Sex: Female - Age: Age-standardized (Percent)": "",
+        "Total population (Gapminder, HYDE & UN)": "98910",
+        "Continent": ""
+    },
+    "Sierra Leone": {
+        "Entity": "Sierra Leone",
+        "Code": "SLE",
+        "Year": "2021",
+        "Prevalence - Anxiety disorders - Sex: Male - Age: Age-standardized (Percent)": "",
+        "Prevalence - Anxiety disorders - Sex: Female - Age: Age-standardized (Percent)": "",
+        "Total population (Gapminder, HYDE & UN)": "8141343",
+        "Continent": ""
+    },
+    "Singapore": {
+        "Entity": "Singapore",
+        "Code": "SGP",
+        "Year": "2021",
+        "Prevalence - Anxiety disorders - Sex: Male - Age: Age-standardized (Percent)": "",
+        "Prevalence - Anxiety disorders - Sex: Female - Age: Age-standardized (Percent)": "",
+        "Total population (Gapminder, HYDE & UN)": "5896684",
+        "Continent": ""
+    },
+    "Sint Maarten (Dutch part)": {
+        "Entity": "Sint Maarten (Dutch part)",
+        "Code": "SXM",
+        "Year": "2021",
+        "Prevalence - Anxiety disorders - Sex: Male - Age: Age-standardized (Percent)": "",
+        "Prevalence - Anxiety disorders - Sex: Female - Age: Age-standardized (Percent)": "",
+        "Total population (Gapminder, HYDE & UN)": "43421",
+        "Continent": ""
+    },
+    "Slovakia": {
+        "Entity": "Slovakia",
+        "Code": "SVK",
+        "Year": "2021",
+        "Prevalence - Anxiety disorders - Sex: Male - Age: Age-standardized (Percent)": "",
+        "Prevalence - Anxiety disorders - Sex: Female - Age: Age-standardized (Percent)": "",
+        "Total population (Gapminder, HYDE & UN)": "5460726",
+        "Continent": ""
+    },
+    "Slovenia": {
+        "Entity": "Slovenia",
+        "Code": "SVN",
+        "Year": "2021",
+        "Prevalence - Anxiety disorders - Sex: Male - Age: Age-standardized (Percent)": "",
+        "Prevalence - Anxiety disorders - Sex: Female - Age: Age-standardized (Percent)": "",
+        "Total population (Gapminder, HYDE & UN)": "2078723",
+        "Continent": ""
+    },
+    "Solomon Islands": {
+        "Entity": "Solomon Islands",
+        "Code": "SLB",
+        "Year": "2021",
+        "Prevalence - Anxiety disorders - Sex: Male - Age: Age-standardized (Percent)": "",
+        "Prevalence - Anxiety disorders - Sex: Female - Age: Age-standardized (Percent)": "",
+        "Total population (Gapminder, HYDE & UN)": "703995",
+        "Continent": ""
+    },
+    "Somalia": {
+        "Entity": "Somalia",
+        "Code": "SOM",
+        "Year": "2021",
+        "Prevalence - Anxiety disorders - Sex: Male - Age: Age-standardized (Percent)": "",
+        "Prevalence - Anxiety disorders - Sex: Female - Age: Age-standardized (Percent)": "",
+        "Total population (Gapminder, HYDE & UN)": "16359500",
+        "Continent": ""
+    },
+    "Somaliland": {
+        "Entity": "Somaliland",
+        "Code": "OWID_SML",
+        "Year": "2015",
+        "Prevalence - Anxiety disorders - Sex: Male - Age: Age-standardized (Percent)": "",
+        "Prevalence - Anxiety disorders - Sex: Female - Age: Age-standardized (Percent)": "",
+        "Total population (Gapminder, HYDE & UN)": "",
+        "Continent": "Africa"
+    },
+    "South Africa": {
+        "Entity": "South Africa",
+        "Code": "ZAF",
+        "Year": "2021",
+        "Prevalence - Anxiety disorders - Sex: Male - Age: Age-standardized (Percent)": "",
+        "Prevalence - Anxiety disorders - Sex: Female - Age: Age-standardized (Percent)": "",
+        "Total population (Gapminder, HYDE & UN)": "60041996",
+        "Continent": ""
+    },
+    "South America": {
+        "Entity": "South America",
+        "Code": "",
+        "Year": "2021",
+        "Prevalence - Anxiety disorders - Sex: Male - Age: Age-standardized (Percent)": "",
+        "Prevalence - Anxiety disorders - Sex: Female - Age: Age-standardized (Percent)": "",
+        "Total population (Gapminder, HYDE & UN)": "434260137",
+        "Continent": ""
+    },
+    "South Asia": {
+        "Entity": "South Asia",
+        "Code": "",
+        "Year": "2017",
+        "Prevalence - Anxiety disorders - Sex: Male - Age: Age-standardized (Percent)": "2.81797550202",
+        "Prevalence - Anxiety disorders - Sex: Female - Age: Age-standardized (Percent)": "4.10438219144",
+        "Total population (Gapminder, HYDE & UN)": "",
+        "Continent": ""
+    },
+    "South Georgia and the South Sandwich Islands": {
+        "Entity": "South Georgia and the South Sandwich Islands",
+        "Code": "SGS",
+        "Year": "2015",
+        "Prevalence - Anxiety disorders - Sex: Male - Age: Age-standardized (Percent)": "",
+        "Prevalence - Anxiety disorders - Sex: Female - Age: Age-standardized (Percent)": "",
+        "Total population (Gapminder, HYDE & UN)": "",
+        "Continent": "South America"
+    },
+    "South Korea": {
+        "Entity": "South Korea",
+        "Code": "KOR",
+        "Year": "2021",
+        "Prevalence - Anxiety disorders - Sex: Male - Age: Age-standardized (Percent)": "",
+        "Prevalence - Anxiety disorders - Sex: Female - Age: Age-standardized (Percent)": "",
+        "Total population (Gapminder, HYDE & UN)": "51305184",
+        "Continent": ""
+    },
+    "South Ossetia": {
+        "Entity": "South Ossetia",
+        "Code": "OWID_SOS",
+        "Year": "2015",
+        "Prevalence - Anxiety disorders - Sex: Male - Age: Age-standardized (Percent)": "",
+        "Prevalence - Anxiety disorders - Sex: Female - Age: Age-standardized (Percent)": "",
+        "Total population (Gapminder, HYDE & UN)": "",
+        "Continent": "Asia"
+    },
+    "South Sudan": {
+        "Entity": "South Sudan",
+        "Code": "SSD",
+        "Year": "2021",
+        "Prevalence - Anxiety disorders - Sex: Male - Age: Age-standardized (Percent)": "",
+        "Prevalence - Anxiety disorders - Sex: Female - Age: Age-standardized (Percent)": "",
+        "Total population (Gapminder, HYDE & UN)": "11381377",
+        "Continent": ""
+    },
+    "Southeast Asia": {
+        "Entity": "Southeast Asia",
+        "Code": "",
+        "Year": "2017",
+        "Prevalence - Anxiety disorders - Sex: Male - Age: Age-standardized (Percent)": "2.32002954216",
+        "Prevalence - Anxiety disorders - Sex: Female - Age: Age-standardized (Percent)": "3.9749740449",
+        "Total population (Gapminder, HYDE & UN)": "",
+        "Continent": ""
+    },
+    "Southeast Asia, East Asia, and Oceania": {
+        "Entity": "Southeast Asia, East Asia, and Oceania",
+        "Code": "",
+        "Year": "2017",
+        "Prevalence - Anxiety disorders - Sex: Male - Age: Age-standardized (Percent)": "2.29544366937",
+        "Prevalence - Anxiety disorders - Sex: Female - Age: Age-standardized (Percent)": "3.82313155051",
+        "Total population (Gapminder, HYDE & UN)": "",
+        "Continent": ""
+    },
+    "Southern Latin America": {
+        "Entity": "Southern Latin America",
+        "Code": "",
+        "Year": "2017",
+        "Prevalence - Anxiety disorders - Sex: Male - Age: Age-standardized (Percent)": "3.50646831712",
+        "Prevalence - Anxiety disorders - Sex: Female - Age: Age-standardized (Percent)": "8.867656092759999",
+        "Total population (Gapminder, HYDE & UN)": "",
+        "Continent": ""
+    },
+    "Southern Sub-Saharan Africa": {
+        "Entity": "Southern Sub-Saharan Africa",
+        "Code": "",
+        "Year": "2017",
+        "Prevalence - Anxiety disorders - Sex: Male - Age: Age-standardized (Percent)": "3.16463791884",
+        "Prevalence - Anxiety disorders - Sex: Female - Age: Age-standardized (Percent)": "4.352742779350001",
+        "Total population (Gapminder, HYDE & UN)": "",
+        "Continent": ""
+    },
+    "Spain": {
+        "Entity": "Spain",
+        "Code": "ESP",
+        "Year": "2021",
+        "Prevalence - Anxiety disorders - Sex: Male - Age: Age-standardized (Percent)": "",
+        "Prevalence - Anxiety disorders - Sex: Female - Age: Age-standardized (Percent)": "",
+        "Total population (Gapminder, HYDE & UN)": "46745211",
+        "Continent": ""
+    },
+    "Sri Lanka": {
+        "Entity": "Sri Lanka",
+        "Code": "LKA",
+        "Year": "2021",
+        "Prevalence - Anxiety disorders - Sex: Male - Age: Age-standardized (Percent)": "",
+        "Prevalence - Anxiety disorders - Sex: Female - Age: Age-standardized (Percent)": "",
+        "Total population (Gapminder, HYDE & UN)": "21497306",
+        "Continent": ""
+    },
+    "Sub-Saharan Africa": {
+        "Entity": "Sub-Saharan Africa",
+        "Code": "",
+        "Year": "2017",
+        "Prevalence - Anxiety disorders - Sex: Male - Age: Age-standardized (Percent)": "2.49906045112",
+        "Prevalence - Anxiety disorders - Sex: Female - Age: Age-standardized (Percent)": "4.06088366957",
+        "Total population (Gapminder, HYDE & UN)": "",
+        "Continent": ""
+    },
+    "Sudan": {
+        "Entity": "Sudan",
+        "Code": "SDN",
+        "Year": "2021",
+        "Prevalence - Anxiety disorders - Sex: Male - Age: Age-standardized (Percent)": "",
+        "Prevalence - Anxiety disorders - Sex: Female - Age: Age-standardized (Percent)": "",
+        "Total population (Gapminder, HYDE & UN)": "44909351",
+        "Continent": ""
+    },
+    "Suriname": {
+        "Entity": "Suriname",
+        "Code": "SUR",
+        "Year": "2021",
+        "Prevalence - Anxiety disorders - Sex: Male - Age: Age-standardized (Percent)": "",
+        "Prevalence - Anxiety disorders - Sex: Female - Age: Age-standardized (Percent)": "",
+        "Total population (Gapminder, HYDE & UN)": "591798",
+        "Continent": ""
+    },
+    "Svalbard and Jan Mayen": {
+        "Entity": "Svalbard and Jan Mayen",
+        "Code": "SJM",
+        "Year": "2017",
+        "Prevalence - Anxiety disorders - Sex: Male - Age: Age-standardized (Percent)": "",
+        "Prevalence - Anxiety disorders - Sex: Female - Age: Age-standardized (Percent)": "",
+        "Total population (Gapminder, HYDE & UN)": "2400",
+        "Continent": ""
+    },
+    "Sweden": {
+        "Entity": "Sweden",
+        "Code": "SWE",
+        "Year": "2021",
+        "Prevalence - Anxiety disorders - Sex: Male - Age: Age-standardized (Percent)": "",
+        "Prevalence - Anxiety disorders - Sex: Female - Age: Age-standardized (Percent)": "",
+        "Total population (Gapminder, HYDE & UN)": "10160159",
+        "Continent": ""
+    },
+    "Switzerland": {
+        "Entity": "Switzerland",
+        "Code": "CHE",
+        "Year": "2021",
+        "Prevalence - Anxiety disorders - Sex: Male - Age: Age-standardized (Percent)": "",
+        "Prevalence - Anxiety disorders - Sex: Female - Age: Age-standardized (Percent)": "",
+        "Total population (Gapminder, HYDE & UN)": "8715494",
+        "Continent": ""
+    },
+    "Syria": {
+        "Entity": "Syria",
+        "Code": "SYR",
+        "Year": "2021",
+        "Prevalence - Anxiety disorders - Sex: Male - Age: Age-standardized (Percent)": "",
+        "Prevalence - Anxiety disorders - Sex: Female - Age: Age-standardized (Percent)": "",
+        "Total population (Gapminder, HYDE & UN)": "18275704",
+        "Continent": ""
+    },
+    "Taiwan": {
+        "Entity": "Taiwan",
+        "Code": "TWN",
+        "Year": "2021",
+        "Prevalence - Anxiety disorders - Sex: Male - Age: Age-standardized (Percent)": "",
+        "Prevalence - Anxiety disorders - Sex: Female - Age: Age-standardized (Percent)": "",
+        "Total population (Gapminder, HYDE & UN)": "23855008",
+        "Continent": ""
+    },
+    "Tajikistan": {
+        "Entity": "Tajikistan",
+        "Code": "TJK",
+        "Year": "2021",
+        "Prevalence - Anxiety disorders - Sex: Male - Age: Age-standardized (Percent)": "",
+        "Prevalence - Anxiety disorders - Sex: Female - Age: Age-standardized (Percent)": "",
+        "Total population (Gapminder, HYDE & UN)": "9749625",
+        "Continent": ""
+    },
+    "Tanzania": {
+        "Entity": "Tanzania",
+        "Code": "TZA",
+        "Year": "2021",
+        "Prevalence - Anxiety disorders - Sex: Male - Age: Age-standardized (Percent)": "",
+        "Prevalence - Anxiety disorders - Sex: Female - Age: Age-standardized (Percent)": "",
+        "Total population (Gapminder, HYDE & UN)": "61498438",
+        "Continent": ""
+    },
+    "Thailand": {
+        "Entity": "Thailand",
+        "Code": "THA",
+        "Year": "2021",
+        "Prevalence - Anxiety disorders - Sex: Male - Age: Age-standardized (Percent)": "",
+        "Prevalence - Anxiety disorders - Sex: Female - Age: Age-standardized (Percent)": "",
+        "Total population (Gapminder, HYDE & UN)": "69950844",
+        "Continent": ""
+    },
+    "Timor": {
+        "Entity": "Timor",
+        "Code": "TLS",
+        "Year": "2021",
+        "Prevalence - Anxiety disorders - Sex: Male - Age: Age-standardized (Percent)": "",
+        "Prevalence - Anxiety disorders - Sex: Female - Age: Age-standardized (Percent)": "",
+        "Total population (Gapminder, HYDE & UN)": "1343875",
+        "Continent": ""
+    },
+    "Togo": {
+        "Entity": "Togo",
+        "Code": "TGO",
+        "Year": "2021",
+        "Prevalence - Anxiety disorders - Sex: Male - Age: Age-standardized (Percent)": "",
+        "Prevalence - Anxiety disorders - Sex: Female - Age: Age-standardized (Percent)": "",
+        "Total population (Gapminder, HYDE & UN)": "8478242",
+        "Continent": ""
+    },
+    "Tokelau": {
+        "Entity": "Tokelau",
+        "Code": "TKL",
+        "Year": "2021",
+        "Prevalence - Anxiety disorders - Sex: Male - Age: Age-standardized (Percent)": "",
+        "Prevalence - Anxiety disorders - Sex: Female - Age: Age-standardized (Percent)": "",
+        "Total population (Gapminder, HYDE & UN)": "1368",
+        "Continent": ""
+    },
+    "Tonga": {
+        "Entity": "Tonga",
+        "Code": "TON",
+        "Year": "2021",
+        "Prevalence - Anxiety disorders - Sex: Male - Age: Age-standardized (Percent)": "",
+        "Prevalence - Anxiety disorders - Sex: Female - Age: Age-standardized (Percent)": "",
+        "Total population (Gapminder, HYDE & UN)": "106759",
+        "Continent": ""
+    },
+    "Transnistria": {
+        "Entity": "Transnistria",
+        "Code": "OWID_TRS",
+        "Year": "2015",
+        "Prevalence - Anxiety disorders - Sex: Male - Age: Age-standardized (Percent)": "",
+        "Prevalence - Anxiety disorders - Sex: Female - Age: Age-standardized (Percent)": "",
+        "Total population (Gapminder, HYDE & UN)": "",
+        "Continent": "Europe"
+    },
+    "Trinidad and Tobago": {
+        "Entity": "Trinidad and Tobago",
+        "Code": "TTO",
+        "Year": "2021",
+        "Prevalence - Anxiety disorders - Sex: Male - Age: Age-standardized (Percent)": "",
+        "Prevalence - Anxiety disorders - Sex: Female - Age: Age-standardized (Percent)": "",
+        "Total population (Gapminder, HYDE & UN)": "1403374",
+        "Continent": ""
+    },
+    "Tropical Latin America": {
+        "Entity": "Tropical Latin America",
+        "Code": "",
+        "Year": "2017",
+        "Prevalence - Anxiety disorders - Sex: Male - Age: Age-standardized (Percent)": "4.17859313957",
+        "Prevalence - Anxiety disorders - Sex: Female - Age: Age-standardized (Percent)": "7.83456858281",
+        "Total population (Gapminder, HYDE & UN)": "",
+        "Continent": ""
+    },
+    "Tunisia": {
+        "Entity": "Tunisia",
+        "Code": "TUN",
+        "Year": "2021",
+        "Prevalence - Anxiety disorders - Sex: Male - Age: Age-standardized (Percent)": "",
+        "Prevalence - Anxiety disorders - Sex: Female - Age: Age-standardized (Percent)": "",
+        "Total population (Gapminder, HYDE & UN)": "11935764",
+        "Continent": ""
+    },
+    "Turkey": {
+        "Entity": "Turkey",
+        "Code": "TUR",
+        "Year": "2021",
+        "Prevalence - Anxiety disorders - Sex: Male - Age: Age-standardized (Percent)": "",
+        "Prevalence - Anxiety disorders - Sex: Female - Age: Age-standardized (Percent)": "",
+        "Total population (Gapminder, HYDE & UN)": "85042736",
+        "Continent": ""
+    },
+    "Turkmenistan": {
+        "Entity": "Turkmenistan",
+        "Code": "TKM",
+        "Year": "2021",
+        "Prevalence - Anxiety disorders - Sex: Male - Age: Age-standardized (Percent)": "",
+        "Prevalence - Anxiety disorders - Sex: Female - Age: Age-standardized (Percent)": "",
+        "Total population (Gapminder, HYDE & UN)": "6117933",
+        "Continent": ""
+    },
+    "Turks and Caicos Islands": {
+        "Entity": "Turks and Caicos Islands",
+        "Code": "TCA",
+        "Year": "2021",
+        "Prevalence - Anxiety disorders - Sex: Male - Age: Age-standardized (Percent)": "",
+        "Prevalence - Anxiety disorders - Sex: Female - Age: Age-standardized (Percent)": "",
+        "Total population (Gapminder, HYDE & UN)": "39226",
+        "Continent": ""
+    },
+    "Tuscany": {
+        "Entity": "Tuscany",
+        "Code": "OWID_TUS",
+        "Year": "2015",
+        "Prevalence - Anxiety disorders - Sex: Male - Age: Age-standardized (Percent)": "",
+        "Prevalence - Anxiety disorders - Sex: Female - Age: Age-standardized (Percent)": "",
+        "Total population (Gapminder, HYDE & UN)": "",
+        "Continent": "Europe"
+    },
+    "Tuvalu": {
+        "Entity": "Tuvalu",
+        "Code": "TUV",
+        "Year": "2021",
+        "Prevalence - Anxiety disorders - Sex: Male - Age: Age-standardized (Percent)": "",
+        "Prevalence - Anxiety disorders - Sex: Female - Age: Age-standardized (Percent)": "",
+        "Total population (Gapminder, HYDE & UN)": "11925",
+        "Continent": ""
+    },
+    "Two Sicilies": {
+        "Entity": "Two Sicilies",
+        "Code": "OWID_SIC",
+        "Year": "2015",
+        "Prevalence - Anxiety disorders - Sex: Male - Age: Age-standardized (Percent)": "",
+        "Prevalence - Anxiety disorders - Sex: Female - Age: Age-standardized (Percent)": "",
+        "Total population (Gapminder, HYDE & UN)": "",
+        "Continent": "Europe"
+    },
+    "USSR": {
+        "Entity": "USSR",
+        "Code": "OWID_USS",
+        "Year": "2015",
+        "Prevalence - Anxiety disorders - Sex: Male - Age: Age-standardized (Percent)": "",
+        "Prevalence - Anxiety disorders - Sex: Female - Age: Age-standardized (Percent)": "",
+        "Total population (Gapminder, HYDE & UN)": "",
+        "Continent": "Europe"
+    },
+    "Uganda": {
+        "Entity": "Uganda",
+        "Code": "UGA",
+        "Year": "2021",
+        "Prevalence - Anxiety disorders - Sex: Male - Age: Age-standardized (Percent)": "",
+        "Prevalence - Anxiety disorders - Sex: Female - Age: Age-standardized (Percent)": "",
+        "Total population (Gapminder, HYDE & UN)": "47123533",
+        "Continent": ""
+    },
+    "Ukraine": {
+        "Entity": "Ukraine",
+        "Code": "UKR",
+        "Year": "2021",
+        "Prevalence - Anxiety disorders - Sex: Male - Age: Age-standardized (Percent)": "",
+        "Prevalence - Anxiety disorders - Sex: Female - Age: Age-standardized (Percent)": "",
+        "Total population (Gapminder, HYDE & UN)": "43466822",
+        "Continent": ""
+    },
+    "United Arab Emirates": {
+        "Entity": "United Arab Emirates",
+        "Code": "ARE",
+        "Year": "2021",
+        "Prevalence - Anxiety disorders - Sex: Male - Age: Age-standardized (Percent)": "",
+        "Prevalence - Anxiety disorders - Sex: Female - Age: Age-standardized (Percent)": "",
+        "Total population (Gapminder, HYDE & UN)": "9991083",
+        "Continent": ""
+    },
+    "United Kingdom": {
+        "Entity": "United Kingdom",
+        "Code": "GBR",
+        "Year": "2021",
+        "Prevalence - Anxiety disorders - Sex: Male - Age: Age-standardized (Percent)": "",
+        "Prevalence - Anxiety disorders - Sex: Female - Age: Age-standardized (Percent)": "",
+        "Total population (Gapminder, HYDE & UN)": "68207114",
+        "Continent": ""
+    },
+    "United Korea": {
+        "Entity": "United Korea",
+        "Code": "OWID_KRU",
+        "Year": "2015",
+        "Prevalence - Anxiety disorders - Sex: Male - Age: Age-standardized (Percent)": "",
+        "Prevalence - Anxiety disorders - Sex: Female - Age: Age-standardized (Percent)": "",
+        "Total population (Gapminder, HYDE & UN)": "",
+        "Continent": "Asia"
+    },
+    "United States": {
+        "Entity": "United States",
+        "Code": "USA",
+        "Year": "2021",
+        "Prevalence - Anxiety disorders - Sex: Male - Age: Age-standardized (Percent)": "",
+        "Prevalence - Anxiety disorders - Sex: Female - Age: Age-standardized (Percent)": "",
+        "Total population (Gapminder, HYDE & UN)": "332915074",
+        "Continent": ""
+    },
+    "United States Minor Outlying Islands": {
+        "Entity": "United States Minor Outlying Islands",
+        "Code": "UMI",
+        "Year": "2015",
+        "Prevalence - Anxiety disorders - Sex: Male - Age: Age-standardized (Percent)": "",
+        "Prevalence - Anxiety disorders - Sex: Female - Age: Age-standardized (Percent)": "",
+        "Total population (Gapminder, HYDE & UN)": "",
+        "Continent": "Oceania"
+    },
+    "United States Virgin Islands": {
+        "Entity": "United States Virgin Islands",
+        "Code": "VIR",
+        "Year": "2021",
+        "Prevalence - Anxiety disorders - Sex: Male - Age: Age-standardized (Percent)": "",
+        "Prevalence - Anxiety disorders - Sex: Female - Age: Age-standardized (Percent)": "",
+        "Total population (Gapminder, HYDE & UN)": "104218",
+        "Continent": ""
+    },
+    "Uruguay": {
+        "Entity": "Uruguay",
+        "Code": "URY",
+        "Year": "2021",
+        "Prevalence - Anxiety disorders - Sex: Male - Age: Age-standardized (Percent)": "",
+        "Prevalence - Anxiety disorders - Sex: Female - Age: Age-standardized (Percent)": "",
+        "Total population (Gapminder, HYDE & UN)": "3485152",
+        "Continent": ""
+    },
+    "Uzbekistan": {
+        "Entity": "Uzbekistan",
+        "Code": "UZB",
+        "Year": "2021",
+        "Prevalence - Anxiety disorders - Sex: Male - Age: Age-standardized (Percent)": "",
+        "Prevalence - Anxiety disorders - Sex: Female - Age: Age-standardized (Percent)": "",
+        "Total population (Gapminder, HYDE & UN)": "33935765",
+        "Continent": ""
+    },
+    "Vanuatu": {
+        "Entity": "Vanuatu",
+        "Code": "VUT",
+        "Year": "2021",
+        "Prevalence - Anxiety disorders - Sex: Male - Age: Age-standardized (Percent)": "",
+        "Prevalence - Anxiety disorders - Sex: Female - Age: Age-standardized (Percent)": "",
+        "Total population (Gapminder, HYDE & UN)": "314464",
+        "Continent": ""
+    },
+    "Vatican": {
+        "Entity": "Vatican",
+        "Code": "VAT",
+        "Year": "2021",
+        "Prevalence - Anxiety disorders - Sex: Male - Age: Age-standardized (Percent)": "",
+        "Prevalence - Anxiety disorders - Sex: Female - Age: Age-standardized (Percent)": "",
+        "Total population (Gapminder, HYDE & UN)": "812",
+        "Continent": ""
+    },
+    "Venezuela": {
+        "Entity": "Venezuela",
+        "Code": "VEN",
+        "Year": "2021",
+        "Prevalence - Anxiety disorders - Sex: Male - Age: Age-standardized (Percent)": "",
+        "Prevalence - Anxiety disorders - Sex: Female - Age: Age-standardized (Percent)": "",
+        "Total population (Gapminder, HYDE & UN)": "28704947",
+        "Continent": ""
+    },
+    "Vietnam": {
+        "Entity": "Vietnam",
+        "Code": "VNM",
+        "Year": "2021",
+        "Prevalence - Anxiety disorders - Sex: Male - Age: Age-standardized (Percent)": "",
+        "Prevalence - Anxiety disorders - Sex: Female - Age: Age-standardized (Percent)": "",
+        "Total population (Gapminder, HYDE & UN)": "98168829",
+        "Continent": ""
+    },
+    "Wales": {
+        "Entity": "Wales",
+        "Code": "",
+        "Year": "2017",
+        "Prevalence - Anxiety disorders - Sex: Male - Age: Age-standardized (Percent)": "3.4993485034800003",
+        "Prevalence - Anxiety disorders - Sex: Female - Age: Age-standardized (Percent)": "6.03498934964",
+        "Total population (Gapminder, HYDE & UN)": "",
+        "Continent": ""
+    },
+    "Wallis and Futuna": {
+        "Entity": "Wallis and Futuna",
+        "Code": "WLF",
+        "Year": "2021",
+        "Prevalence - Anxiety disorders - Sex: Male - Age: Age-standardized (Percent)": "",
+        "Prevalence - Anxiety disorders - Sex: Female - Age: Age-standardized (Percent)": "",
+        "Total population (Gapminder, HYDE & UN)": "11094",
+        "Continent": ""
+    },
+    "West Germany": {
+        "Entity": "West Germany",
+        "Code": "OWID_GFR",
+        "Year": "2015",
+        "Prevalence - Anxiety disorders - Sex: Male - Age: Age-standardized (Percent)": "",
+        "Prevalence - Anxiety disorders - Sex: Female - Age: Age-standardized (Percent)": "",
+        "Total population (Gapminder, HYDE & UN)": "",
+        "Continent": "Europe"
+    },
+    "Western Europe": {
+        "Entity": "Western Europe",
+        "Code": "",
+        "Year": "2017",
+        "Prevalence - Anxiety disorders - Sex: Male - Age: Age-standardized (Percent)": "3.84299274687",
+        "Prevalence - Anxiety disorders - Sex: Female - Age: Age-standardized (Percent)": "7.50633106768",
+        "Total population (Gapminder, HYDE & UN)": "",
+        "Continent": ""
+    },
+    "Western Sahara": {
+        "Entity": "Western Sahara",
+        "Code": "ESH",
+        "Year": "2021",
+        "Prevalence - Anxiety disorders - Sex: Male - Age: Age-standardized (Percent)": "",
+        "Prevalence - Anxiety disorders - Sex: Female - Age: Age-standardized (Percent)": "",
+        "Total population (Gapminder, HYDE & UN)": "611872",
+        "Continent": ""
+    },
+    "Western Sub-Saharan Africa": {
+        "Entity": "Western Sub-Saharan Africa",
+        "Code": "",
+        "Year": "2017",
+        "Prevalence - Anxiety disorders - Sex: Male - Age: Age-standardized (Percent)": "2.40987800401",
+        "Prevalence - Anxiety disorders - Sex: Female - Age: Age-standardized (Percent)": "3.37285265995",
+        "Total population (Gapminder, HYDE & UN)": "",
+        "Continent": ""
+    },
+    "World": {
+        "Entity": "World",
+        "Code": "OWID_WRL",
+        "Year": "2021",
+        "Prevalence - Anxiety disorders - Sex: Male - Age: Age-standardized (Percent)": "",
+        "Prevalence - Anxiety disorders - Sex: Female - Age: Age-standardized (Percent)": "",
+        "Total population (Gapminder, HYDE & UN)": "7874965730",
+        "Continent": ""
+    },
+    "Wuerttemburg": {
+        "Entity": "Wuerttemburg",
+        "Code": "OWID_WRT",
+        "Year": "2015",
+        "Prevalence - Anxiety disorders - Sex: Male - Age: Age-standardized (Percent)": "",
+        "Prevalence - Anxiety disorders - Sex: Female - Age: Age-standardized (Percent)": "",
+        "Total population (Gapminder, HYDE & UN)": "",
+        "Continent": "Europe"
+    },
+    "Yemen": {
+        "Entity": "Yemen",
+        "Code": "YEM",
+        "Year": "2021",
+        "Prevalence - Anxiety disorders - Sex: Male - Age: Age-standardized (Percent)": "",
+        "Prevalence - Anxiety disorders - Sex: Female - Age: Age-standardized (Percent)": "",
+        "Total population (Gapminder, HYDE & UN)": "30490639",
+        "Continent": ""
+    },
+    "Yemen Arab Republic": {
+        "Entity": "Yemen Arab Republic",
+        "Code": "OWID_YAR",
+        "Year": "2015",
+        "Prevalence - Anxiety disorders - Sex: Male - Age: Age-standardized (Percent)": "",
+        "Prevalence - Anxiety disorders - Sex: Female - Age: Age-standardized (Percent)": "",
+        "Total population (Gapminder, HYDE & UN)": "",
+        "Continent": "Asia"
+    },
+    "Yemen People's Republic": {
+        "Entity": "Yemen People's Republic",
+        "Code": "OWID_YPR",
+        "Year": "2015",
+        "Prevalence - Anxiety disorders - Sex: Male - Age: Age-standardized (Percent)": "",
+        "Prevalence - Anxiety disorders - Sex: Female - Age: Age-standardized (Percent)": "",
+        "Total population (Gapminder, HYDE & UN)": "",
+        "Continent": "Asia"
+    },
+    "Yugoslavia": {
+        "Entity": "Yugoslavia",
+        "Code": "OWID_YGS",
+        "Year": "2015",
+        "Prevalence - Anxiety disorders - Sex: Male - Age: Age-standardized (Percent)": "",
+        "Prevalence - Anxiety disorders - Sex: Female - Age: Age-standardized (Percent)": "",
+        "Total population (Gapminder, HYDE & UN)": "",
+        "Continent": "Europe"
+    },
+    "Zambia": {
+        "Entity": "Zambia",
+        "Code": "ZMB",
+        "Year": "2021",
+        "Prevalence - Anxiety disorders - Sex: Male - Age: Age-standardized (Percent)": "",
+        "Prevalence - Anxiety disorders - Sex: Female - Age: Age-standardized (Percent)": "",
+        "Total population (Gapminder, HYDE & UN)": "18920657",
+        "Continent": ""
+    },
+    "Zanzibar": {
+        "Entity": "Zanzibar",
+        "Code": "OWID_ZAN",
+        "Year": "2015",
+        "Prevalence - Anxiety disorders - Sex: Male - Age: Age-standardized (Percent)": "",
+        "Prevalence - Anxiety disorders - Sex: Female - Age: Age-standardized (Percent)": "",
+        "Total population (Gapminder, HYDE & UN)": "",
+        "Continent": "Africa"
+    },
+    "Zimbabwe": {
+        "Entity": "Zimbabwe",
+        "Code": "ZWE",
+        "Year": "2021",
+        "Prevalence - Anxiety disorders - Sex: Male - Age: Age-standardized (Percent)": "",
+        "Prevalence - Anxiety disorders - Sex: Female - Age: Age-standardized (Percent)": "",
+        "Total population (Gapminder, HYDE & UN)": "15092171",
+        "Continent": ""
+    },
+    "\u00c3\u2026land Islands": {
+        "Entity": "\u00c3\u2026land Islands",
+        "Code": "ALA",
+        "Year": "2015",
+        "Prevalence - Anxiety disorders - Sex: Male - Age: Age-standardized (Percent)": "",
+        "Prevalence - Anxiety disorders - Sex: Female - Age: Age-standardized (Percent)": "",
+        "Total population (Gapminder, HYDE & UN)": "",
+        "Continent": "Europe"
+    }
+}
