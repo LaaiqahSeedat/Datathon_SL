@@ -32,7 +32,9 @@ export class SharedService {
   }
 
   //Function to get percentages per age group 
-
+  getmeTheAPerc(){
+    return this.http.get(this.APIurl + "ageAnxiety/", {headers:this.headers})
+  }
   //Function to get percentages overall 
 
   //Population percent for people with anxiety future prediction 

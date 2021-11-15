@@ -4,7 +4,9 @@ from django.shortcuts import render
 from rest_framework.decorators import api_view
 import pandas as pd
 from .models import GenderAnxiaty as gA
+from .models import AgeAnxiety as aA
 from .Serializer import genderanxiatySerializer as gS
+from .Serializer import ageanxiatySerializer as aS
 from rest_framework.response import Response
 import csv
 #../../Datasets/anxiety
@@ -21,16 +23,6 @@ def home(request):
     }
     
     return Response(api_urls)
-
-@api_view(['GET'])
-def getPrevGenderRecords(request):
-    
-    gStats = gA.objects.all() 
-    gSerialized = gS(gStats, many = True)
-
-    genderRecords = {"SOmething":"whatever"}
-
-    return Response(gSerialized.data)
 
 @api_view(['POST']) 
 def anxietyCheck(request):
@@ -107,21 +99,17 @@ def FuturePredict(request):
     csv_file.close()
     return Response(model_json)
 
-@api_view(['POST']) 
-def CreatePredict(request):
-    theData = request.data
 
-    year_strart = 2017 #theData.get("Year")
-    year_end = 2025
-    for year in range(year_strart,year_end):
-        model = tS.predictNumPeople(year)
-        print(model)
-        model_json = {"Future Prediction": model}
-        print(model_json)
-        csv_file = open("../../DataSets/Future_prediction.csv", "w")
-        csv_writer = csv.tocsv(csv_file)
-        csv_writer.writerow(["Year", "Prediction"])
-        csv_writer.writerow([year, model])
-        
-    csv_file.close()
-    return Response(model_json)
+@api_view(['GET'])
+def getGenderRecords(request):  
+    gStats = gA.objects.all() 
+    gSerialized = gS(gStats, many = True)
+
+    return Response(gSerialized.data)
+
+@api_view(['GET'])
+def getAgeRecords(request):
+    aStats = aA.objects.all() 
+    aSerialized = aS(aStats, many = True)
+
+    return Response(aSerialized.data)

@@ -15,7 +15,7 @@ newaData = anxietyData[(anxietyData['Entity'] == "South Africa")]
 
 #rename dataframe
 newaData = newaData.rename(columns={'Prevalence - Anxiety disorders - Sex: Male - Age: Age-standardized (Percent)':'Male', 
-                                  'Prevalence - Anxiety disorders - Sex: Female - Age: Age-standardized (Percent)':'Female'})
+                                    'Prevalence - Anxiety disorders - Sex: Female - Age: Age-standardized (Percent)':'Female'})
 
 #save the dataframe as csv
 newaData.to_csv(dirname+'\DataSets\MalesVsFemales_Anxiety.csv')

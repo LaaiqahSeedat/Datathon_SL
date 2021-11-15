@@ -6,5 +6,6 @@ urlpatterns = [
     p('', v.home,name="Home"),
     p('anxietyCheck/', v.anxietyCheck),
     p('FuturePredict/', v.FuturePredict),
-    p('genderAnxiety/', v.getPrevGenderRecords),
+    p('genderAnxiety/', v.getGenderRecords),
+    p('ageAnxiety/', v.getAgeRecords),
 ]

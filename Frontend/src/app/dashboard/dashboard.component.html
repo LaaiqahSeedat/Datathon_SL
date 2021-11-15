@@ -39,14 +39,13 @@
              <div class="row">
                  <div class="col-md-auto">
                      <div class="card card-stats">
-                        <p>line graph comparing males vs Females with anxiety over the years</p>
+                        <p>Line graph comparing males vs Females with anxiety over the years</p>
                         <div class="card-header">
-
                         </div>
                         <div class="card-body">
                         <!-- CHART [width, height]  -->
                         <ngx-charts-line-chart
-                            [view]="[800,400]"
+                            [view]="[1000,400]"
                             [scheme]="genderScheme"
                             [legend]="true"
                             [showXAxisLabel]="true"
@@ -69,6 +68,32 @@
                  <div class="col-md-auto">
                      <div class="card">
                          <div class="card-header">
+                            <p>Line graph showing the total percentage of the population in South africa with anxiety over the years</p>
+                         </div>
+                         <div class="card-body">
+                              <!-- CHART HEADER -->
+                
+                                <!-- CHART  -->
+                                <ngx-charts-bar-vertical
+                                    [view]="[1000,400]"
+                                    [scheme]="percGScheme"
+                                    [results]="overalAnxiety"
+                                    [gradient]="true"
+                                    [xAxis]="true"
+                                    [yAxis]="true"
+                                    [showXAxisLabel]="true"
+                                    [showYAxisLabel]="true"
+                                    [xAxisLabel]="'Years'"
+                                    [yAxisLabel]="'Percentages'"
+                                    
+                                    >
+                            </ngx-charts-bar-vertical>
+                         </div>
+                     </div>
+                 </div>
+                 <div class="col-md-auto">
+                     <div class="card">
+                         <div class="card-header">
 
                          </div>
                          <div class="card-body">
@@ -76,7 +101,7 @@
                             <p>Line graph showing the total percentage per age group in South africa with anxiety over the years</p>
                             <!-- CHART  -->
                            <ngx-charts-line-chart
-                             [view]="[500,400]"
+                             [view]="[1000,400]"
                              [scheme]="ageScheme"
                              [legend]="true"
                              [showXAxisLabel]="true"
@@ -95,28 +120,9 @@
                      </div>
                     
                 </div>
-                <!-- CHART HEADER -->
-                <h3>Line graph showing the total percentage of the population in South africa with anxiety over the years</h3>
-                <!-- CHART  -->
-                  <ngx-charts-line-chart
-                    [view]="[1000,600]"
-                    [scheme]="moneyScheme"
-                    [legend]="true"
-                    [showXAxisLabel]="true"
-                    [showYAxisLabel]="true"
-                    [xAxis]="true"
-                    [yAxis]="true"
-                    [xAxisLabel]="'Years'"
-                    [yAxisLabel]="'Percentage'"
-                    [timeline]="true"
-                    [results]="populationDATA"
-                    [legendPosition]="'below'"
-                  >
-                  </ngx-charts-line-chart>
+            
              </div>
          </div>
-        
-
     </div>
   </div>
 </div>
