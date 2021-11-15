@@ -1,5 +1,12 @@
+from os import sep
+import os
 from django.shortcuts import render
 from rest_framework.decorators import api_view
+import pandas as pd
+from .models import GenderAnxiaty as gA
+from .models import AgeAnxiety as aA
+from .Serializer import genderanxiatySerializer as gS
+from .Serializer import ageanxiatySerializer as aS
 from rest_framework.response import Response
 import csv
 #../../Datasets/anxiety
@@ -11,20 +18,11 @@ from .Machine_Learning.anxiety.testModels import TestingModels as tS
 def home(request):
     api_urls = {
         'Check For Anxiety':'anxietyCheck/',
+        'Get Gender Anxiety stats':'genderAnxiety/',
+        'Check For Anxiety':'anxietyCheck/',
     }
     
     return Response(api_urls)
-
-@api_view(['POST'])
-def gmentalh(request):
-    theData = request.data
-    
-    print(theData.get("Gender"))
-
-    respose_json = {
-        'Result':'You are at risk of ADHD'
-    }
-    return Response(respose_json)
 
 @api_view(['POST']) 
 def anxietyCheck(request):
@@ -62,29 +60,25 @@ def anxietyCheck(request):
 
 
     params = [age, edLevel, gender, familyHistory, occupation, atf, eaf, tkf, cmt, fearEatDrink, smf, erf, daf, hr, sw, tr, dr, br, ck, cp, ns,  dz, ur, ub, md, tg]
-    model = tS.classifier(params)
-    print(model)
-    prob_json = {'Probability':model}
+    anxietyornot = tS.classifier(params)
+    
+    accuracyPerc = tS.classifierPercentages(params)
+    #accuracyPerc.split(sep="[ ]" , maxsplits="3")
+    print(accuracyPerc)
+
+    noAnxiety = accuracyPerc[0] * 100
+    Anxiety = accuracyPerc[1] * 100
+    Anxiety = round(Anxiety, 2)
+    print(noAnxiety)
+    print(Anxiety)
+    prob_json = {
+        'Probability':anxietyornot,
+        'No_Anxiety':noAnxiety,
+        'Anxiety':Anxiety
+        }
 
     return Response(prob_json)
 
-    """
-    #You have depression 
-    if((age >= 0) & ((gender == 1) or (gender == 0)) & (familyHistory == 1 or familyHistory == 0)):
-        if ((atf >= 9) & (eaf >= 9) & (tkf >= 9) & (cmt >= 9) & (smf >= 9) & (erf >= 9) & (daf >= 9) & (fearEatDrink >= 9)):
-            if(hr == 1) &  (sw == 1) & (tr == 1) & (dr == 1) & (br == 1) & (ck == 1) & (cp == 1) & (ns == 1) & (dz == 1) & (ur == 1) & (ub == 1) & (md == 1) & (tg == 1) & (hasSad == 1):
-                response = {
-                    "Result" : "You have high chances of having a Anxiety. Please concult a nearby Psychologist"
-                }
-
-     #You have no depression 
-    if((age >= 0) & ((gender == 1) or (gender == 0)) & (familyHistory == 1 or familyHistory == 0)):
-        if ((atf <= 2) & (eaf <= 9) & (tkf <= 9) & (cmt <= 9) & (smf <= 9) & (erf <= 9) & (daf <= 9)):
-            if(hr == 0) &  (sw == 0) & (tr == 0) & (dr == 0) & (br == 0) & (ck == 0) & (cp == 0) & (ns == 0) & (dz == 0) & (ur == 0) & (ub == 0) & (md == 0) & (tg == 0) & (hasSad == 0):
-                response = {
-                    "Result" : "You have no symptoms of Anxiety."
-                }
-"""
 @api_view(['POST']) 
 def FuturePredict(request):
     theData = request.data
@@ -97,10 +91,25 @@ def FuturePredict(request):
     print(model_json)
 
     
-    csv_file = open("/Users/ubaid/Downloads/Data Science competetion/Github/Datathon_SL/DataSets/Future_prediction.csv", "w")
-    csv_writer = csv.writer(csv_file)
+    csv_file = open("../../DataSets/Future_prediction.csv", "w")
+    csv_writer = csv.tocsv(csv_file)
     csv_writer.writerow(["Year", "Prediction"])
    
     csv_writer.writerow([year, model])
     csv_file.close()
     return Response(model_json)
+
+
+@api_view(['GET'])
+def getGenderRecords(request):  
+    gStats = gA.objects.all() 
+    gSerialized = gS(gStats, many = True)
+
+    return Response(gSerialized.data)
+
+@api_view(['GET'])
+def getAgeRecords(request):
+    aStats = aA.objects.all() 
+    aSerialized = aS(aStats, many = True)
+
+    return Response(aSerialized.data)

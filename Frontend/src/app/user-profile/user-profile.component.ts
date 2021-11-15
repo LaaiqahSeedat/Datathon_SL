@@ -1,13 +1,17 @@
+import { fadeInOut } from './../AnimationWorld/mrAnimate';
 import { Component, OnInit } from '@angular/core';
+import { SharedService } from 'app/components/shared.service';
 
 @Component({
   selector: 'app-user-profile',
   templateUrl: './user-profile.component.html',
-  styleUrls: ['./user-profile.component.css']
+  styleUrls: ['./user-profile.component.css'],
+  animations: [fadeInOut]
 })
 export class UserProfileComponent implements OnInit {
-
+  anxietyFade = "In"
   whatDisorder = "Nothing Picked";
+  QCount = 0
   picked = 
     {
       Anxiety: false,
@@ -16,36 +20,62 @@ export class UserProfileComponent implements OnInit {
       Bipolar: false
     };
   
-  Disorders:any = [
+    AnxietyInfo:any = [
     {
       Name:"Anxiety Disorder",
-      Description:"Disorder characterised by feelings of worry, anxiety or fear that are strong enough to interfere with one's daily activities.",
-      From:"https://www.mayoclinic.org/diseases-conditions/anxiety/symptoms-causes/syc-20350961",
+      Description:"",
+      From:"",
       State:"Check"
+    }
+
+    
+  ]
+  AnxietyDescriptions=[
+    {
+      Description:"Disorder characterised by feelings of worry, anxiety or fear that are strong enough to interfere with one's daily activities.",
+      From:"https://www.mayoclinic.org/diseases-conditions/anxiety/symptoms-causes/syc-20350961"
+    },
+    {
+      Description:"Toxic Anxity is everything from worry to panic attacks and paranoia",
+      From:"https://www.headspace.com/articles/age-of-anxiety"
     }
   ]
 
-  constructor() { }
+  constructor(private sService: SharedService) { }
 
   ngOnInit() {
+
+    this.AnxietyInfo[0].Description = this.AnxietyDescriptions[this.QCount].Description
+    this.AnxietyInfo[0].From = this.AnxietyDescriptions[this.QCount].From
+    setInterval(() =>{
+      if(this.QCount != this.sService.getKeepTrack()){
+         this.startSwift(this.sService.getKeepTrack());
+      }
+    },500);
+  }
+  startSwift(weAt: number) {
+    this.QCount = weAt
   }
 
   restartQuiz(){
-
-    for (let i = 0; i < this.Disorders.length; i++) {
-        this.Disorders[i].State = "Check"
+    this.anxietyFade = "Out"
+    for (let i = 0; i < this.AnxietyInfo.length; i++) {
+        this.AnxietyInfo[i].State = "Check"
     }
+    setTimeout(() =>{
+      this.picked.Anxiety = false
+      this.picked.Depression =false
+      this.picked.Eating = false
+      this.picked.Bipolar = false
+      this.whatDisorder = "Nothing Picked"
+    },2000)
 
-    this.picked.Anxiety = false
-    this.picked.Depression =false
-    this.picked.Eating = false
-    this.picked.Bipolar = false
-
-    this.whatDisorder = "Nothing Picked"
+    
   }
 
 
   checkDisorder(disorder:string){
+    
     this.switchScenes(disorder);
     this.changeButtonValue(disorder);
     this.resetOthers(disorder);
@@ -53,9 +83,9 @@ export class UserProfileComponent implements OnInit {
   }
 
   resetOthers(disorder:string){
-    for (let i = 0; i < this.Disorders.length; i++) {
-      if(this.Disorders[i].Name != disorder){
-        this.Disorders[i].State = "Check"
+    for (let i = 0; i < this.AnxietyInfo.length; i++) {
+      if(this.AnxietyInfo[i].Name != disorder){
+        this.AnxietyInfo[i].State = "Check"
       }
     }
 
@@ -65,16 +95,17 @@ export class UserProfileComponent implements OnInit {
   changeButtonValue(disorder:string){
     switch (disorder){
       case "Anxiety Disorder":
-          this.Disorders[0].State = "Checking"
+          this.anxietyFade = "In"
+          this.AnxietyInfo[0].State = "Checking"
         break;
       case "Depression Disorder":
-          this.Disorders[1].State = "Checking"
+          this.AnxietyInfo[1].State = "Checking"
         break;
       case "Eating Disorder":
-          this.Disorders[2].State = "Checking"
+          this.AnxietyInfo[2].State = "Checking"
         break;
       case "Bipolar Disorder":
-          this.Disorders[3].State = "Checking"
+          this.AnxietyInfo[3].State = "Checking"
         break;
 
       default:

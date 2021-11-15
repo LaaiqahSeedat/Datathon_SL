@@ -270,7 +270,19 @@
          </div>
     </div>
     <div *ngIf="anxiety == 1">
-        <h1>You are at risk of having anxiety</h1>
+        <div class="row">
+            <div class="col-4">
+                <ngx-charts-number-card
+                [results]="AccuracyData"
+                [cardColor]="'white'"
+                [scheme] = "ResultColorScheme"
+                [view] = "[200,220]"></ngx-charts-number-card> 
+            </div>
+            <div class="col-8">
+                <h3 style="font-family: Georgia, 'Times New Roman', Times, serif;">You are at risk of having anxiety</h3>
+            </div>
+        </div>
+        
     </div>
     <div *ngIf="anxiety == 0">
         <h1>You are not at risk of having anxiety</h1>

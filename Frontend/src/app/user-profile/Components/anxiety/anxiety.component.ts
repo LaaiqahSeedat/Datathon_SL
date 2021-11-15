@@ -10,6 +10,7 @@ export class AnxietyComponent implements OnInit {
     anxiety:number = -1
     submitted = false;
     done = false;
+
     UserInput:any = {
     age:null,
     EducationLevel:null,
@@ -38,9 +39,15 @@ export class AnxietyComponent implements OnInit {
     MD:null,
     TG:null
   }
+
   notFirst:boolean= false;
   listQuestions:boolean[]=[true, false, false, false, false, false, false,false,false]
-
+  ResultColorScheme:any = {
+    domain: ['#8B008B']
+  };
+  AccuracyData:any =[
+    {"name":"Accuracy", "value":80+"%"}
+  ]
   weAt = 0;
   process="Next";
   constructor(private sService:SharedService) { }
@@ -88,6 +95,8 @@ export class AnxietyComponent implements OnInit {
     if(this.weAt < 8){
       this.process = "Next"
     }
+    
+    this.sService.setKeepTrack(this.weAt);
 
     this.updateWeAt()
   }
@@ -116,8 +125,17 @@ export class AnxietyComponent implements OnInit {
   showResults(data){
     this.listQuestions[this.listQuestions.length-1] = false;
     this.anxiety = data.Probability
+    
+    this.AccuracyData[0].value = data.Anxiety
+    this.AccuracyData = [...this.AccuracyData]
+
     console.log(this.anxiety)
     this.done = true;
+
+    setTimeout(() =>{
+      this.AccuracyData[0].value = this.AccuracyData[0].value + "%"
+      this.AccuracyData = [...this.AccuracyData]
+    },3500)
     
   }
 

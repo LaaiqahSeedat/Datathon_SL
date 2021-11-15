@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import * as Chartist from 'chartist';
+import { datacatalog_v1 } from 'googleapis';
 import { SharedService } from '../components/shared.service';
 
 @Component({
@@ -8,126 +9,38 @@ import { SharedService } from '../components/shared.service';
   styleUrls: ['./dashboard.component.css']
 })
 export class DashboardComponent implements OnInit {
+<<<<<<< HEAD
   title = 'Impilo Van Data | SC21 ';
+=======
+>>>>>>> main
 
   //Gender
 
   //Age
   //Population
 
-  moneyToMakeLine:any = [
-    {
-    "name":"Percentage",
-    "series":[
-      {
-        "name":"2003",
-        "value":50
-      },
-      {
-        "name":"2004",
-        "value":48
-      },
-      {
-        "name":"2005",
-        "value":58
-      },
-      {
-        "name":"2006",
-        "value":14
-      },
-    ]
-    },
-
-    {
-      "name":"Future Prediction",
-      "series":[
-        {
-          "name":"2006",
-          "value":14
-        },
-        {
-          "name":"2007",
-          "value":18
-        },
-        {
-          "name":"2008",
-          "value":48
-        },
-        {
-          "name":"2009",
-          "value":58
-        },
-        {
-          "name":"2010",
-          "value":14
-        },
-      ]
-      },
-   
-  ]
+  overalAnxiety:any = []
   
   moneyScheme:any = {
     domain: ['blue','lightblue']
+  };
+  percGScheme:any = {
+    domain: ['skyblue','magenta']
   };
 
 //Gender graph
   genderGraph:any = [
     {
     "name":"Male",
-    "series":[
-      {
-        "name":"2001",
-        "value":14
-      },
-      {
-        "name":"2002",
-        "value":22
-      },
-      {
-        "name":"2003",
-        "value":22
-      },
-      {
-        "name":"2004",
-        "value":22
-      },
-      {
-        "name":"2005",
-        "value":22
-      },
-  
-    ]
+    "series":[]
     },
-       {
+    {
     "name":"Female",
-    "series":[
-      {
-        "name":"2001",
-        "value":50
-      },
-      {
-        "name":"2002",
-        "value":48
-      },
-      {
-        "name":"2003",
-        "value":50
-      },
-      {
-        "name":"2004",
-        "value":50
-      },
-      {
-        "name":"2005",
-        "value":50
-      },
-
-  
-    ]
+    "series":[]
     },
-
     {
       "name":"Male Predictions",
+<<<<<<< HEAD
       "series":[
         {
           "name":"2005",
@@ -195,34 +108,14 @@ export class DashboardComponent implements OnInit {
       ]
       },
          {
+=======
+      "series":[]
+    },
+    {
+>>>>>>> main
       "name":"Female Predictions",
-      "series":[
-        {
-          "name":"2005",
-          "value":50
-        },
-        {
-          "name":"2006",
-          "value":48
-        },
-        {
-          "name":"2007",
-          "value":50
-        },
-        {
-          "name":"2008",
-          "value":50
-        },
-        {
-          "name":"2009",
-          "value":50
-        },
-  
-    
-      ]
-      },
-    
-   
+      "series":[]
+    }
   ]
   
   genderScheme:any = {
@@ -232,48 +125,25 @@ export class DashboardComponent implements OnInit {
 //Age graph 
 ageLine:any = [
     {
-    "name":"Ages 3-5",
-    "series":[
-      {
-        "name":"2003",
-        "value":50
-      },
-      {
-        "name":"2004",
-        "value":48
-      },
-      {
-        "name":"2005",
-        "value":58
-      },
-      {
-        "name":"2006",
-        "value":14
-      },
-    ]
+    "name":"Ages < 5",
+    "series":[]
     },
     {
-      "name":"Ages 6-12",
-      "series":[
-        {
-          "name":"2003",
-          "value":75
-        },
-        {
-          "name":"2004",
-          "value":46
-        },
-        {
-          "name":"2005",
-          "value":20
-        },
-        {
-          "name":"2006",
-          "value":55
-        },
-      ]
-      },
-   
+      "name":"Ages 5-14",
+      "series":[]
+    },
+    {
+      "name":"Ages 15-49",
+      "series":[]
+    },
+    {
+      "name":"Ages 50-69",
+      "series":[]
+    },
+    {
+      "name":"Ages > 70",
+      "series":[]
+    }
   ]
   
   ageScheme:any = {
@@ -282,7 +152,7 @@ ageLine:any = [
 
 
 
-  constructor() { }
+  constructor(private sShared: SharedService) { }
   startAnimationForLineChart(chart){
       let seq: any, delays: any, durations: any;
       seq = 0;
@@ -340,108 +210,64 @@ ageLine:any = [
       seq2 = 0;
   };
   ngOnInit() {
-    //Populate the data for the graphs here 
 
-
-
-
-
-      /* ----------==========    Overall Anxiety    ==========---------- */
-
-      const dataDailySalesChart: any = {
-          labels: ['2000', '2001', '2002', '2003', '2004', '2005', '2006','2007'],
-          series: [
-              [12, 17, 7, 17, 23, 18, 38,92],
-              [18, 99, 52, 32, 52, 18, 75, 65]
-          ]
-      };
-
-     const optionsDailySalesChart: any = {
-          lineSmooth: Chartist.Interpolation.cardinal({
-              tension: 0
-          }),
-          scaleMinSpace: 20,
-          low: 0,
-          high: 150, // creative tim: we recommend you to set the high sa the biggest value + something for a better look
-          chartPadding: { top: 0, right: 0, bottom: 0, left: 0},
-      }
-
-      var dailySalesChart = new Chartist.Line('#dailySalesChart', dataDailySalesChart, optionsDailySalesChart);
-
-      this.startAnimationForLineChart(dailySalesChart);
-
-
-      /* ----------==========     Age Anxiety   ==========---------- */
-
-      const dataCompletedTasksChart: any = {
-          labels: ['2000', '2001', '2002', '2003', '2004', '2005', '2006','2007'],
-          series: [
-              [23, 75, 45, 30, 80, 40, 20, 90],
-              [40, 45, 45, 30, 80, 40, 20, 90],
-              [60, 65, 45, 30, 80, 40, 20, 90],
-              [80, 30, 45, 30, 80, 40, 20, 90],
-              [95, 45, 45, 30, 80, 40, 20, 90],
-          ]
-      };
-
-     const optionsCompletedTasksChart: any = {
-          lineSmooth: Chartist.Interpolation.cardinal({
-              tension: 0
-          }),
-          low: 0,
-          high: 150, // creative tim: we recommend you to set the high sa the biggest value + something for a better look
-          chartPadding: { top: 0, right: 0, bottom: 0, left: 0}
-      }
-
-      var completedTasksChart = new Chartist.Line('#completedTasksChart', dataCompletedTasksChart, optionsCompletedTasksChart);
-
-      // start animation for the Completed Tasks Chart - Line Chart
-      this.startAnimationForLineChart(completedTasksChart);
-
-
-
-      /* ----------==========     Gender Anxiety    ==========---------- */
-
-      var datawebsiteViewsChart = {
-        labels: ['2000', '2001', '2002', '2003', '2004', '2005', '2006','2007'],
-        series: [
-          [23, 75, 45, 30, 80, 40, 20, 90],
-          [85, 55, 48, 30, 80, 40, 20, 90]
-
-        ]
-      };
-      var optionswebsiteViewsChart = {
-          axisX: {
-              showGrid: false
-          },
-          scaleMinSpace: 30,
-          low: 0,
-          high: 150,
-          chartPadding: { top: 0, right: 5, bottom: 0, left: 0}
-      };
-      var responsiveOptions: any[] = [
-        ['screen and (max-width: 640px)', {
-          seriesBarDistance: 5,
-          axisX: {
-            labelInterpolationFnc: function (value) {
-              return value[0];
-            }
-          }
-        }]
-      ];
-      var websiteViewsChart = new Chartist.Bar('#websiteViewsChart', datawebsiteViewsChart, optionswebsiteViewsChart, responsiveOptions);
-
-      //start animation for the Emails Subscription Chart
-      this.startAnimationForBarChart(websiteViewsChart);
+    this.sShared.getmeTheGPerc().subscribe((data)=>{
+      this.getGender(data)
+    })
+    this.sShared.getmeTheAPerc().subscribe((data)=>{
+      this.getAgeRanges(data)
+    })
   }
 
 
-  getGender(){
+  getGender(data:any){
+    for (let i = 0; i < data.length; i++) {
+      
+      this.genderGraph[0].series.push({
+            "name":data[i].Year + "",
+            "value":data[i].Percentage_Male
+      })
+      this.genderGraph[1].series.push({
+            "name":data[i].Year + "",
+            "value":data[i].Percentage_Female
+      })
+      this.overalAnxiety.push({
+        "name":data[i].Year + "",
+        "value":data[i].Total_Percentage
+      })
+    }
 
+    this.genderGraph = [...this.genderGraph]
+    this.overalAnxiety = [...this.overalAnxiety]
   }
 
-  getAgeRanges(){
+  getAgeRanges(data:any){
+    for (let i = 0; i < data.length; i++) {
+      
+      this.ageLine[0].series.push({
+            "name":data[i].Year + "",
+            "value":data[i].UnderFive
+      })
+      this.ageLine[1].series.push({
+            "name":data[i].Year + "",
+            "value":data[i].FiveToFourteen
+      })
+      this.ageLine[2].series.push({
+        "name":data[i].Year + "",
+        "value":data[i].FifteenToFourtyNine
+      })
+      this.ageLine[3].series.push({
+        "name":data[i].Year + "",
+        "value":data[i].FiftyToSixtynine
+      })
+      this.ageLine[4].series.push({
+        "name":data[i].Year + "",
+        "value":data[i].OverSeventy
+      })
 
+    }
+
+    this.ageLine = [...this.ageLine]
   }
 
   getAges(){
