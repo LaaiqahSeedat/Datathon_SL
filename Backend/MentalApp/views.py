@@ -94,8 +94,28 @@ def FuturePredict(request):
     print(model_json)
 
     
-    csv_file = open("/Users/ubaid/Downloads/Data Science competetion/Github/Datathon_SL/DataSets/Future_prediction.csv", "w")
-    csv_writer = csv.writer(csv_file)
+    csv_file = open("../../DataSets/Future_prediction.csv", "w")
+    csv_writer = csv.tocsv(csv_file)
+    csv_writer.writerow(["Year", "Prediction"])
+   
+    csv_writer.writerow([year, model])
+    csv_file.close()
+    return Response(model_json)
+
+@api_view(['POST']) 
+def CreatePredict(request):
+    theData = request.data
+
+    year = theData.get("Year")
+
+    model = tS.predictNumPeople(year)
+    print(model)
+    model_json = {"Future Prediction": model}
+    print(model_json)
+
+    
+    csv_file = open("../../DataSets/Future_prediction.csv", "w")
+    csv_writer = csv.tocsv(csv_file)
     csv_writer.writerow(["Year", "Prediction"])
    
     csv_writer.writerow([year, model])
