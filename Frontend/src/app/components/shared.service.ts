@@ -24,6 +24,8 @@ export class SharedService {
 
   //Function to get percentages overall 
 
-  //Population percent for people with anxiety 
+  //Population percent for people with anxiety future prediction 
+
+  //Gender percent for people with anxiety
 
 }  
