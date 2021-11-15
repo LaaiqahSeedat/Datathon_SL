@@ -1,0 +1,36 @@
+{
+    "false": {
+        "Entity": "Zimbabwe",
+        "Code": "ZWE",
+        "Year": "2017",
+        "Prevalence - Anxiety disorders - Sex: Both - Age: 30 to 34 (Percent)": "3.7899234269199997",
+        "Prevalence - Anxiety disorders - Sex: Both - Age: Under 5 (Percent)": "0.099277274454",
+        "Prevalence - Anxiety disorders - Sex: Both - Age: 15 to 19 (Percent)": "3.99956366276",
+        "Prevalence - Anxiety disorders - Sex: Both - Age: 10 to 14 (Percent)": "3.42001639408",
+        "Prevalence - Anxiety disorders - Sex: Both - Age: 25 to 29 (Percent)": "3.7525855552799996",
+        "Prevalence - Anxiety disorders - Sex: Both - Age: 5-14 years (Percent)": "2.35260403763",
+        "Prevalence - Anxiety disorders - Sex: Both - Age: 50-69 years (Percent)": "3.4141313238",
+        "Prevalence - Anxiety disorders - Sex: Both - Age: Age-standardized (Percent)": "3.1109255999",
+        "Prevalence - Anxiety disorders - Sex: Both - Age: 15-49 years (Percent)": "3.87151368624",
+        "Prevalence - Anxiety disorders - Sex: Both - Age: 70+ years (Percent)": "2.84893968117",
+        "Prevalence - Anxiety disorders - Sex: Both - Age: 20 to 24 (Percent)": "3.8390633618399996",
+        "Prevalence - Anxiety disorders - Sex: Both - Age: All Ages (Percent)": "2.911974903"
+    },
+    "true": {
+        "Entity": "South Africa",
+        "Code": "ZAF",
+        "Year": "2017",
+        "Prevalence - Anxiety disorders - Sex: Both - Age: 30 to 34 (Percent)": "4.82110001558",
+        "Prevalence - Anxiety disorders - Sex: Both - Age: Under 5 (Percent)": "0.122478103644",
+        "Prevalence - Anxiety disorders - Sex: Both - Age: 15 to 19 (Percent)": "4.90263666335",
+        "Prevalence - Anxiety disorders - Sex: Both - Age: 10 to 14 (Percent)": "4.12795917678",
+        "Prevalence - Anxiety disorders - Sex: Both - Age: 25 to 29 (Percent)": "4.77596520049",
+        "Prevalence - Anxiety disorders - Sex: Both - Age: 5-14 years (Percent)": "2.86166929783",
+        "Prevalence - Anxiety disorders - Sex: Both - Age: 50-69 years (Percent)": "4.58642080826",
+        "Prevalence - Anxiety disorders - Sex: Both - Age: Age-standardized (Percent)": "3.9928299629599997",
+        "Prevalence - Anxiety disorders - Sex: Both - Age: 15-49 years (Percent)": "4.88197518658",
+        "Prevalence - Anxiety disorders - Sex: Both - Age: 70+ years (Percent)": "3.9138156320100004",
+        "Prevalence - Anxiety disorders - Sex: Both - Age: 20 to 24 (Percent)": "4.82797582174",
+        "Prevalence - Anxiety disorders - Sex: Both - Age: All Ages (Percent)": "4.04554149571"
+    }
+}
