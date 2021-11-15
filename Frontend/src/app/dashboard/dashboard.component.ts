@@ -8,6 +8,12 @@ import { SharedService } from '../components/shared.service';
   styleUrls: ['./dashboard.component.css']
 })
 export class DashboardComponent implements OnInit {
+  title = 'Impilo Van Data | SC21';
+
+  //Gender
+
+  //Age
+  //Population
 
   moneyToMakeLine:any = [
     {
@@ -292,6 +298,12 @@ ageLine:any = [
       seq2 = 0;
   };
   ngOnInit() {
+    //Populate the data for the graphs here 
+
+
+
+
+
       /* ----------==========    Overall Anxiety    ==========---------- */
 
       const dataDailySalesChart: any = {
@@ -380,5 +392,20 @@ ageLine:any = [
       //start animation for the Emails Subscription Chart
       this.startAnimationForBarChart(websiteViewsChart);
   }
+
+
+  getGender(){
+
+  }
+
+  getAgeRanges(){
+
+  }
+
+  getAges(){
+
+  }
+
+  
 
 }
