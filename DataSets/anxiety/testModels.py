@@ -44,13 +44,73 @@ modelName = "Anxiety_Classifier_model.pik"
 #        'ATF', 'EAF', 'TKF', 'CMT', 'DEF', 'SMF', 'ERF', 'DAF', 'HR', 'SW',
 #        'TR', 'DR', 'BR', 'CK', 'CP', 'NS', 'DZ', 'UR', 'UB', 'MD', 'TG']
 
+# an update to parameters!
+# ['Age', 'EducationLevel', 'ATF', 'EAF', 'TKF', 'CMT', 'DEF', 'SMF',
+#        'ERF', 'DAF', 'Gender_1', 'HasFamilyHistory_1', 'Occupation_2',
+#        'Occupation_3', 'Occupation_4', 'Occupation_5', 'HR_1', 'SW_1', 'TR_1',
+#        'DR_1', 'BR_1', 'CK_1', 'CP_1', 'NS_1', 'DZ_1', 'UR_1', 'UB_1', 'MD_1',
+#        'TG_1']
+def getNewParameters(oldParms):
+    newParm = []
+    newParm.append(oldParms[0]) # age
+    newParm.append(oldParms[1]) # EducationLevel
+
+    for i in range(5, 13, 1):
+        newParm.append(oldParms[i])
+
+    for k in range(2, 4, 1):
+        if oldParms[k] == 1:
+            newParm.append(1)
+        else:
+            newParm.append(0)
+
+    if oldParms[4] == 1:
+        newParm.extend([0, 0, 0, 0])
+
+    elif oldParms[4] == 2:
+        newParm.extend([1, 0, 0, 0])
+
+    elif oldParms[4] == 3:
+        newParm.extend([0, 1, 0, 0])
+
+    elif oldParms[4] == 4:
+        newParm.extend([0, 0, 1, 0])
+
+    else:
+        newParm.extend([0, 0, 0, 1])
+
+    for k in range(13, 26, 1):
+        if oldParms[k] == 1:
+            newParm.append(1)
+        else:
+            newParm.append(0)
+
+
+    print("old parms: ", oldParms)
+    print("new parms: ", newParm)
+
+    return newParm
+
+
+# x_test takes the form:
+# x_test = ['Age', 'EducationLevel', 'Gender', 'HasFamilyHistory', 'Occupation',
+#        'ATF', 'EAF', 'TKF', 'CMT', 'DEF', 'SMF', 'ERF', 'DAF', 'HR', 'SW',
+#        'TR', 'DR', 'BR', 'CK', 'CP', 'NS', 'DZ', 'UR', 'UB', 'MD', 'TG']
+
 def classifier(x_test):
+    new_x = getNewParameters(x_test)
     loaded_model = joblib.load(modelName)  # Load in the model
-    return loaded_model.predict([x_test])[0]
+    return loaded_model.predict([new_x])[0]
+
+# x_test takes the form:
+# x_test = ['Age', 'EducationLevel', 'Gender', 'HasFamilyHistory', 'Occupation',
+#        'ATF', 'EAF', 'TKF', 'CMT', 'DEF', 'SMF', 'ERF', 'DAF', 'HR', 'SW',
+#        'TR', 'DR', 'BR', 'CK', 'CP', 'NS', 'DZ', 'UR', 'UB', 'MD', 'TG']
 
 def classifierPercentages(x_test):
+    new_x = getNewParameters(x_test)
     loaded_model = joblib.load(modelName)  # Load in the model
-    return loaded_model.predict_proba([x_test])[0]
+    return loaded_model.predict_proba([new_x])[0]
 
 
 # x_test takes the form:
@@ -60,11 +120,10 @@ def classifierPercentages(x_test):
 
 x_test = [32,	5,	0,	0,	3,	3,	3,	7,	2,	1,	1,	1,	1,	1,	0,	0,	1,	1,	0,	0,	0,	0,	0,	0,	0,	0]
 
-
 v = classifierPercentages(x_test)
 
 # Output an array of probabilities for being either a "0" or "1"
-# eg [0.25 0.75] means that it is 25% "0" and 75% "1"
+# eg [0.25 0.75] means that it 25% "0" and 75% "1"
 
 print(v)
 # Testing anxiety forecast

@@ -111,18 +111,17 @@ def FuturePredict(request):
 def CreatePredict(request):
     theData = request.data
 
-    year = theData.get("Year")
-
-    model = tS.predictNumPeople(year)
-    print(model)
-    model_json = {"Future Prediction": model}
-    print(model_json)
-
-    
-    csv_file = open("../../DataSets/Future_prediction.csv", "w")
-    csv_writer = csv.tocsv(csv_file)
-    csv_writer.writerow(["Year", "Prediction"])
-   
-    csv_writer.writerow([year, model])
+    year_strart = 2017 #theData.get("Year")
+    year_end = 2025
+    for year in range(year_strart,year_end):
+        model = tS.predictNumPeople(year)
+        print(model)
+        model_json = {"Future Prediction": model}
+        print(model_json)
+        csv_file = open("../../DataSets/Future_prediction.csv", "w")
+        csv_writer = csv.tocsv(csv_file)
+        csv_writer.writerow(["Year", "Prediction"])
+        csv_writer.writerow([year, model])
+        
     csv_file.close()
     return Response(model_json)
