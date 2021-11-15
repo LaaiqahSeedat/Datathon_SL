@@ -10,10 +10,18 @@ export class SharedService {
 
   readonly APIurl ="http://127.0.0.1:8000/api/";
 
+  keepTrackOnQs = 0;
   headers = {'content-type':'application/json'}
 
   constructor(private http:HttpClient) { }
 
+  setKeepTrack(kT:number){
+    this.keepTrackOnQs = kT;
+  }
+
+  getKeepTrack(){
+    return this.keepTrackOnQs;
+  }
   sendAnxietyA(answers){
     return this.http.post(this.APIurl + "anxietyCheck/", answers,{headers:this.headers})
   }

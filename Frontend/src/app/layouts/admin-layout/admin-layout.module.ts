@@ -22,6 +22,7 @@ import { DepressionComponent } from 'app/user-profile/Components/depression/depr
 import { EatingComponent } from 'app/user-profile/Components/eating/eating.component';
 import { BipolarComponent } from 'app/user-profile/Components/bipolar/bipolar.component';
 import { NgxChartsModule } from '@swimlane/ngx-charts';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
 @NgModule({
   imports: [

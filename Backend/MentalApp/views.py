@@ -1,3 +1,4 @@
+from os import sep
 from django.shortcuts import render
 from rest_framework.decorators import api_view
 from rest_framework.response import Response
@@ -62,29 +63,25 @@ def anxietyCheck(request):
 
 
     params = [age, edLevel, gender, familyHistory, occupation, atf, eaf, tkf, cmt, fearEatDrink, smf, erf, daf, hr, sw, tr, dr, br, ck, cp, ns,  dz, ur, ub, md, tg]
-    model = tS.classifier(params)
-    print(model)
-    prob_json = {'Probability':model}
+    anxietyornot = tS.classifier(params)
+    
+    accuracyPerc = tS.classifierPercentages(params)
+    #accuracyPerc.split(sep="[ ]" , maxsplits="3")
+    print(accuracyPerc)
+
+    noAnxiety = accuracyPerc[0] * 100
+    Anxiety = accuracyPerc[1] * 100
+    Anxiety = round(Anxiety, 2)
+    print(noAnxiety)
+    print(Anxiety)
+    prob_json = {
+        'Probability':anxietyornot,
+        'No_Anxiety':noAnxiety,
+        'Anxiety':Anxiety
+        }
 
     return Response(prob_json)
 
-    """
-    #You have depression 
-    if((age >= 0) & ((gender == 1) or (gender == 0)) & (familyHistory == 1 or familyHistory == 0)):
-        if ((atf >= 9) & (eaf >= 9) & (tkf >= 9) & (cmt >= 9) & (smf >= 9) & (erf >= 9) & (daf >= 9) & (fearEatDrink >= 9)):
-            if(hr == 1) &  (sw == 1) & (tr == 1) & (dr == 1) & (br == 1) & (ck == 1) & (cp == 1) & (ns == 1) & (dz == 1) & (ur == 1) & (ub == 1) & (md == 1) & (tg == 1) & (hasSad == 1):
-                response = {
-                    "Result" : "You have high chances of having a Anxiety. Please concult a nearby Psychologist"
-                }
-
-     #You have no depression 
-    if((age >= 0) & ((gender == 1) or (gender == 0)) & (familyHistory == 1 or familyHistory == 0)):
-        if ((atf <= 2) & (eaf <= 9) & (tkf <= 9) & (cmt <= 9) & (smf <= 9) & (erf <= 9) & (daf <= 9)):
-            if(hr == 0) &  (sw == 0) & (tr == 0) & (dr == 0) & (br == 0) & (ck == 0) & (cp == 0) & (ns == 0) & (dz == 0) & (ur == 0) & (ub == 0) & (md == 0) & (tg == 0) & (hasSad == 0):
-                response = {
-                    "Result" : "You have no symptoms of Anxiety."
-                }
-"""
 @api_view(['POST']) 
 def FuturePredict(request):
     theData = request.data

@@ -9,7 +9,7 @@
                   </div>
                   <div class="card-body">
                      
-                     <div class="container" *ngIf="picked.Anxiety">
+                     <div class="container" *ngIf="picked.Anxiety" style="opacity: 0;" [@fadeInOut] = "anxietyFade">
                        <app-anxiety></app-anxiety>
                      </div>
                      <div class="container" *ngIf="picked.Depression">
@@ -33,13 +33,13 @@
           
                   </div>
                   
-                  <div class="card-body" *ngIf="Disorders">
-                    <div class="container" *ngFor="let disorder of Disorders">
+                  <div class="card-body" *ngIf="AnxietyInfo">
+                    <div class="container" *ngFor="let disorder of AnxietyInfo">
                       <h3>{{disorder.Name}}</h3>
                       <p>
                         '{{disorder.Description}}' ~ <span><a href="{{disorder.From}}" target="_blank">Source</a></span>
                       </p>
-                      <button class="btn btn-outline-success btn-sm" style="float: right;" (click)="checkDisorder(disorder.Name)">{{disorder.State}}</button>
+                      <button class="btn btn-outline-info btn-sm" style="float: right;" (click)="checkDisorder(disorder.Name)">{{disorder.State}}</button>
                       <br/>
                     </div>
                       <button class="btn btn-primary btn-round" style="width: 100%;" (click) = "restartQuiz()">Restart</button>
