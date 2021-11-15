@@ -8,59 +8,236 @@ import { SharedService } from '../components/shared.service';
   styleUrls: ['./dashboard.component.css']
 })
 export class DashboardComponent implements OnInit {
+  title = 'Impilo Van Data | SC21';
 
-  /**
-   * MONEY
-   */
+  //Gender
 
-  moneyToMakeLine:any = [{
-    "name":"Females",
+  //Age
+  //Population
+
+  moneyToMakeLine:any = [
+    {
+    "name":"Percentage",
     "series":[
       {
-        "name":"JAN",
-        "value":458
+        "name":"2003",
+        "value":50
       },
       {
-        "name":"FEB",
+        "name":"2004",
         "value":48
       },
       {
-        "name":"MAR",
-        "value":2458
+        "name":"2005",
+        "value":58
       },
       {
-        "name":"APR",
-        "value":1458
+        "name":"2006",
+        "value":14
+      },
+    ]
+    },
+
+    {
+      "name":"Future Prediction",
+      "series":[
+        {
+          "name":"2006",
+          "value":14
+        },
+        {
+          "name":"2007",
+          "value":18
+        },
+        {
+          "name":"2008",
+          "value":48
+        },
+        {
+          "name":"2009",
+          "value":58
+        },
+        {
+          "name":"2010",
+          "value":14
+        },
+      ]
+      },
+   
+  ]
+  
+  moneyScheme:any = {
+    domain: ['blue','lightblue']
+  };
+
+//Gender graph
+  genderGraph:any = [
+    {
+    "name":"Male",
+    "series":[
+      {
+        "name":"2001",
+        "value":14
+      },
+      {
+        "name":"2002",
+        "value":22
+      },
+      {
+        "name":"2003",
+        "value":22
+      },
+      {
+        "name":"2004",
+        "value":22
+      },
+      {
+        "name":"2005",
+        "value":22
+      },
+  
+    ]
+    },
+       {
+    "name":"Female",
+    "series":[
+      {
+        "name":"2001",
+        "value":50
+      },
+      {
+        "name":"2002",
+        "value":48
+      },
+      {
+        "name":"2003",
+        "value":50
+      },
+      {
+        "name":"2004",
+        "value":50
+      },
+      {
+        "name":"2005",
+        "value":50
+      },
+
+  
+    ]
+    },
+
+    {
+      "name":"Male Predictions",
+      "series":[
+        {
+          "name":"2005",
+          "value":22
+        },
+        {
+          "name":"2006",
+          "value":22
+        },
+        {
+          "name":"2007",
+          "value":22
+        },
+        {
+          "name":"2008",
+          "value":22
+        },
+        {
+          "name":"2009",
+          "value":22
+        },
+    
+      ]
+      },
+         {
+      "name":"Female Predictions",
+      "series":[
+        {
+          "name":"2005",
+          "value":50
+        },
+        {
+          "name":"2006",
+          "value":48
+        },
+        {
+          "name":"2007",
+          "value":50
+        },
+        {
+          "name":"2008",
+          "value":50
+        },
+        {
+          "name":"2009",
+          "value":50
+        },
+  
+    
+      ]
+      },
+    
+   
+  ]
+  
+  genderScheme:any = {
+    domain: ['blue','red','lightblue', 'pink']
+  };
+
+//Age graph 
+ageLine:any = [
+    {
+    "name":"Ages 3-5",
+    "series":[
+      {
+        "name":"2003",
+        "value":50
+      },
+      {
+        "name":"2004",
+        "value":48
+      },
+      {
+        "name":"2005",
+        "value":58
+      },
+      {
+        "name":"2006",
+        "value":14
       },
     ]
     },
     {
-    "name":"Money Lost",
-    "series":[
-      {
-        "name":"JAN",
-        "value":358
+      "name":"Ages 6-12",
+      "series":[
+        {
+          "name":"2003",
+          "value":75
+        },
+        {
+          "name":"2004",
+          "value":46
+        },
+        {
+          "name":"2005",
+          "value":20
+        },
+        {
+          "name":"2006",
+          "value":55
+        },
+      ]
       },
-      {
-        "name":"FEB",
-        "value":38
-      },
-      {
-        "name":"MAR",
-        "value":1458
-      },
-      {
-        "name":"APR",
-        "value":458
-      },
-    ]
-    }
+   
   ]
-
   
-  moneyScheme:any = {
-    domain: ['blue','red']
+  ageScheme:any = {
+    domain: ['blue','green','red','pink','brown','black','orange','indigo','violet']
   };
+
 
 
   constructor() { }
@@ -121,13 +298,19 @@ export class DashboardComponent implements OnInit {
       seq2 = 0;
   };
   ngOnInit() {
+    //Populate the data for the graphs here 
+
+
+
+
+
       /* ----------==========    Overall Anxiety    ==========---------- */
 
       const dataDailySalesChart: any = {
           labels: ['2000', '2001', '2002', '2003', '2004', '2005', '2006','2007'],
           series: [
               [12, 17, 7, 17, 23, 18, 38,92],
-              [18, 99, 52, 32, 52, 18, 75,6]
+              [18, 99, 52, 32, 52, 18, 75, 65]
           ]
       };
 
@@ -135,6 +318,7 @@ export class DashboardComponent implements OnInit {
           lineSmooth: Chartist.Interpolation.cardinal({
               tension: 0
           }),
+          scaleMinSpace: 20,
           low: 0,
           high: 150, // creative tim: we recommend you to set the high sa the biggest value + something for a better look
           chartPadding: { top: 0, right: 0, bottom: 0, left: 0},
@@ -188,6 +372,7 @@ export class DashboardComponent implements OnInit {
           axisX: {
               showGrid: false
           },
+          scaleMinSpace: 30,
           low: 0,
           high: 150,
           chartPadding: { top: 0, right: 5, bottom: 0, left: 0}
@@ -207,5 +392,20 @@ export class DashboardComponent implements OnInit {
       //start animation for the Emails Subscription Chart
       this.startAnimationForBarChart(websiteViewsChart);
   }
+
+
+  getGender(){
+
+  }
+
+  getAgeRanges(){
+
+  }
+
+  getAges(){
+
+  }
+
+  
 
 }

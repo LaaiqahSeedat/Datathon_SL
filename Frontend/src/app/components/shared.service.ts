@@ -26,4 +26,14 @@ export class SharedService {
     return this.http.post(this.APIurl + "anxietyCheck/", answers,{headers:this.headers})
   }
 
+  //Function to get percentages per gender 
+
+  //Function to get percentages per age group 
+
+  //Function to get percentages overall 
+
+  //Population percent for people with anxiety future prediction 
+
+  //Gender percent for people with anxiety
+
 }  
