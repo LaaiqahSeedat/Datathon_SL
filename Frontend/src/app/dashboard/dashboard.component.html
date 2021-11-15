@@ -1,5 +1,5 @@
 <div class="main-content">
-    <h1>Factors for anxiety</h1>
+    <h1>Anxiety</h1>
   <div class="container-fluid">
       <div class="row">
           <div class="col-lg-5 col-md-6 col-sm-6">
@@ -34,78 +34,95 @@
                   </div>
               </div>
           </div>
+                      <!-- Graph for gender 
+          <div class="col-md-6">
+                    <div class="ct-chart" id="websiteViewsChart"></div>
+                <div class="card-body">
+                    <h4 class="card-title">Annual Anxiety percentages per gender</h4>
+                    <p class="card-category">Looks at how gender impacts anxiety</p>
+                </div>
+
+            
+        </div> -->
+
+
+         <!-- CHART HEADER -->
+         <h3>line graph comparing males vs Females with anxiety over the years</h3>
+      
+         <!-- CHART [width, height]  -->
+                   <ngx-charts-line-chart
+                     [view]="[1500,600]"
+                     [scheme]="genderScheme"
+                     [legend]="true"
+                     [showXAxisLabel]="true"
+                     [showYAxisLabel]="true"
+                     [xAxis]="true"
+                     [yAxis]="true"
+                     [xAxisLabel]="'Years'"
+                     [yAxisLabel]="'Percentage'"
+                     [results]="genderGraph"
+                     [legendTitle]="'Genders'"
+                     [timeline]="true"
+                   >
+                   </ngx-charts-line-chart>
+
+        <!-- Graph for age 
+        <div class="col-md-6">
+            <div class="card card-chart">
+               
+                    <div class="ct-chart" id="completedTasksChart"></div>
+                
+                <div class="card-body">
+                    <h4 class="card-title">Annual Anxiety percentages by age group</h4>
+                    <p class="card-category">Looks at how age impacts anxiety</p>
+                </div>
+                <div class="card-footer">
+                    <div class="stats">
+                        <i class="material-icons"></i>
+                    </div>
+                </div>
+            </div>
+        </div> -->
+
+         <!-- CHART HEADER -->
+         <h3>Line graph showing the total percentage per age group in South africa with anxiety over the years</h3>
+         <!-- CHART  -->
+                   <ngx-charts-line-chart
+                     [view]="[1500,600]"
+                     [scheme]="ageScheme"
+                     [legend]="true"
+                     [showXAxisLabel]="true"
+                     [showYAxisLabel]="true"
+                     [xAxis]="true"
+                     [yAxis]="true"
+                     [xAxisLabel]="'Years'"
+                     [yAxisLabel]="'Percentage'"
+                     [timeline]="true"
+                     [results]="ageLine"
+                     [legendTitle]="'Age groups'"
+                   >
+                   </ngx-charts-line-chart>
+             
+      
+ <!-- CHART HEADER -->
+        <h3>Line graph showing the total percentage of the population in South africa with anxiety over the years</h3>
+<!-- CHART  -->
           <ngx-charts-line-chart
-            [view]="[500,500]"
+            [view]="[1500,600]"
             [scheme]="moneyScheme"
-            [legend]="false"
+            [legend]="true"
             [showXAxisLabel]="true"
             [showYAxisLabel]="true"
             [xAxis]="true"
             [yAxis]="true"
-            [xAxisLabel]="'Money made vs Money lost'"
-            [yAxisLabel]="'Amount in rands'"
+            [xAxisLabel]="'Years'"
+            [yAxisLabel]="'Percentage'"
             [timeline]="true"
             [results]="moneyToMakeLine"
-            >
+          >
           </ngx-charts-line-chart>
       </div>
-      <div class="row">
-          <div class="col-md-6">
-              <div class="card card-chart">
-                  <div class="card-header card-header-success">
-                      <div class="ct-chart" id="dailySalesChart"></div>
-                  </div>
-                  <div class="card-body">
-                      <h4 class="card-title">Annual Anxiety Percentages</h4>
-                      <p class="card-category">
-                          <span class="text-success"></span>For South Africa</p>
-                  </div>
-                  <div class="card-footer">
-                      <div class="stats">
-                          <i class="material-icons"></i>
-                      </div>
-                  </div>
-              </div>
-          </div>
-          <div class="col-md-6">
-              <div class="card card-chart">
-                  <div class="card-header card-header-warning">
-                      <div class="ct-chart" id="websiteViewsChart"></div>
-                  </div>
-                  <div class="card-body">
-                      <h4 class="card-title">Annual Anxiety percentages per gender</h4>
-                      <p class="card-category">Looks at how gender impacts anxiety</p>
-                  </div>
-                  <div class="card-footer">
-                      <div class="stats">
-                          <i class="material-icons"></i>
-                      </div>
-                  </div>
-              </div>
-          </div>
-          <div class="col-md-6">
-              <div class="card card-chart">
-                  <div class="card-header card-header-danger">
-                      <div class="ct-chart" id="completedTasksChart"></div>
-                  </div>
-                  <div class="card-body">
-                      <h4 class="card-title">Annual Anxiety percentages by age group</h4>
-                      <p class="card-category">Looks at how age impacts anxiety</p>
-                  </div>
-                  <div class="card-footer">
-                      <div class="stats">
-                          <i class="material-icons"></i>
-                      </div>
-                  </div>
-              </div>
-          </div>
-      </div>
-      <div class="col-sm-4">
-        <mat-form-field class="example-full-width">
-          <input matInput type="text" placeholder="Enter a future year">
-        </mat-form-field>
-      </div>
-      <button mat-raised-button class="btn btn-info">Enter</button>
+
 
       <!--
       <div class="row">
