@@ -27,6 +27,9 @@ export class SharedService {
   }
 
   //Function to get percentages per gender 
+  getmeTheGPerc(){
+    return this.http.get(this.APIurl + "genderAnxiety/", {headers:this.headers})
+  }
 
   //Function to get percentages per age group 
 

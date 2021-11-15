@@ -1,6 +1,10 @@
 from os import sep
+import os
 from django.shortcuts import render
 from rest_framework.decorators import api_view
+import pandas as pd
+from .models import GenderAnxiaty as gA
+from .Serializer import genderanxiatySerializer as gS
 from rest_framework.response import Response
 import csv
 #../../Datasets/anxiety
@@ -12,20 +16,21 @@ from .Machine_Learning.anxiety.testModels import TestingModels as tS
 def home(request):
     api_urls = {
         'Check For Anxiety':'anxietyCheck/',
+        'Get Gender Anxiety stats':'genderAnxiety/',
+        'Check For Anxiety':'anxietyCheck/',
     }
     
     return Response(api_urls)
 
-@api_view(['POST'])
-def gmentalh(request):
-    theData = request.data
+@api_view(['GET'])
+def getPrevGenderRecords(request):
     
-    print(theData.get("Gender"))
+    gStats = gA.objects.all() 
+    gSerialized = gS(gStats, many = True)
 
-    respose_json = {
-        'Result':'You are at risk of ADHD'
-    }
-    return Response(respose_json)
+    genderRecords = {"SOmething":"whatever"}
+
+    return Response(gSerialized.data)
 
 @api_view(['POST']) 
 def anxietyCheck(request):

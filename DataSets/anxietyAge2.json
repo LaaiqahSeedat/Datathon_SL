@@ -1,0 +1,226 @@
+{
+    "1990.0": {
+        "Year": "1990.0",
+        "Male_Anxiety": "1145239.0",
+        "Female_Anxiety": "1725208.0",
+        "Percentage_Male": "3.11",
+        "Percentage_Female": "4.69",
+        "Total_Percentage": "7.800000000000001"
+    },
+    "1991.0": {
+        "Year": "1991.0",
+        "Male_Anxiety": "1174020.0",
+        "Female_Anxiety": "1767238.0",
+        "Percentage_Male": "3.11",
+        "Percentage_Female": "4.69",
+        "Total_Percentage": "7.800000000000001"
+    },
+    "1992.0": {
+        "Year": "1992.0",
+        "Male_Anxiety": "1204326.0",
+        "Female_Anxiety": "1811869.0",
+        "Percentage_Male": "3.11",
+        "Percentage_Female": "4.69",
+        "Total_Percentage": "7.800000000000001"
+    },
+    "1993.0": {
+        "Year": "1993.0",
+        "Male_Anxiety": "1235143.0",
+        "Female_Anxiety": "1857618.0",
+        "Percentage_Male": "3.12",
+        "Percentage_Female": "4.69",
+        "Total_Percentage": "7.8100000000000005"
+    },
+    "1994.0": {
+        "Year": "1994.0",
+        "Male_Anxiety": "1265146.0",
+        "Female_Anxiety": "1902507.0",
+        "Percentage_Male": "3.12",
+        "Percentage_Female": "4.69",
+        "Total_Percentage": "7.8100000000000005"
+    },
+    "1995.0": {
+        "Year": "1995.0",
+        "Male_Anxiety": "1293267.0",
+        "Female_Anxiety": "1945029.0",
+        "Percentage_Male": "3.12",
+        "Percentage_Female": "4.69",
+        "Total_Percentage": "7.8100000000000005"
+    },
+    "1996.0": {
+        "Year": "1996.0",
+        "Male_Anxiety": "1320613.0",
+        "Female_Anxiety": "1989635.0",
+        "Percentage_Male": "3.13",
+        "Percentage_Female": "4.71",
+        "Total_Percentage": "7.84"
+    },
+    "1997.0": {
+        "Year": "1997.0",
+        "Male_Anxiety": "1348101.0",
+        "Female_Anxiety": "2038963.0",
+        "Percentage_Male": "3.14",
+        "Percentage_Female": "4.74",
+        "Total_Percentage": "7.880000000000001"
+    },
+    "1998.0": {
+        "Year": "1998.0",
+        "Male_Anxiety": "1374846.0",
+        "Female_Anxiety": "2088931.0",
+        "Percentage_Male": "3.15",
+        "Percentage_Female": "4.78",
+        "Total_Percentage": "7.93"
+    },
+    "1999.0": {
+        "Year": "1999.0",
+        "Male_Anxiety": "1400008.0",
+        "Female_Anxiety": "2135471.0",
+        "Percentage_Male": "3.16",
+        "Percentage_Female": "4.82",
+        "Total_Percentage": "7.98"
+    },
+    "2000.0": {
+        "Year": "2000.0",
+        "Male_Anxiety": "1422716.0",
+        "Female_Anxiety": "2174103.0",
+        "Percentage_Male": "3.16",
+        "Percentage_Female": "4.83",
+        "Total_Percentage": "7.99"
+    },
+    "2001.0": {
+        "Year": "2001.0",
+        "Male_Anxiety": "1443666.0",
+        "Female_Anxiety": "2206684.0",
+        "Percentage_Male": "3.17",
+        "Percentage_Female": "4.84",
+        "Total_Percentage": "8.01"
+    },
+    "2002.0": {
+        "Year": "2002.0",
+        "Male_Anxiety": "1464246.0",
+        "Female_Anxiety": "2238318.0",
+        "Percentage_Male": "3.17",
+        "Percentage_Female": "4.85",
+        "Total_Percentage": "8.02"
+    },
+    "2003.0": {
+        "Year": "2003.0",
+        "Male_Anxiety": "1484583.0",
+        "Female_Anxiety": "2269184.0",
+        "Percentage_Male": "3.18",
+        "Percentage_Female": "4.86",
+        "Total_Percentage": "8.040000000000001"
+    },
+    "2004.0": {
+        "Year": "2004.0",
+        "Male_Anxiety": "1504861.0",
+        "Female_Anxiety": "2299512.0",
+        "Percentage_Male": "3.18",
+        "Percentage_Female": "4.86",
+        "Total_Percentage": "8.040000000000001"
+    },
+    "2005.0": {
+        "Year": "2005.0",
+        "Male_Anxiety": "1525084.0",
+        "Female_Anxiety": "2329458.0",
+        "Percentage_Male": "3.19",
+        "Percentage_Female": "4.87",
+        "Total_Percentage": "8.06"
+    },
+    "2006.0": {
+        "Year": "2006.0",
+        "Male_Anxiety": "1543817.0",
+        "Female_Anxiety": "2352413.0",
+        "Percentage_Male": "3.18",
+        "Percentage_Female": "4.85",
+        "Total_Percentage": "8.03"
+    },
+    "2007.0": {
+        "Year": "2007.0",
+        "Male_Anxiety": "1560857.0",
+        "Female_Anxiety": "2366149.0",
+        "Percentage_Male": "3.18",
+        "Percentage_Female": "4.82",
+        "Total_Percentage": "8.0"
+    },
+    "2008.0": {
+        "Year": "2008.0",
+        "Male_Anxiety": "1577908.0",
+        "Female_Anxiety": "2377396.0",
+        "Percentage_Male": "3.17",
+        "Percentage_Female": "4.78",
+        "Total_Percentage": "7.95"
+    },
+    "2009.0": {
+        "Year": "2009.0",
+        "Male_Anxiety": "1596699.0",
+        "Female_Anxiety": "2393094.0",
+        "Percentage_Male": "3.16",
+        "Percentage_Female": "4.74",
+        "Total_Percentage": "7.9"
+    },
+    "2010.0": {
+        "Year": "2010.0",
+        "Male_Anxiety": "1618925.0",
+        "Female_Anxiety": "2420480.0",
+        "Percentage_Male": "3.16",
+        "Percentage_Female": "4.73",
+        "Total_Percentage": "7.890000000000001"
+    },
+    "2011.0": {
+        "Year": "2011.0",
+        "Male_Anxiety": "1644175.0",
+        "Female_Anxiety": "2457376.0",
+        "Percentage_Male": "3.16",
+        "Percentage_Female": "4.73",
+        "Total_Percentage": "7.890000000000001"
+    },
+    "2012.0": {
+        "Year": "2012.0",
+        "Male_Anxiety": "1670801.0",
+        "Female_Anxiety": "2496377.0",
+        "Percentage_Male": "3.16",
+        "Percentage_Female": "4.73",
+        "Total_Percentage": "7.890000000000001"
+    },
+    "2013.0": {
+        "Year": "2013.0",
+        "Male_Anxiety": "1698370.0",
+        "Female_Anxiety": "2536808.0",
+        "Percentage_Male": "3.16",
+        "Percentage_Female": "4.73",
+        "Total_Percentage": "7.890000000000001"
+    },
+    "2014.0": {
+        "Year": "2014.0",
+        "Male_Anxiety": "1726228.0",
+        "Female_Anxiety": "2577616.0",
+        "Percentage_Male": "3.16",
+        "Percentage_Female": "4.73",
+        "Total_Percentage": "7.890000000000001"
+    },
+    "2015.0": {
+        "Year": "2015.0",
+        "Male_Anxiety": "1753913.0",
+        "Female_Anxiety": "2618042.0",
+        "Percentage_Male": "3.17",
+        "Percentage_Female": "4.73",
+        "Total_Percentage": "7.9"
+    },
+    "2016.0": {
+        "Year": "2016.0",
+        "Male_Anxiety": "1781276.0",
+        "Female_Anxiety": "2657868.0",
+        "Percentage_Male": "3.17",
+        "Percentage_Female": "4.73",
+        "Total_Percentage": "7.9"
+    },
+    "2017.0": {
+        "Year": "2017.0",
+        "Male_Anxiety": "1808500.0",
+        "Female_Anxiety": "2697284.0",
+        "Percentage_Male": "3.17",
+        "Percentage_Female": "4.73",
+        "Total_Percentage": "7.9"
+    }
+}

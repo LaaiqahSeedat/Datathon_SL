@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import * as Chartist from 'chartist';
+import { datacatalog_v1 } from 'googleapis';
 import { SharedService } from '../components/shared.service';
 
 @Component({
@@ -74,133 +75,20 @@ export class DashboardComponent implements OnInit {
   genderGraph:any = [
     {
     "name":"Male",
-    "series":[
-      {
-        "name":"2001",
-        "value":14
-      },
-      {
-        "name":"2002",
-        "value":22
-      },
-      {
-        "name":"2003",
-        "value":22
-      },
-      {
-        "name":"2004",
-        "value":22
-      },
-      {
-        "name":"2005",
-        "value":22
-      },
-      
-  
-    ]
+    "series":[]
     },
     {
     "name":"Female",
-    "series":[
-      {
-        "name":"2001",
-        "value":50
-      },
-      {
-        "name":"2002",
-        "value":48
-      },
-      {
-        "name":"2003",
-        "value":50
-      },
-      {
-        "name":"2004",
-        "value":50
-      },
-      {
-        "name":"2005",
-        "value":50
-      },
-
-  
-    ]
+    "series":[]
     },
-
     {
       "name":"Male Predictions",
-      "series":[
-        {
-          "name":"2005",
-          "value":22
-        },
-        {
-          "name":"2006",
-          "value":22
-        },
-        {
-          "name":"2007",
-          "value":22
-        },
-        {
-          "name":"2008",
-          "value":22
-        },
-        {
-          "name":"2009",
-          "value":22
-        },
-    
-      ]
-      },
-         {
+      "series":[]
+    },
+    {
       "name":"Female Predictions",
-      "series":[
-        {
-          "name":"2005",
-          "value":50
-        },
-        {
-          "name":"2006",
-          "value":48
-        },
-        {
-          "name":"2007",
-          "value":50
-        },
-        {
-          "name":"2008",
-          "value":50
-        },
-        {
-          "name":"2009",
-          "value":50
-        },
-        {
-          "name":"2010",
-          "value":14
-        },
-        {
-          "name":"2011",
-          "value":22
-        },
-        {
-          "name":"2012",
-          "value":22
-        },
-        {
-          "name":"2013",
-          "value":22
-        },
-        {
-          "name":"2014",
-          "value":22
-        }
-    
-      ]
-      },
-    
-   
+      "series":[]
+    }
   ]
   
   genderScheme:any = {
@@ -260,7 +148,7 @@ ageLine:any = [
 
 
 
-  constructor() { }
+  constructor(private sShared: SharedService) { }
   startAnimationForLineChart(chart){
       let seq: any, delays: any, durations: any;
       seq = 0;
@@ -318,6 +206,12 @@ ageLine:any = [
       seq2 = 0;
   };
   ngOnInit() {
+
+    this.sShared.getmeTheGPerc().subscribe((data)=>{
+      this.getGender(data)
+      console.log(data)
+      console.log(this.genderGraph)
+    })
     //Populate the data for the graphs here 
 
 
@@ -414,8 +308,22 @@ ageLine:any = [
   }
 
 
-  getGender(){
+  getGender(data:any){
+    for (let i = 0; i < data.length; i++) {
+      
+      this.genderGraph[0].series.push({
+            "name":data[i].Year,
+            "value":data[i].Percentage_Male
+      })
+      this.genderGraph[1].series.push({
+        "name":data[i].Year,
+        "value":data[i].Percentage_Female
+      })
+       
+      console.log(this.genderGraph[0].series[i].name)
+    }
 
+    this.genderGraph = [...this.genderGraph]
   }
 
   getAgeRanges(){
