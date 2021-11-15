@@ -15,7 +15,7 @@ export class DashboardComponent implements OnInit {
   //Age
   //Population
 
-  moneyToMakeLine:any = [
+  populationDATA:any = [
     {
     "name":"Percentage",
     "series":[
@@ -95,10 +95,11 @@ export class DashboardComponent implements OnInit {
         "name":"2005",
         "value":22
       },
+      
   
     ]
     },
-       {
+    {
     "name":"Female",
     "series":[
       {
@@ -175,7 +176,26 @@ export class DashboardComponent implements OnInit {
           "name":"2009",
           "value":50
         },
-  
+        {
+          "name":"2010",
+          "value":14
+        },
+        {
+          "name":"2011",
+          "value":22
+        },
+        {
+          "name":"2012",
+          "value":22
+        },
+        {
+          "name":"2013",
+          "value":22
+        },
+        {
+          "name":"2014",
+          "value":22
+        }
     
       ]
       },

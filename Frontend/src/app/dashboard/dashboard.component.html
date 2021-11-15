@@ -47,24 +47,88 @@
 
 
          <!-- CHART HEADER -->
-         <h3>line graph comparing males vs Females with anxiety over the years</h3>
-      
-         <!-- CHART [width, height]  -->
-                   <ngx-charts-line-chart
-                     [view]="[1500,600]"
-                     [scheme]="genderScheme"
-                     [legend]="true"
-                     [showXAxisLabel]="true"
-                     [showYAxisLabel]="true"
-                     [xAxis]="true"
-                     [yAxis]="true"
-                     [xAxisLabel]="'Years'"
-                     [yAxisLabel]="'Percentage'"
-                     [results]="genderGraph"
-                     [legendTitle]="'Genders'"
-                     [timeline]="true"
-                   >
-                   </ngx-charts-line-chart>
+
+         <div class="container">
+             <div class="row">
+                 <div class="col-md-6">
+                     <div class="card card-stats">
+                        <p>line graph comparing males vs Females with anxiety over the years</p>
+                        <div class="card-header">
+
+                        </div>
+                        <div class="card-body">
+                        <!-- CHART [width, height]  -->
+                        <ngx-charts-line-chart
+                            [view]="[500,400]"
+                            [scheme]="genderScheme"
+                            [legend]="true"
+                            [showXAxisLabel]="true"
+                            [showYAxisLabel]="true"
+                            [xAxis]="true"
+                            [yAxis]="true"
+                            [xAxisLabel]="'Years'"
+                            [yAxisLabel]="'Percentage'"
+                            [results]="genderGraph"
+                            [legendTitle]="'Genders'"
+                            [legendPosition]="'below'"
+                            [timeline]="true"
+                        >
+                        </ngx-charts-line-chart>
+                        </div>
+                    
+                     </div>
+                    
+                 </div>
+                 <div class="col-md-6">
+                     <div class="card">
+                         <div class="card-header">
+
+                         </div>
+                         <div class="card-body">
+                            <!-- CHART HEADER -->
+                            <p>Line graph showing the total percentage per age group in South africa with anxiety over the years</p>
+                            <!-- CHART  -->
+                           <ngx-charts-line-chart
+                             [view]="[500,400]"
+                             [scheme]="ageScheme"
+                             [legend]="true"
+                             [showXAxisLabel]="true"
+                             [showYAxisLabel]="true"
+                             [xAxis]="true"
+                             [yAxis]="true"
+                             [xAxisLabel]="'Years'"
+                             [yAxisLabel]="'Percentage'"
+                             [timeline]="true"
+                             [results]="ageLine"
+                             [legendTitle]="'Age groups'"
+                             [legendPosition]="'below'"
+                           >
+                           </ngx-charts-line-chart>
+                         </div>
+                     </div>
+                    
+                </div>
+                <!-- CHART HEADER -->
+                <h3>Line graph showing the total percentage of the population in South africa with anxiety over the years</h3>
+                <!-- CHART  -->
+                  <ngx-charts-line-chart
+                    [view]="[1000,600]"
+                    [scheme]="moneyScheme"
+                    [legend]="true"
+                    [showXAxisLabel]="true"
+                    [showYAxisLabel]="true"
+                    [xAxis]="true"
+                    [yAxis]="true"
+                    [xAxisLabel]="'Years'"
+                    [yAxisLabel]="'Percentage'"
+                    [timeline]="true"
+                    [results]="populationDATA"
+                    [legendPosition]="'below'"
+                  >
+                  </ngx-charts-line-chart>
+             </div>
+         </div>
+        
 
         <!-- Graph for age 
         <div class="col-md-6">
@@ -83,44 +147,9 @@
                 </div>
             </div>
         </div> -->
-
-         <!-- CHART HEADER -->
-         <h3>Line graph showing the total percentage per age group in South africa with anxiety over the years</h3>
-         <!-- CHART  -->
-                   <ngx-charts-line-chart
-                     [view]="[1500,600]"
-                     [scheme]="ageScheme"
-                     [legend]="true"
-                     [showXAxisLabel]="true"
-                     [showYAxisLabel]="true"
-                     [xAxis]="true"
-                     [yAxis]="true"
-                     [xAxisLabel]="'Years'"
-                     [yAxisLabel]="'Percentage'"
-                     [timeline]="true"
-                     [results]="ageLine"
-                     [legendTitle]="'Age groups'"
-                   >
-                   </ngx-charts-line-chart>
              
       
- <!-- CHART HEADER -->
-        <h3>Line graph showing the total percentage of the population in South africa with anxiety over the years</h3>
-<!-- CHART  -->
-          <ngx-charts-line-chart
-            [view]="[1500,600]"
-            [scheme]="moneyScheme"
-            [legend]="true"
-            [showXAxisLabel]="true"
-            [showYAxisLabel]="true"
-            [xAxis]="true"
-            [yAxis]="true"
-            [xAxisLabel]="'Years'"
-            [yAxisLabel]="'Percentage'"
-            [timeline]="true"
-            [results]="moneyToMakeLine"
-          >
-          </ngx-charts-line-chart>
+ 
       </div>
 
 

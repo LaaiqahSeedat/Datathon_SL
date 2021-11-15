@@ -43,13 +43,13 @@ rowsCount = 0
 for i in newaData.iterrows():
     if(i[1]['Year'] <= 2017 and i[1]['Year'] >= 1990):
         #get anxities
-        maleAnxiety= (i[1]['Male'] * i[1]['Total population (Gapminder, HYDE & UN)']) / 100
-        Female_Anxiety = (i[1]['Female'] * i[1]['Total population (Gapminder, HYDE & UN)']) / 100
+        maleAnxiety= round((i[1]['Male'] * i[1]['Total population (Gapminder, HYDE & UN)']) / 100)
+        Female_Anxiety = round((i[1]['Female'] * i[1]['Total population (Gapminder, HYDE & UN)']) / 100)
         
         malePerc = "{:.2f}".format(i[1]['Male'])
         femalePerc = "{:.2f}".format(i[1]['Female'])
 
-        totalPerc = malePerc + femalePerc
+        totalPerc = float(malePerc) + float(femalePerc)
 
         tempDF = pd.DataFrame({'Year':[i[1]['Year']], 'Male_Anxiety':[maleAnxiety], 'Female_Anxiety':[Female_Anxiety], 'Percentage_Male':[malePerc],
             'Percentage_Female':[femalePerc], 'Total_Percentage':[totalPerc]})
@@ -59,4 +59,4 @@ for i in newaData.iterrows():
         break
     
 finalDF.index +=1 
-finalDF.to_csv(dirname+'\DataSets\Finale_MaleVsFemale_Anxiety.csv')
+finalDF.to_csv(dirname+'\DataSets\Finale_MaleVsFemale_Anxiety.csv', index=False)
