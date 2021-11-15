@@ -8,7 +8,7 @@ import { SharedService } from '../components/shared.service';
   styleUrls: ['./dashboard.component.css']
 })
 export class DashboardComponent implements OnInit {
-  title = 'Impilo Van Data | SC21';
+  title = 'Impilo Van Data | SC21 ';
 
   //Gender
 
@@ -149,6 +149,48 @@ export class DashboardComponent implements OnInit {
           "name":"2009",
           "value":22
         },
+        {
+          "name":"2010",
+          "value":14
+        },
+        {
+          "name":"2011",
+          "value":22
+        },
+        {
+          "name":"2012",
+          "value":22
+        },
+        {
+          "name":"2013",
+          "value":22
+        },
+        {
+          "name":"2014",
+          "value":22
+        },
+        {
+          "name":"2015",
+          "value":14
+        },
+        {
+          "name":"2016",
+          "value":22
+        },
+        {
+          "name":"2017",
+          "value":22
+        },
+        {
+          "name":"2018",
+          "value":22
+        },
+        {
+          "name":"2019",
+          "value":22
+        },
+    
+    
     
       ]
       },
@@ -406,6 +448,6 @@ ageLine:any = [
 
   }
 
-  
+
 
 }
