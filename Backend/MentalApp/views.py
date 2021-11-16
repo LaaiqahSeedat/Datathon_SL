@@ -85,12 +85,15 @@ def FuturePredict(request):
 
     year = theData.get("Year")
 
-    model = tS.predictNumPeople(year)
+    model_male = tS.predictNumMales(year)
+    model_female = tS.predictNumFemales(year)
+
+    model = model_male + model_female
     print(model)
     model_json = {"Future Prediction": model}
     print(model_json)
 
-    
+    #../../DataSets/
     csv_file = open("../../DataSets/Future_prediction.csv", "w")
     csv_writer = csv.tocsv(csv_file)
     csv_writer.writerow(["Year", "Prediction"])
