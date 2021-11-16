@@ -10,9 +10,11 @@ from .Serializer import ageanxiatySerializer as aS
 from rest_framework.response import Response
 import csv
 #../../Datasets/anxiety
-from .Machine_Learning.anxiety.testModels import TestingModels as tS
+from .Machine_Learning.anxiety.testModels import predictNumFemales,  predictNumMales
 #import testmodels as testM
 # Create your views here.
+
+THIS_FOLDER = os.path.dirname(os.path.abspath("C:/Users/lesib/Desktop/Git/Datathon_SL/DataSets/"))
 
 @api_view(['GET'])
 def home(request):
@@ -85,20 +87,23 @@ def FuturePredict(request):
 
     year = theData.get("Year")
 
-    model_male = tS.predictNumMales(year)
-    model_female = tS.predictNumFemales(year)
+    model_male = predictNumMales(year)
+    model_female = predictNumFemales(year)
 
-    model = model_male + model_female
+    model = model_female + model_male
     print(model)
     model_json = {"Future Prediction": model}
     print(model_json)
 
+    fname = "DataSets/Future_prediction.csv"
     #../../DataSets/
-    csv_file = open("../../DataSets/Future_prediction.csv", "w")
-    csv_writer = csv.tocsv(csv_file)
-    csv_writer.writerow(["Year", "Prediction"])
-   
+
+    my_file = os.path.join(THIS_FOLDER, fname)
+    csv_file = open(my_file, "a")
+    csv_writer = csv.writer(csv_file)
+
     csv_writer.writerow([year, model])
+    print(csv_file)
     csv_file.close()
     return Response(model_json)
 
